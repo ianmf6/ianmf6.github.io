@@ -1,0 +1,672 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.3 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Enabling Intel 10G SFP+ X520 Series module on Centos 7 - IanM.tech</title>
+<meta name="description" content="By default, Centos 7 doesn’t support Intel’s 10G SFP+ X520 module. When you look at the dmesg  you find the following error: “failed to load because an unsupported SFP+ or QSFP module type was detected.” The workaround is to allow unsupported SFP modules in the kernel by enabling ixgbe kernel module. Let’s start by editing /etc/default/grub file and  change the line :">
+
+
+  <meta name="author" content="Ian Marrero">
+  
+  <meta property="article:author" content="Ian Marrero">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="IanM.tech">
+<meta property="og:title" content="Enabling Intel 10G SFP+ X520 Series module on Centos 7">
+<meta property="og:url" content="http://localhost:4000/2019/09/enabling-intel-10g-sfp-x520-series-module-on-centos-7/">
+
+
+  <meta property="og:description" content="By default, Centos 7 doesn’t support Intel’s 10G SFP+ X520 module. When you look at the dmesg  you find the following error: “failed to load because an unsupported SFP+ or QSFP module type was detected.” The workaround is to allow unsupported SFP modules in the kernel by enabling ixgbe kernel module. Let’s start by editing /etc/default/grub file and  change the line :">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2019-09-06T20:18:45-05:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/2019/09/enabling-intel-10g-sfp-x520-series-module-on-centos-7/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="IanM.tech Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-touch-icon.png?v=2">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png?v=2">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png?v=2">
+<link rel="manifest" href="/assets/icons/site.webmanifest">
+<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt="IanM.tech"></a>
+        
+        <a class="site-title" href="/">
+          IanM.tech
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/posts/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/projects/"
+                
+                
+              >Projects</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/contact/"
+                
+                
+              >Contact</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio-photo.jpg" alt="Ian Marrero" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Ian Marrero</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Cybersecurity Engineer</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://facebook.com/ian.marrero" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span class="label">Facebook</span></a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/ian.marrero" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/ianmarrero/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://ianm.tech" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Enabling Intel 10G SFP+ X520 Series module on Centos 7">
+    <meta itemprop="description" content="By default, Centos 7 doesn’t support Intel’s 10G SFP+ X520 module. When you look at the dmesg  you find the following error: “failed to load because an unsupported SFP+ or QSFP module type was detected.” The workaround is to allow unsupported SFP modules in the kernel by enabling ixgbe kernel module. Let’s start by editing /etc/default/grub file and change the line :">
+    <meta itemprop="datePublished" content="2019-09-06T20:18:45-05:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="http://localhost:4000/2019/09/enabling-intel-10g-sfp-x520-series-module-on-centos-7/" itemprop="url">Enabling Intel 10G SFP+ X520 Series module on Centos 7
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>By default, Centos 7 doesn’t support Intel’s 10G SFP+ X520 module. When you look at the <strong>dmesg</strong>  you find the following error: <strong>“failed to load because an unsupported SFP+ or QSFP module type was detected.”</strong> The workaround is to allow unsupported SFP modules in the kernel by enabling <strong>ixgbe</strong> kernel module. Let’s start by editing <strong>/etc/default/grub</strong> file and <br />
+change the line :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GRUB_CMDLINE_LINUX=""
+</code></pre></div></div>
+
+<p>to</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GRUB_CMDLINE_LINUX=" ixgbe.allow_unsupported_sfp=1" 
+# note the space between " and ixgbe.
+</code></pre></div></div>
+
+<p>Now, we create the new <strong>grub</strong> configuration with the new option.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cp /boot/grub2/grub.cfg /boot/grub2/grub.cfg.bak
+grub2-mkconfig -o /boot/grub2/grub.cfg
+</code></pre></div></div>
+
+<p>Next, the configuration file for the <strong>ixgbe</strong> kernel module must be created with the option to allow unsupported SFP. The file should not already exist. The one-liner command is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo "options ixgbe allow_unsupported_sfp=1" &gt; /etc/modprobe.d/ixgbe.conf
+</code></pre></div></div>
+
+<p>The last step is to regenerate the <strong>initrd image</strong> with the new kernel configuration and reboot.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dracut --regenerate-all --force
+reboot
+</code></pre></div></div>
+
+<p>After the reboot, the SFP should be recognized and ready for use.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#centos" class="page__taxonomy-item p-category" rel="tag">centos</a><span class="sep">, </span>
+    
+      <a href="/tags/#kernel" class="page__taxonomy-item p-category" rel="tag">kernel</a><span class="sep">, </span>
+    
+      <a href="/tags/#linux" class="page__taxonomy-item p-category" rel="tag">linux</a><span class="sep">, </span>
+    
+      <a href="/tags/#sfp" class="page__taxonomy-item p-category" rel="tag">sfp</a><span class="sep">, </span>
+    
+      <a href="/tags/#troubleshooting" class="page__taxonomy-item p-category" rel="tag">troubleshooting</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#linux" class="page__taxonomy-item p-category" rel="tag">Linux</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2019-09-06T20:18:45-05:00">September 6, 2019</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  <h4 class="page__share-title">Share on</h4>
+
+  <a href="https://x.com/intent/tweet?text=Enabling+Intel+10G+SFP%2B+X520+Series+module+on+Centos+7%20http%3A%2F%2Flocalhost%3A4000%2F2019%2F09%2Fenabling-intel-10g-sfp-x520-series-module-on-centos-7%2F" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
+    <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span> X</span>
+  </a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2019%2F09%2Fenabling-intel-10g-sfp-x520-series-module-on-centos-7%2F" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
+    <i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span>
+  </a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2019/09/enabling-intel-10g-sfp-x520-series-module-on-centos-7/" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
+    <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
+  </a>
+
+  <a href="https://bsky.app/intent/compose?text=Enabling+Intel+10G+SFP%2B+X520+Series+module+on+Centos+7%20http%3A%2F%2Flocalhost%3A4000%2F2019%2F09%2Fenabling-intel-10g-sfp-x520-series-module-on-centos-7%2F" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
+    <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
+  </a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/2019/04/cybersecurity-resourses-links-and-more/" class="pagination--pager" title="Cybersecurity Resourses – Links and more">Previous</a>
+    
+    
+      <a href="/2019/09/hack-the-box-swagshop-writeup/" class="pagination--pager" title="Hack The Box - Swagshop Writeup">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/2025/11/Where-Recent-Donations-Went-During-the-Government-Shutdown/" rel="permalink">Where Recent Donations Went During the Government Shutdown
+</a>
+      
+    </h2>
+    <span style="font-size: 14px;">November 08, 2025</span>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I’d like to thank everyone who chose to donate through my VA Disability Calculator app. During the recent government shutdown, those funds were used to purch...</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/2025/11/VA-Disability-Calculator-App-Update-1.26.0/" rel="permalink">VA Compensation Calculator iOS App — Update 1.26.0
+</a>
+      
+    </h2>
+    <span style="font-size: 14px;">November 06, 2025</span>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I’ve released an updated version of my VA Disability Calculator iOS app (version 1.26.0).
+
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/2025/05/VA-Disability-Calculator-App-Release/" rel="permalink">VA Compensation Calculator iOS App Released!
+</a>
+      
+    </h2>
+    <span style="font-size: 14px;">May 19, 2025</span>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I’ve released my first iOS application: VA Compensation Calculator, a privacy-focused tool designed to help veterans calculate VA disability ratings and esti...</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/2024/05/Cloud-Security-Engineer-Resources/" rel="permalink">Cloud Security Engineer Resources
+</a>
+      
+    </h2>
+    <span style="font-size: 14px;">May 30, 2024</span>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Cloud Security Engineer Resources
+
+</p>
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-disclaimer">
+  <p>
+    <strong>Disclaimer:</strong>
+    The views and opinions expressed on this website and associated platforms are solely my own
+    and do not represent those of my employer. References to products, tools, or services are for
+    informational purposes only and do not constitute endorsement.
+  </p>
+</div>
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
