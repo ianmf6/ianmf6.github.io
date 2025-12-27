@@ -2,7 +2,7 @@
 title: "Cloud Security Engineer Resources"
 date: 2024-05-30T18:05:00-04:00
 categories:
-  - cybersecurity
+  - Cybersecurity
 tags:
   - resources
   - career

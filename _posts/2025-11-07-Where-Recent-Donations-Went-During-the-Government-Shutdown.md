@@ -2,7 +2,7 @@
 title: "Where Recent Donations Went During the Government Shutdown"
 date: 2025-11-08T10:00:00-04:00
 categories:
-  - community
+  - Community
 tags:
   - veterans
   - donations

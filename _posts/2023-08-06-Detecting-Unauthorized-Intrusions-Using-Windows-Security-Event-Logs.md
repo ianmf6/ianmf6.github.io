@@ -3,6 +3,7 @@ title: "Detecting Unauthorized Intrusions Using Windows Security Event Logs"
 date: 2023-08-06T13:48:00-04:00
 categories:
   - Windows
+  - Cybersecurity
 tags:
   - cybersecurity
   - windows

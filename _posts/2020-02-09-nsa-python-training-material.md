@@ -1,8 +1,9 @@
 ---
 title: 'NSA Python Training Material'
 date: '2020-02-09T18:28:14-05:00'
+last_modified_at: 2025-12-27T00:00:00-04:00
 categories:
-    - Programming
+    - Software
 tags:
     - nsa
     - Programming

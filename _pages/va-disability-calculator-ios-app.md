@@ -3,6 +3,10 @@ permalink: /va-disability-calculator-ios-app/
 title: "VA Disability Calculator iOS App"
 last_modified_at: 2025-11-07T00:00:00-04:00
 
+toc: true
+toc_label: "On this page"
+toc_sticky: true
+
 gallery:
   - url: /assets/images/va-disability-app-images/screenshot-1.png
     image_path: /assets/images/va-disability-app-images/screenshot-1.png
@@ -48,6 +52,24 @@ Supports 2025 and 2026 rates now—and easily updated for future VA rate tables.
 
 {% include gallery caption="Screenshots" layout="half" %}
 
+## Version History
+What’s New - **v1.26.0** 
+  - Enhanced Settings View with improved data management options
+  - JSON Data Viewer to inspect your saved data in a readable format
+  - Separate clear data options for flexibility
+  - “What’s New” section in Help view with changelog access
+  - 2026 compensation rate support with 2.8% COLA increase
+  - Bilateral condition support with 10% bilateral factor
+  - Enhanced VA math calculations for bilateral disabilities
+  - Detailed compensation breakdown sheet
+  - Improved bilateral condition display in breakdown view
+  - Enhanced calculation accuracy for complex scenarios
+  - Fixed confirmation dialog buttons not displaying properly
+  - Simplified destructive button styling for better reliability
+  - Enhanced app version information display
+  - Better error handling for JSON data operations
+  - Fixed bilateral factor application in compensation calculations
+  - Corrected percentage rounding for edge cases
 
 ## Why Veterans Trust It
 
@@ -57,8 +79,9 @@ Supports 2025 and 2026 rates now—and easily updated for future VA rate tables.
 This application is not affiliated with, endorsed by, or connected to the U.S. Department of Veterans Affairs. It is an independent tool intended for informational and entertainment purposes only.    
 
 **Privacy First**  
-All data stays on your device and under your control.
+All data stays on your device and under your control.  
 
+## Privacy Policy
 [Privacy Policy](/privacy-policy-va-disability-app/)
 
 ## Support 

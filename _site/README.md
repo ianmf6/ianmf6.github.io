@@ -1,3 +1,2 @@
-# Hello!
-
-You want to go here [**https://ianmf.com**](https://ianmf.com) 
+# ianmf6.github.io
+ianmf6.github.io

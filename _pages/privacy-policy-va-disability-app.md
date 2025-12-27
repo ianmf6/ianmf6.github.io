@@ -2,6 +2,11 @@
 permalink: /privacy-policy-va-disability-app/
 title: "Privacy Policy for VA Disability Calculator"
 last_modified_at: 2025-11-07T00:00:00-04:00
+
+toc: true
+toc_label: "On this page"
+toc_sticky: true
+
 ---
 
 ## Privacy Policy
@@ -10,7 +15,7 @@ last_modified_at: 2025-11-07T00:00:00-04:00
 
 VA Disability Calculator (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains what data we collect, how we use it, and your choices.
 
-## **2\. Information We Collect**
+### **2\. Information We Collect**
 
 *   **User-Provided Data:** All disability and dependent entries are stored locally on your device. We do not collect or transmit any PII or PHI off your device.
     

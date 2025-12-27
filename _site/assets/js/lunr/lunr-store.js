@@ -66,13 +66,13 @@ var store = [{
         "teaser": null
       },{
         "title": "NSA Python Training Material",
-        "excerpt":"A brave individual (@chris_swenson) placed a Freedom Of Information Act (FOIA) request for NSA’s Python training materials. The course is a text-only document that contains 2 weeks / 8 hour days training to become proficient in Python. The course in unclassified, which allows everyone including those with security clearances to...","categories": ["Programming"],
+        "excerpt":"A brave individual (@chris_swenson) placed a Freedom Of Information Act (FOIA) request for NSA’s Python training materials. The course is a text-only document that contains 2 weeks / 8 hour days training to become proficient in Python. The course in unclassified, which allows everyone including those with security clearances to...","categories": ["Software"],
         "tags": ["nsa","Programming","python","training"],
         "url": "/2020/02/nsa-python-training-material/",
         "teaser": null
       },{
         "title": "pfSense and Verizon FiOS",
-        "excerpt":"I have a small homelab setup at home that I use to practice cyber ninja skills and test new technology. My homelab consist of a refurbished HP Z420 Workstation with 64 GB RAM and over 2 TB of SSD storage used as a server. The server is running VMware ESXI...","categories": ["Networking","Homelab"],
+        "excerpt":"I have a small homelab setup at home that I use to practice cyber ninja skills and test new technology. My homelab consist of a refurbished HP Z420 Workstation with 64 GB RAM and over 2 TB of SSD storage used as a server. The server is running VMware ESXI...","categories": ["Homelab"],
         "tags": ["fios","moca","pfsense","verizon","homelab"],
         "url": "/2020/02/pfsense-and-verizon-fios/",
         "teaser": null
@@ -96,7 +96,7 @@ var store = [{
         "teaser": null
       },{
         "title": "I am CISSP Certified!",
-        "excerpt":"I passed the CISSP exam in April 2021! Such a difficult exam! The exam is nothing like the practice tests you can find available for free or for purchase. Throughout the exam, I felt unprepared; halfway through the exam I felt like I was failing, that I should take mind-notes...","categories": ["Certifications","Personal"],
+        "excerpt":"I passed the CISSP exam in April 2021! Such a difficult exam! The exam is nothing like the practice tests you can find available for free or for purchase. Throughout the exam, I felt unprepared; halfway through the exam I felt like I was failing, that I should take mind-notes...","categories": ["Certifications","Personal","Cybersecurity"],
         "tags": ["cissp","certifications","cybersecurity","personal"],
         "url": "/2021/04/I-am-CISSP-Certified/",
         "teaser": null
@@ -120,7 +120,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Detecting Unauthorized Intrusions Using Windows Security Event Logs",
-        "excerpt":"Maintaining the security of a Windows system is essential to protect sensitive data and prevent unauthorized access. One powerful tool in detecting potential security breaches is the Windows Security Event Logs. These logs provide valuable information about system activities, user actions, and potential intrusion attempts. In this article, we will...","categories": ["Windows"],
+        "excerpt":"Maintaining the security of a Windows system is essential to protect sensitive data and prevent unauthorized access. One powerful tool in detecting potential security breaches is the Windows Security Event Logs. These logs provide valuable information about system activities, user actions, and potential intrusion attempts. In this article, we will...","categories": ["Windows","Cybersecurity"],
         "tags": ["cybersecurity","windows","eventlog"],
         "url": "/2023/08/Detecting-Unauthorized-Intrusions-Using-Windows-Security-Event-Logs/",
         "teaser": null
@@ -132,25 +132,25 @@ var store = [{
         "teaser": null
       },{
         "title": "Cloud Security Engineer Resources",
-        "excerpt":"Cloud Security Engineer Resources My Path Help Desk &gt; Sysadmin &gt; IR/TH &gt; Cyber Engineering &gt; Cloud Security Certifications Microsoft Cyber Security Architect - Azure  Link AWS Certified Solutions Architect - Professional  Link Google Cloud is not highly adopted like its counterparts. Skipping for now. Training RHSA RHCE  Ansible Bootcamp ...","categories": ["cybersecurity"],
+        "excerpt":"Cloud Security Engineer Resources My Path Help Desk &gt; Sysadmin &gt; IR/TH &gt; Cyber Engineering &gt; Cloud Security Certifications Microsoft Cyber Security Architect - Azure  Link AWS Certified Solutions Architect - Professional  Link Google Cloud is not highly adopted like its counterparts. Skipping for now. Training RHSA RHCE  Ansible Bootcamp ...","categories": ["Cybersecurity"],
         "tags": ["resources","career","training"],
         "url": "/2024/05/Cloud-Security-Engineer-Resources/",
         "teaser": null
       },{
         "title": "VA Compensation Calculator iOS App Released!",
-        "excerpt":"I’ve released my first iOS application: VA Compensation Calculator, a privacy-focused tool designed to help veterans calculate VA disability ratings and estimate monthly compensation. This app began as a personal tool during my own VA compensation journey. Many existing online calculators either don’t allow users to save their information or...","categories": ["software"],
+        "excerpt":"I’ve released my first iOS application: VA Compensation Calculator, a privacy-focused tool designed to help veterans calculate VA disability ratings and estimate monthly compensation. This app began as a personal tool during my own VA compensation journey. Many existing online calculators either don’t allow users to save their information or...","categories": ["Software"],
         "tags": ["resources","veterans","software"],
         "url": "/2025/05/VA-Disability-Calculator-App-Release/",
         "teaser": null
       },{
         "title": "VA Compensation Calculator iOS App — Update 1.26.0",
-        "excerpt":"I’ve released an updated version of my VA Disability Calculator iOS app (version 1.26.0). This update improves handling of bilateral disabilities and adds support for the projected 2026 VA compensation pay tables. The new version has been released on the Apple App Store and is available for download now. You...","categories": ["software"],
+        "excerpt":"I’ve released an updated version of my VA Disability Calculator iOS app (version 1.26.0). What’s New - v1.26.0 Enhanced Settings View with improved data management options JSON Data Viewer to inspect your saved data in a readable format Separate clear data options for flexibility “What’s New” section in Help view...","categories": ["Software"],
         "tags": ["resources","veterans","software"],
         "url": "/2025/11/VA-Disability-Calculator-App-Update-1.26.0/",
         "teaser": null
       },{
         "title": "Where Recent Donations Went During the Government Shutdown",
-        "excerpt":"I’d like to thank everyone who chose to donate through my VA Disability Calculator app. During the recent government shutdown, those funds were used to purchase food items for a local shelter. All donations were matched dollar-for-dollar, converted directly into supplies, and delivered in person. My kids assisted with the...","categories": ["community"],
+        "excerpt":"I’d like to thank everyone who chose to donate through my VA Disability Calculator app. During the recent government shutdown, those funds were used to purchase food items for a local shelter. All donations were matched dollar-for-dollar, converted directly into supplies, and delivered in person. My kids assisted with the...","categories": ["Community"],
         "tags": ["veterans","donations","community"],
         "url": "/2025/11/Where-Recent-Donations-Went-During-the-Government-Shutdown/",
         "teaser": null

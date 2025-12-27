@@ -1,8 +1,8 @@
 ---
 title: 'pfSense and Verizon FiOS'
 date: '2020-02-17T17:03:55-05:00'
+last_modified_at: 2025-12-27T09:37:00-04:00
 categories:
-    - Networking
     - Homelab
 tags:
     - fios

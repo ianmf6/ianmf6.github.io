@@ -1,9 +1,11 @@
 ---
 title: "I am CISSP Certified!"
 date: 2021-04-07T22:26:00-04:00
+last_modified_at: 2025-12-27T00:00:00-04:00
 categories:
   - Certifications
   - Personal
+  - Cybersecurity
 tags:
   - cissp
   - certifications
