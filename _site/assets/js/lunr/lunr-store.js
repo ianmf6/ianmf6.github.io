@@ -148,10 +148,4 @@ var store = [{
         "tags": ["resources","veterans","software"],
         "url": "/2025/11/VA-Disability-Calculator-App-Update-1.26.0/",
         "teaser": null
-      },{
-        "title": "Where Recent Donations Went During the Government Shutdown",
-        "excerpt":"I’d like to thank everyone who chose to donate through my VA Disability Calculator app. During the recent government shutdown, those funds were used to purchase food items for a local shelter. All donations were matched dollar-for-dollar, converted directly into supplies, and delivered in person. My kids assisted with the...","categories": ["Community"],
-        "tags": ["veterans","donations","community"],
-        "url": "/2025/11/Where-Recent-Donations-Went-During-the-Government-Shutdown/",
-        "teaser": null
       }]
