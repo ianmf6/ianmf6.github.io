@@ -3,11 +3,11 @@ permalink: /about/
 title: "About Me"
 ---
 
-I am **Ian Marrero,** a technology enthusiast, who enjoys playing with technology and figuring stuff out. I am a **Cyber Security Engineer** and have a M.S. in Cybersecurity Technology. I use this blog to share my professional and personal experience in cybersecurity, system administration, and a way to keep notes of important things I have learned or came across that you might find interesting too.
+I’m **Ian Marrero**, a cybersecurity engineer focused on building practical, privacy-conscious tools and systems. I hold an M.S. in Cybersecurity Technology and work primarily in cybersecurity engineering and security operations.
 
-Resume: [Here](https://www.dropbox.com/scl/fi/j4ctu868hskq8ndo2jrph/WEB-Ian-Marrero-Resume.pdf?rlkey=yzwf3pn1zwe5bhb4n82xc7qf7&st=u5dje6k2&dl=0) (Dropbox)
+This site serves as a place to document what I’m learning, building, and experimenting with - from cybersecurity concepts and system design to hands-on projects and tools intended to help the broader community. Some content is exploratory, some is practical, and some exists simply to capture hard-earned lessons before they’re forgotten.
 
-Certifications:
+## Certifications:
 
 ![CISSP](/assets/images/2021/04/isc2_cissp2-150x150.png)
 
@@ -16,15 +16,14 @@ Certifications:
 
  Verify through [Credly.com](https://www.credly.com/users/ian-marrero)
 
-Things that I enjoy:
+## Areas of Interest
 
-- Information Security.
-- Penetration Testing.
-- Lockpicking
-- Bicycling / Hiking.
-- Gaming.
-- Reading.
-- Coding.
+- Information Security  
+- Security Engineering & Penetration Testing  
+- Software Development & Automation  
+- Lockpicking  
+- Bicycling & Hiking  
+- Gaming  
+- Reading  
 
-Disclaimer: All opinions expressed here on my blog, social media profiles, and other social platforms are solely mine and do not reflect those of my employer, posts and mentions of products do not constitute endorsement of any position, product, or service.
-{: .notice}
+

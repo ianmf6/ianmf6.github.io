@@ -130,4 +130,28 @@ var store = [{
         "tags": ["blog"],
         "url": "/2024/02/Transitioning-from-WordPress-to-Jekyll-on-GitHub-Pages/",
         "teaser": null
+      },{
+        "title": "Cloud Security Engineer Resources",
+        "excerpt":"Cloud Security Engineer Resources My Path Help Desk &gt; Sysadmin &gt; IR/TH &gt; Cyber Engineering &gt; Cloud Security Certifications Microsoft Cyber Security Architect - Azure  Link AWS Certified Solutions Architect - Professional  Link Google Cloud is not highly adopted like its counterparts. Skipping for now. Training RHSA RHCE  Ansible Bootcamp ...","categories": ["cybersecurity"],
+        "tags": ["resources","career","training"],
+        "url": "/2024/05/Cloud-Security-Engineer-Resources/",
+        "teaser": null
+      },{
+        "title": "VA Compensation Calculator iOS App Released!",
+        "excerpt":"I’ve released my first iOS application: VA Compensation Calculator, a privacy-focused tool designed to help veterans calculate VA disability ratings and estimate monthly compensation. This app began as a personal tool during my own VA compensation journey. Many existing online calculators either don’t allow users to save their information or...","categories": ["software"],
+        "tags": ["resources","veterans","software"],
+        "url": "/2025/05/VA-Disability-Calculator-App-Release/",
+        "teaser": null
+      },{
+        "title": "VA Compensation Calculator iOS App — Update 1.26.0",
+        "excerpt":"I’ve released an updated version of my VA Disability Calculator iOS app (version 1.26.0). This update improves handling of bilateral disabilities and adds support for the projected 2026 VA compensation pay tables. The new version has been released on the Apple App Store and is available for download now. You...","categories": ["software"],
+        "tags": ["resources","veterans","software"],
+        "url": "/2025/11/VA-Disability-Calculator-App-Update-1.26.0/",
+        "teaser": null
+      },{
+        "title": "Where Recent Donations Went During the Government Shutdown",
+        "excerpt":"I’d like to thank everyone who chose to donate through my VA Disability Calculator app. During the recent government shutdown, those funds were used to purchase food items for a local shelter. All donations were matched dollar-for-dollar, converted directly into supplies, and delivered in person. My kids assisted with the...","categories": ["community"],
+        "tags": ["veterans","donations","community"],
+        "url": "/2025/11/Where-Recent-Donations-Went-During-the-Government-Shutdown/",
+        "teaser": null
       }]

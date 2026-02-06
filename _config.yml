@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ian Marrero's Blog
+title: IanM.tech
 repository: ianmf6/ianmf6
 email:
 description: >- # this means to ignore newlines until "baseurl:"
@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 github_username: ianmf6
 minimal_mistakes_skin: default
 search: true
-url: https://ianmf.com
+url: https://ianm.tech
 logo: "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 
 # Build settings
@@ -80,7 +80,7 @@ author:
       url: "https://www.linkedin.com/in/ianmarrero/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://ianmf.com"
+      url: "https://ianm.tech"
       
 
 footer:
@@ -100,6 +100,7 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ianmarrero/"
+  
 
 defaults:
   # _posts

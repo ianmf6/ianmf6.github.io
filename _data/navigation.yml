@@ -1,9 +1,13 @@
 main:
   - title: "Posts"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "$ whoami"
+  - title: "Projects"
+    url: /projects/
+#  - title: "Categories"
+#    url: /categories/
+#  - title: "Tags"
+#    url: /tags/
+  - title: "About"
     url: /about/
+  - title: Contact
+    url: /contact/
