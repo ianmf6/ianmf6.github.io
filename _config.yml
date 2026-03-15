@@ -28,6 +28,7 @@ logo: "/assets/images/logo.png" # path of logo image to display in the masthead,
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+#theme: minimal-mistakes-jekyll
 # Outputting
 permalink: /:year/:month/:title/
 paginate: 5 # amount of posts to show

@@ -1,0 +1,63 @@
+# ======================
+# macOS
+# ======================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ======================
+# Jekyll
+# ======================
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+
+# ======================
+# Ruby / Bundler
+# ======================
+vendor/
+vendor/bundle/
+vendor/cache/
+vendor/gems/
+vendor/ruby/
+
+# ======================
+# Node (if using any JS tooling)
+# ======================
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# ======================
+# Editors & IDEs
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ======================
+# Environment & Secrets
+# ======================
+.env
+.env.*
+*.pem
+*.key
+
+# ======================
+# Logs & Temp
+# ======================
+*.log
+tmp/
