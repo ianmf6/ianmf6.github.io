@@ -53,7 +53,12 @@ Supports 2025 and 2026 rates now—and easily updated for future VA rate tables.
 {% include gallery caption="Screenshots" layout="half" %}
 
 ## Version History
-What’s New - **v1.26.0** 
+<strong>v1.26.1 - March 2026</strong>
+  - Redesigned Bilateral Conditions — Each side of a bilateral condition (left/right) is now entered individually for more accurate tracking. The bilateral factor (10%) is only applied when both sides of an extremity group are present.
+  - Fixed compensation calculation for children ages 18–24 in school.
+  - Fixed an issue where deleting a condition could remove the wrong entry.
+
+ <strong>v1.26.0 - May 2025</strong>
   - Enhanced Settings View with improved data management options
   - JSON Data Viewer to inspect your saved data in a readable format
   - Separate clear data options for flexibility
