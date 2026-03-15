@@ -14,8 +14,8 @@
     <meta charset="utf-8">
 
 
-<!-- begin _includes/seo.html --><title>pfSense and Verizon FiOS - IanM.tech</title>
-<meta name="description" content="I have a small homelab setup at home that I use to practice cyber ninja skills and test new technology. My homelab consist of a refurbished HP Z420 Workstation with 64 GB RAM and over 2 TB of SSD storage used as a server. The server is running VMware ESXI 6.7, which hosts several VMs. One of the VMs is pfSense and has a 2 NIC adapter assigned for LAN and WAN. I also have Verizon’s FiOS G1100 router that I use for its MoCA support (Video On Demand, DVR, Caller ID, etc). However, I do not need it any of its other functionalities.">
+<!-- begin _includes/seo.html --><title>VA Compensation Calculator iOS App — Update 1.26.1 - IanM.tech</title>
+<meta name="description" content="I’ve released an updated version of my VA Disability Calculator iOS app (version 1.26.1).">
 
 
   <meta name="author" content="Ian Marrero">
@@ -27,30 +27,28 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="IanM.tech">
-<meta property="og:title" content="pfSense and Verizon FiOS">
-<meta property="og:url" content="http://localhost:4000/2020/02/pfsense-and-verizon-fios/">
+<meta property="og:title" content="VA Compensation Calculator iOS App — Update 1.26.1">
+<meta property="og:url" content="http://localhost:4000/2026/03/VA-Disability-Calculator-App-Update-1.26.1/">
 
 
-  <meta property="og:description" content="I have a small homelab setup at home that I use to practice cyber ninja skills and test new technology. My homelab consist of a refurbished HP Z420 Workstation with 64 GB RAM and over 2 TB of SSD storage used as a server. The server is running VMware ESXI 6.7, which hosts several VMs. One of the VMs is pfSense and has a 2 NIC adapter assigned for LAN and WAN. I also have Verizon’s FiOS G1100 router that I use for its MoCA support (Video On Demand, DVR, Caller ID, etc). However, I do not need it any of its other functionalities.">
-
-
-
+  <meta property="og:description" content="I’ve released an updated version of my VA Disability Calculator iOS app (version 1.26.1).">
 
 
 
 
 
 
-  <meta property="article:published_time" content="2020-02-17T17:03:55-05:00">
 
 
 
-  <meta property="article:modified_time" content="2025-12-27T08:37:00-05:00">
+  <meta property="article:published_time" content="2026-03-13T11:00:00-05:00">
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/2020/02/pfsense-and-verizon-fios/">
+
+
+<link rel="canonical" href="http://localhost:4000/2026/03/VA-Disability-Calculator-App-Update-1.26.1/">
 
 
 
@@ -291,218 +289,19 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="pfSense and Verizon FiOS">
-    <meta itemprop="description" content="I have a small homelab setup at home that I use to practice cyber ninja skills and test new technology. My homelab consist of a refurbished HP Z420 Workstation with 64 GB RAM and over 2 TB of SSD storage used as a server. The server is running VMware ESXI 6.7, which hosts several VMs. One of the VMs is pfSense and has a 2 NIC adapter assigned for LAN and WAN. I also have Verizon’s FiOS G1100 router that I use for its MoCA support (Video On Demand, DVR, Caller ID, etc). However, I do not need it any of its other functionalities.">
-    <meta itemprop="datePublished" content="2020-02-17T17:03:55-05:00">
-    <meta itemprop="dateModified" content="2025-12-27T08:37:00-05:00">
+    <meta itemprop="headline" content="VA Compensation Calculator iOS App — Update 1.26.1">
+    <meta itemprop="description" content="I’ve released an updated version of my VA Disability Calculator iOS app (version 1.26.1).">
+    <meta itemprop="datePublished" content="2026-03-13T11:00:00-05:00">
+    
 
     <div class="page__inner-wrap">
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/2020/02/pfsense-and-verizon-fios/" itemprop="url">pfSense and Verizon FiOS
+            <a href="http://localhost:4000/2026/03/VA-Disability-Calculator-App-Update-1.26.1/" itemprop="url">VA Compensation Calculator iOS App — Update 1.26.1
 </a>
           </h1>
           
-
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          2 minute read
-        
-      </span>
-    
-  </p>
-
-
-        </header>
-      
-
-      <section class="page__content e-content" itemprop="text">
-        
-        <p>I have a small homelab setup at home that I use to practice cyber ninja skills and test new technology. My homelab consist of a refurbished HP Z420 Workstation with 64 GB RAM and over 2 TB of SSD storage used as a server. The server is running VMware ESXI 6.7, which hosts several VMs. One of the VMs is pfSense and has a 2 NIC adapter assigned for LAN and WAN. I also have Verizon’s FiOS G1100 router that I use for its MoCA support (Video On Demand, DVR, Caller ID, etc). However, I do not need it any of its other functionalities.</p>
-
-<h2 id="network-layout">Network Layout</h2>
-
-<p><img src="/assets/images/2020/02/image-5-1024x364.png" alt="" /></p>
-
-<h2 id="configuration">Configuration</h2>
-
-<p>The first thing I configured was pfSense to work as a router between WAN and LAN. The connection between the ONT and my server is ethernet which is plugged in to one of the 2-port NIC. I had no issue receiving an IP address assigned by Verizon. However, I have read instances where clients had to clone Verizon router’s MAC address to retrieve an IP address. The second port goes to a TP-Link unmanaged switch that works as the main switching device for my entire house (Wireless AP, Printers, PlayStation, etc). After running the initial pfSense setup, a working network with access to the internet should be available.</p>
-
-<p>Next step is to configure Verizon’s router. The router is connected to the main switch via the router’s WAN interface. The WAN interface should be configured for a Static/Manual IP address or create a static IP/MAC assignment via pfSense’s DHCP server module. Because ports will be forwarded to Verizon’s router, it is important that its IP do not change. Additionally, Verizon’s router LAN needs to be configured to use a different private network than pfSense’s LAN. For example, pfSense LAN could have 10.0.0.0/8 network and Verizon router LAN could have 192.168.1.1/24 network. In the Network configuration’s Network (Home/Office) section, the privacy setting should be disabled (see image below). If privacy setting is enabled, the Set-Top Box will be unable to access the internet and features such as On Demand and Interactive Guide will not work. Lastly, I disabled the router’s WiFi to avoid radio-waves congestion because I use another Wireless AP device.</p>
-
-<p><img src="/assets/images/2020/02/image-1024x509.png" alt="" /></p>
-
-<p>Now that Verizon’s router has an IP assigned, I am back to the pfSense web console. I configured port forwarding in pfSense to allow the necessary connectivity for VOD, DVR, Caller ID to work. A list of required ports can be viewed in the router’s Firewall – Port Forwarding section (see image below). pfSense’s port forwarding rules (pfSense -&gt; Firewall -&gt; NAT) are:</p>
-
-<ul>
-  <li>TCP
-    <ul>
-      <li>4567 (used by Verizon to push firmware upgrades to the router and other Verizon FiOS services)</li>
-      <li>35000 (used by the primary Set-Top Box)</li>
-      <li>35001-35013 (Optional. +1 Used for additional Set-Top Boxes)</li>
-    </ul>
-  </li>
-  <li>UDP
-    <ul>
-      <li>63145 (used by the primary Set-Top Box)</li>
-      <li>63146-63149 (Optional. +1 Used for additional Set-Top Boxes).</li>
-    </ul>
-  </li>
-</ul>
-
-<p><img src="/assets/images/2020/02/image-1-1024x492.png" alt="Verizon Router Firewall – Port Forwarding automatically created rules." />
-<img src="/assets/images/2020/02/image-6-1024x258.png" alt="pfSense Firewall – Port Forwarding rules" /></p>
-
-<p>The setup is now complete. A hard reboot on the Set-Top Boxes and Verizon router should automatically configure themselves with the network changes. TV, VOD, Interactive Guide, and Caller-ID should be functioning. If not, I have ran into the issue where Verizon router retains previous network routes from the previous configuration. The routes can be deleted via Verizon router Web interface -&gt; Advanced -&gt; Routing -&gt; Routing.</p>
-
-<h2 id="references">References</h2>
-
-<ul>
-  <li><a href="http://www.dslreports.com/faq/verizonfios">http://www.dslreports.com/faq/verizonfios</a></li>
-  <li><a href="https://www.reddit.com/r/PFSENSE/comments/4ydgs4/pfsense_and_verizon_fios_router/">https://www.reddit.com/r/PFSENSE/comments/4ydgs4/pfsense_and_verizon_fios_router/</a></li>
-  <li><a href="https://www.pfsense.org/">https://www.pfsense.org/</a></li>
-</ul>
-
-<p>If it didn’t work for you, leave a comment.</p>
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-
-  
-    
-
-
-
-  
-
-  <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
-    <span itemprop="keywords">
-    
-      <a href="/tags/#fios" class="page__taxonomy-item p-category" rel="tag">fios</a><span class="sep">, </span>
-    
-      <a href="/tags/#homelab" class="page__taxonomy-item p-category" rel="tag">homelab</a><span class="sep">, </span>
-    
-      <a href="/tags/#moca" class="page__taxonomy-item p-category" rel="tag">moca</a><span class="sep">, </span>
-    
-      <a href="/tags/#pfsense" class="page__taxonomy-item p-category" rel="tag">pfsense</a><span class="sep">, </span>
-    
-      <a href="/tags/#verizon" class="page__taxonomy-item p-category" rel="tag">verizon</a>
-    
-    </span>
-  </p>
-
-
-  
-
-  
-    
-
-
-
-  
-
-  <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
-    <span itemprop="keywords">
-    
-      <a href="/categories/#homelab" class="page__taxonomy-item p-category" rel="tag">Homelab</a>
-    
-    </span>
-  </p>
-
-
-  
-
-
-        
-
-
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-updated" datetime="2025-12-27">December 27, 2025</time></p>
-
-
-      </footer>
-
-      
-<section class="page__share">
-  <h4 class="page__share-title">Share on</h4>
-
-  <a href="https://x.com/intent/tweet?text=pfSense+and+Verizon+FiOS%20http%3A%2F%2Flocalhost%3A4000%2F2020%2F02%2Fpfsense-and-verizon-fios%2F" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
-    <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span> X</span>
-  </a>
-
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2020%2F02%2Fpfsense-and-verizon-fios%2F" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
-    <i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span>
-  </a>
-
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2020/02/pfsense-and-verizon-fios/" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
-    <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
-  </a>
-
-  <a href="https://bsky.app/intent/compose?text=pfSense+and+Verizon+FiOS%20http%3A%2F%2Flocalhost%3A4000%2F2020%2F02%2Fpfsense-and-verizon-fios%2F" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
-    <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
-  </a>
-</section>
-
-
-      
-
-  <nav class="pagination" aria-label="Post pagination">
-    
-      <a href="/2020/02/nsa-python-training-material/" class="pagination--pager" title="NSA Python Training Material">Previous</a>
-    
-    
-      <a href="/2020/05/mini-netwars-mission-3-may-2020/" class="pagination--pager" title="Mini-NetWars – Mission 3 (May 2020)">Next</a>
-    
-  </nav>
-
-
-    </div>
-
-    
-  </article>
-
-  
-  
-    
-
-<div class="page__related">
-  
-  <h2 class="page__related-title">You May Also Enjoy</h2>
-  <div class="grid__wrapper">
-    
-      
-      
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/2026/03/VA-Disability-Calculator-App-Update-1.26.1/" rel="permalink">VA Compensation Calculator iOS App — Update 1.26.1
-</a>
-      
-    </h2>
-    <span style="font-size: 14px;">March 13, 2026</span>
-    
 
 
   <p class="page__meta">
@@ -524,12 +323,132 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">I’ve released an updated version of my VA Disability Calculator iOS app (version 1.26.1).
+        </header>
+      
 
-</p>
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>I’ve released an updated version of my <strong>VA Disability Calculator</strong> iOS app (version <strong>1.26.1</strong>).</p>
+
+<p>This update includes a redesign of how bilateral conditions are handled, along with a couple of bug fixes:</p>
+
+<ul>
+  <li><strong>Redesigned Bilateral Conditions</strong> — Each side of a bilateral condition (left/right) is now entered individually for more accurate tracking. The bilateral factor (10%) is only applied when both sides of an extremity group are present.</li>
+  <li><strong>Fixed</strong> compensation calculation for children ages 18–24 in school.</li>
+  <li><strong>Fixed</strong> an issue where deleting a condition could remove the wrong entry.</li>
+</ul>
+
+<p>The new version is now available on the Apple App Store.</p>
+
+<p>You can find more details, screenshots, and ongoing updates on the dedicated project page:</p>
+
+<p>📱 <strong><a href="/va-disability-calculator-ios-app/">VA Disability Calculator iOS App</a></strong></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#resources" class="page__taxonomy-item p-category" rel="tag">resources</a><span class="sep">, </span>
+    
+      <a href="/tags/#software" class="page__taxonomy-item p-category" rel="tag">software</a><span class="sep">, </span>
+    
+      <a href="/tags/#veterans" class="page__taxonomy-item p-category" rel="tag">veterans</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#software" class="page__taxonomy-item p-category" rel="tag">software</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2026-03-13T11:00:00-05:00">March 13, 2026</time></p>
+
+
+      </footer>
+
+      
+<section class="page__share">
+  <h4 class="page__share-title">Share on</h4>
+
+  <a href="https://x.com/intent/tweet?text=VA+Compensation+Calculator+iOS+App+%E2%80%94+Update+1.26.1%20http%3A%2F%2Flocalhost%3A4000%2F2026%2F03%2FVA-Disability-Calculator-App-Update-1.26.1%2F" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
+    <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span> X</span>
+  </a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2026%2F03%2FVA-Disability-Calculator-App-Update-1.26.1%2F" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
+    <i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span>
+  </a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2026/03/VA-Disability-Calculator-App-Update-1.26.1/" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
+    <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
+  </a>
+
+  <a href="https://bsky.app/intent/compose?text=VA+Compensation+Calculator+iOS+App+%E2%80%94+Update+1.26.1%20http%3A%2F%2Flocalhost%3A4000%2F2026%2F03%2FVA-Disability-Calculator-App-Update-1.26.1%2F" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
+    <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
+  </a>
+</section>
+
+
+      
+
+  <nav class="pagination" aria-label="Post pagination">
+    
+      <a href="/2025/11/VA-Disability-Calculator-App-Update-1.26.0/" class="pagination--pager" title="VA Compensation Calculator iOS App — Update 1.26.0">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
   </article>
-</div>
 
+  
+  
+    
+
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
     
       
       
@@ -647,7 +566,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          1 minute read
+          less than 1 minute read
         
       </span>
     
@@ -657,6 +576,48 @@
     <p class="archive__item-excerpt" itemprop="description">Cloud Security Engineer Resources
 
 </p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/2024/02/Transitioning-from-WordPress-to-Jekyll-on-GitHub-Pages/" rel="permalink">Transitioning from WordPress to Jekyll on GitHub Pages
+</a>
+      
+    </h2>
+    <span style="font-size: 14px;">February 09, 2024</span>
+    
+
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I recently embarked on a tech journey, moving my blog from WordPress hosted on a Digital Ocean droplet to using Jekyll on GitHub Pages. This wasn’t just a le...</p>
   </article>
 </div>
 

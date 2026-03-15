@@ -148,4 +148,10 @@ var store = [{
         "tags": ["resources","veterans","software"],
         "url": "/2025/11/VA-Disability-Calculator-App-Update-1.26.0/",
         "teaser": null
+      },{
+        "title": "VA Compensation Calculator iOS App — Update 1.26.1",
+        "excerpt":"I’ve released an updated version of my VA Disability Calculator iOS app (version 1.26.1). This update includes a redesign of how bilateral conditions are handled, along with a couple of bug fixes: Redesigned Bilateral Conditions — Each side of a bilateral condition (left/right) is now entered individually for more accurate...","categories": ["software"],
+        "tags": ["resources","veterans","software"],
+        "url": "/2026/03/VA-Disability-Calculator-App-Update-1.26.1/",
+        "teaser": null
       }]
