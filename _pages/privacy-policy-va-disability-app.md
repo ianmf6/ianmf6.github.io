@@ -9,7 +9,6 @@ toc_label: "On this page"
 
 **Effective date:** November 7, 2025  
 **Last updated:** March 15, 2026  
-**Developer:** Ian Marrero, an individual developer based in Maryland, United States
 
 ---
 
@@ -25,7 +24,9 @@ This app is designed with a privacy-first philosophy: all data you enter stays o
 
 ### User-entered data
 
-All disability ratings, dependent information, and settings you enter into VA Disability Calculator are stored locally on your device in a JSON file within the app's private data container. This data is never transmitted off your device by the app.
+All disability ratings, dependent information, and settings you enter into VA Disability Calculator are stored locally on your device at `Documents/userData.json` within the app's data container. This data is never transmitted off your device by the app.
+
+Because data is stored in the app's Documents directory, it may be accessible via iTunes or Finder file sharing when your device is connected to a computer, and may be visible through the iOS Files app depending on your device settings. You can review your stored data at any time within the app via Settings → Data Management → View Saved Data.
 
 I do not collect, receive, or have access to this data at any time.
 
@@ -43,17 +44,40 @@ Your email address is used solely to reply to your message. It is not used for m
 
 ---
 
-## 3. iCloud Backup
+## 3. iCloud Backup and File Access
 
-If you have iCloud Backup enabled on your device (the iOS default), Apple may include your app's local data as part of your device backup. This backup is stored on Apple's servers and governed entirely by **Apple's Privacy Policy**, not by this policy.
+If you have iCloud Backup enabled on your device (the iOS default), Apple will include your app's `Documents/userData.json` file as part of your device backup. This backup is stored on Apple's servers and governed entirely by **Apple's Privacy Policy**, not by this policy.
 
 The app does not control whether your data is included in iCloud backups. You can manage backup settings at any time in **Settings → [Your Name] → iCloud → iCloud Backup**, or exclude this app specifically in **Settings → [Your Name] → iCloud → Show All** and toggling off VA Compensation Calculator.
 
-I do not have access to your iCloud backup data under any circumstances.
+Additionally, because data is stored in the app's Documents directory, it may be transferable via iTunes or Finder file sharing when your device is connected to a computer. This is an iOS system-level behavior outside the app's control.
+
+I do not have access to your iCloud backup data or any file transfers you make under any circumstances.
 
 ---
 
-## 4. Donations
+## 4. Sharing and Copying Your Data
+
+### Compensation Breakdown Share
+
+The app includes an optional feature that allows you to share a summary of your compensation breakdown using the native iOS share sheet. This feature is entirely user-initiated and user-controlled. The app does not transmit any data to me or any third party — you choose where the output goes (Messages, Mail, clipboard, etc.).
+
+Before sharing, you are presented with a **Share Options screen** that gives you control over what is included:
+
+- **Redact disability names** (enabled by default) — replaces your specific condition names with generic labels (e.g., "Disability 1") in the shared output
+- **Include dependent information** (enabled by default) — includes marital status, spouse Aid & Attendance, and dependent counts in the shared output
+
+The shared output may contain sensitive health information including disability ratings, percentages, dependent status, and estimated monthly compensation. **You are responsible for where you direct this information once it leaves the app.** Once shared to a third-party service (such as Messages, Mail, or any other app), that service's own privacy policy governs the data.
+
+I recommend using the "Redact disability names" toggle if you are sharing with anyone other than a trusted individual such as a VSO or benefits attorney.
+
+### Saved Data Copy
+
+The Settings → Data Management → View Saved Data screen includes a **Copy** button that copies your full saved data — including disability names, ratings, dependent information, and raw JSON — to your device's clipboard. Clipboard contents on iOS may be accessible to other apps. Exercise caution when copying sensitive data if untrusted apps are installed on your device.
+
+---
+
+## 5. Donations
 
 The app includes an optional link to support the project via **Buy Me a Coffee** (buymeacoffee.com), a third-party platform. Tapping the link opens Buy Me a Coffee's website in an external browser — all donation activity occurs entirely outside of this app.
 
@@ -61,7 +85,7 @@ When using Buy Me a Coffee, you may voluntarily provide personal information suc
 
 ---
 
-## 5. Data Sharing
+## 6. Data Sharing
 
 I do not sell, rent, or share your personal data with advertising networks, data brokers, or other external services for commercial purposes. There are no third-party SDKs embedded in the app that collect data.
 
@@ -74,7 +98,7 @@ Your use of these services is voluntary. I do not receive personal information f
 
 ---
 
-## 6. Data Security
+## 7. Data Security
 
 Data is stored in a local JSON file within the app's sandboxed data container. This file is **not encrypted at rest by the app** — device-level security controls (such as Face ID, Touch ID, or a passcode) are your primary protection. I strongly recommend enabling device-level security.
 
@@ -82,7 +106,7 @@ If your device is compromised, lost, or stolen, anyone with access to the device
 
 ---
 
-## 7. Data Retention and Deletion
+## 8. Data Retention and Deletion
 
 Your data persists on your device until you delete it. You have full control:
 
@@ -94,19 +118,19 @@ I do not retain any copy of your data. Deleting the app removes all locally stor
 
 ---
 
-## 8. Children's Privacy
+## 9. Children's Privacy
 
 Because VA Disability Calculator does not collect any personal data from any user, no personal data is collected from children under 13. The app is intended for use by veterans and their families and does not knowingly target children.
 
 ---
 
-## 9. Do Not Track
+## 10. Do Not Track
 
 VA Disability Calculator is a native iOS application. It does not operate a web browser, does not engage in cross-site tracking, and does not respond to or honor browser-based Do Not Track (DNT) signals. DNT signals are not applicable to this app's functionality.
 
 ---
 
-## 10. Your Privacy Rights
+## 11. Your Privacy Rights
 
 Because VA Disability Calculator does not collect or hold any personal data, there is no personal data held by me to access, correct, export, or delete. All data you enter into the app is under your direct control on your device.
 
@@ -116,13 +140,13 @@ Residents of California and other states with comprehensive privacy laws should 
 
 ---
 
-## 11. Third-Party AI
+## 12. Third-Party AI
 
 VA Disability Calculator does not share your data with any third-party AI systems, machine learning platforms, or external services. All calculations are performed locally on your device using the official VA incremental formula.
 
 ---
 
-## 12. Disclaimer of Accuracy
+## 13. Disclaimer of Accuracy
 
 VA Disability Calculator is provided for **informational and estimation purposes only**. It is not affiliated with, endorsed by, or officially connected to the U.S. Department of Veterans Affairs.
 
@@ -130,7 +154,7 @@ Compensation estimates produced by this app are approximations based on publicly
 
 ---
 
-## 13. Changes to This Policy
+## 14. Changes to This Policy
 
 If I make material changes to this policy, I will update the "Last updated" date at the top of this page. For significant changes, I will also note the update in the app's "What's New" section or in a post on [ianm.tech](https://www.ianm.tech).
 
@@ -138,12 +162,12 @@ Continued use of the app after changes are posted constitutes acceptance of the 
 
 ---
 
-## 14. Governing Law
+## 15. Governing Law
 
 This Privacy Policy is governed by and construed in accordance with the laws of the State of Maryland, United States, without regard to conflict of law principles.
 
 ---
 
-## 15. Contact
+## 16. Contact
 
 If you have questions about this Privacy Policy, please use the [contact page](https://www.ianm.tech/contact/).

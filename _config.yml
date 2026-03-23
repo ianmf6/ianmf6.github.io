@@ -26,6 +26,7 @@ url: https://www.ianm.tech
 logo: "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 
 # Build settings
+encoding: utf-8
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 #theme: minimal-mistakes-jekyll

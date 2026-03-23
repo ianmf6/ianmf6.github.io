@@ -11,3 +11,24 @@
 .page__footer-disclaimer p {
   margin: 0;
 }
+
+/* Keep gallery thumbnails compact on mobile — 3 per row at all screen sizes */
+figure.third {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: 6px !important;
+
+  a {
+    flex: 0 0 30% !important;
+    max-width: 30% !important;
+    margin: 0 !important;
+  }
+
+  img {
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: auto;
+  }
+}
