@@ -1,6 +1,6 @@
 ---
 permalink: /va-disability-calculator-ios-app/
-title: "VA Disability Calculator iOS App"
+title: "VA Disability Calculator iOS & iPadOS App"
 last_modified_at: 2026-03-22T00:00:00-04:00
 
 toc: true
@@ -45,7 +45,7 @@ gallery:
 
 ## Overview
 
-The VA Disability Calculator helps veterans calculate their combined VA disability rating using the official formula from 38 CFR 4.25 and 4.26. It estimates monthly compensation based on 2025 and 2026 rate tables, shows both raw and VA-rounded percentages, and keeps all data stored locally on your device. No ads, no accounts, no data collection.
+The VA Disability Calculator helps veterans calculate their combined VA disability rating using the official formula from 38 CFR 4.25 and 4.26. It estimates monthly compensation based on 2025 and 2026 rate tables, shows both raw and VA-rounded percentages, and keeps all data stored locally on your device. Available on iPhone and iPad. No ads, no accounts, no data collection.
 
 [![App Store link](/assets/images/va-disability-app-images/download-on-the-app-store.svg)](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239?mttnsubad=6746081239)
 
@@ -119,18 +119,6 @@ figure.third img {
   - 2026 COLA rate support (2.8% increase)
   - Bilateral factor support (38 CFR 4.26)
   - Improved calculation accuracy
-
-## Technical Details
-
-| Field | Value |
-|---|---|
-| Current Version | 1.26.2 |
-| Platform | iOS 16.6+ |
-| Framework | SwiftUI |
-| Price | Free |
-| Dependencies | None |
-| Data Storage | On-device only (JSON) |
-| App Store ID | [6746081239](https://apps.apple.com/app/id6746081239) |
 
 ## Disclaimer
 
