@@ -1,7 +1,7 @@
 ---
 permalink: /va-disability-calculator-ios-app/
 title: "VA Disability Calculator iOS & iPadOS App"
-last_modified_at: 2026-03-22T00:00:00-04:00
+last_modified_at: 2026-04-25T00:00:00-04:00
 
 toc: true
 toc_label: "On this page"
@@ -45,7 +45,7 @@ gallery:
 
 ## Overview
 
-The VA Disability Calculator helps veterans calculate their combined VA disability rating using the official formula from 38 CFR 4.25 and 4.26. It estimates monthly compensation based on 2025 and 2026 rate tables, shows both raw and VA-rounded percentages, and keeps all data stored locally on your device. Available on iPhone and iPad. No ads, no accounts, no data collection.
+The VA Disability Calculator helps veterans calculate their combined VA disability rating using the official formula from 38 CFR 4.25 and 4.26. It also tracks pending and denied claims alongside rated disabilities and projects what your combined rating could become if pending claims are approved. It estimates monthly compensation based on 2025 and 2026 rate tables, shows both raw and VA-rounded percentages, and keeps all data stored locally on your device. Available on iPhone and iPad. No ads, no accounts, no data collection.
 
 [![App Store link](/assets/images/va-disability-app-images/download-on-the-app-store.svg)](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239?mttnsubad=6746081239)
 
@@ -57,6 +57,15 @@ Combines multiple disability ratings step-by-step using the VA Combined Ratings 
 **Bilateral Factor Support**
 Automatically applies the 10% bilateral factor when both sides of an extremity are rated (left knee + right knee, etc.) per 38 CFR 4.26.
 
+**Claims Tracking**
+Track pending and denied claims alongside rated disabilities, with status filters (Rated, Pending, Denied) for the disabilities list.
+
+**Projected Rating**
+See what your combined rating could be if your pending claims are approved, and optionally include pending claims in the shared breakdown.
+
+**In-App "What's New"**
+Release notes are shown automatically after each update so you always know what changed.
+
 **Accurate Compensation Estimates**
 Accounts for spouse, spouse Aid & Attendance, parents (0–2), children under 18, and children 18–24 in school.
 
@@ -64,7 +73,7 @@ Accounts for spouse, spouse Aid & Attendance, parents (0–2), children under 18
 Step-by-step calculation transparency showing exactly how your rating is combined and your compensation is determined.
 
 **Shareable Breakdown**
-Share your rating breakdown with privacy options to redact disability names and hide dependent information.
+Share your rating breakdown with privacy options to redact disability names, hide dependent information, and optionally include pending claims.
 
 **Dependents Manager**
 Tracks marital status, spouse A&A, parent dependents, and children with links to official VA resources.
@@ -101,6 +110,17 @@ figure.third img {
 {% include gallery caption="Screenshots" layout="third" %}
 
 ## Version History
+
+<strong>v1.26.3 — April 2026</strong>
+  - Track pending and denied claims alongside rated disabilities
+  - Projected Rating shows what your combined rating could be if pending claims are approved
+  - Filter the disabilities list by status (Rated, Pending, Denied)
+  - Optionally include pending claims in the shared breakdown
+  - Compensation year picker now also available in Settings
+  - Spouse Aid & Attendance section hidden when not married
+  - Empty state messages when filtering with no results
+  - Help section reorganized with clearer sub-sections
+  - "What's New" automatically displayed after each update
 
 <strong>v1.26.2 — March 2026</strong>
   - Share your rating breakdown with privacy options to redact disability names and hide dependent info
