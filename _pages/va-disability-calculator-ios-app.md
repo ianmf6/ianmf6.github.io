@@ -1,7 +1,7 @@
 ---
 permalink: /va-disability-calculator-ios-app/
 title: "VA Disability Calculator iOS & iPadOS App"
-last_modified_at: 2026-04-25T00:00:00-04:00
+last_modified_at: 2026-04-29T00:00:00-04:00
 
 toc: true
 toc_label: "On this page"
@@ -110,6 +110,9 @@ figure.third img {
 {% include gallery caption="Screenshots" layout="third" %}
 
 ## Version History
+
+<strong>v1.26.4 — April 2026</strong>
+  - Hotfix: Allow adding disabilities rated at 0% (Rated, Pending, and Denied)
 
 <strong>v1.26.3 — April 2026</strong>
   - Track pending and denied claims alongside rated disabilities
