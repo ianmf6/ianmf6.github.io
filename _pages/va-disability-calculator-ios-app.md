@@ -1,7 +1,7 @@
 ---
 permalink: /va-disability-calculator-ios-app/
 title: "VA Disability Calculator iOS & iPadOS App"
-last_modified_at: 2026-04-29T00:00:00-04:00
+last_modified_at: 2026-05-02T00:00:00-04:00
 
 toc: true
 toc_label: "On this page"
@@ -45,7 +45,7 @@ gallery:
 
 ## Overview
 
-The VA Disability Calculator helps veterans calculate their combined VA disability rating using the official formula from 38 CFR 4.25 and 4.26. It also tracks pending and denied claims alongside rated disabilities and projects what your combined rating could become if pending claims are approved. It estimates monthly compensation based on 2025 and 2026 rate tables, shows both raw and VA-rounded percentages, and keeps all data stored locally on your device. Available on iPhone and iPad. No ads, no accounts, no data collection.
+The VA Disability Calculator helps veterans calculate their combined VA disability rating using the official formula from 38 CFR 4.25 and 4.26. It also tracks pending and denied claims alongside rated disabilities and projects what your combined rating could become if pending claims are approved. It estimates monthly compensation against historical rate tables from 2018 onward, supports Special Monthly Compensation (SMC), and includes a Backpay Calculator for estimating retroactive compensation across a timeline of rating changes. All data stays on your device. Available on iPhone and iPad. No ads, no accounts, no data collection.
 
 [![App Store link](/assets/images/va-disability-app-images/download-on-the-app-store.svg)](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239?mttnsubad=6746081239)
 
@@ -66,6 +66,12 @@ See what your combined rating could be if your pending claims are approved, and 
 **In-App "What's New"**
 Release notes are shown automatically after each update so you always know what changed.
 
+**Backpay Calculator**
+Estimate retroactive compensation across a timeline of rating changes, with full SMC support.
+
+**Special Monthly Compensation (SMC)**
+Supports SMC-K, S, L, R1, and R2 alongside the standard combined-rating calculation.
+
 **Accurate Compensation Estimates**
 Accounts for spouse, spouse Aid & Attendance, parents (0–2), children under 18, and children 18–24 in school.
 
@@ -79,7 +85,7 @@ Share your rating breakdown with privacy options to redact disability names, hid
 Tracks marital status, spouse A&A, parent dependents, and children with links to official VA resources.
 
 **Year Selector**
-Supports 2025 and 2026 COLA rates (2.8% increase) with future update capability.
+Historical compensation rates from 2018 onward, selectable in the year picker. The picker autohides outside the December–February COLA window, with a Settings toggle to keep it always visible.
 
 **100% Private**
 All data stays on your device. Nothing is uploaded or shared. No accounts, no ads, no tracking.
@@ -110,6 +116,16 @@ figure.third img {
 {% include gallery caption="Screenshots" layout="third" %}
 
 ## Version History
+
+<strong>v1.26.5 — May 2026</strong>
+  - Backpay Calculator: estimate retroactive compensation across a timeline of rating changes, with SMC support
+  - Special Monthly Compensation (SMC) — supports SMC-K, S, L, R1, and R2
+  - Historical compensation rates from 2018 onward, selectable in the year picker
+  - Corrected 2026 compensation rates to match the latest [VA.gov](https://www.va.gov) published values
+  - Restored ability to add 0% rated disabilities (regression from the 1.26.4 hotfix)
+  - Year picker on the main screen now hides automatically outside the December–February COLA window; toggle in Settings to always show it
+  - Help reorganized into three sections (What's New, How to Use, Help); added links to the r/VeteransBenefits community and Knowledge Base
+  - Some small UI changes and fixes
 
 <strong>v1.26.4 — April 2026</strong>
   - Hotfix: Allow adding disabilities rated at 0% (Rated, Pending, and Denied)
