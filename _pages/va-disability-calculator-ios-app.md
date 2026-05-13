@@ -1,7 +1,7 @@
 ---
 permalink: /va-disability-calculator-ios-app/
 title: "VA Disability Calculator iOS & iPadOS App"
-last_modified_at: 2026-05-02T00:00:00-04:00
+last_modified_at: 2026-05-13T00:00:00-04:00
 
 toc: true
 toc_label: "On this page"
@@ -11,50 +11,158 @@ toc_sticky: true
 
 ## Overview
 
-The VA Disability Calculator helps veterans calculate their combined VA disability rating using the official formula from 38 CFR 4.25 and 4.26. It also tracks pending and denied claims alongside rated disabilities and projects what your combined rating could become if pending claims are approved. It estimates monthly compensation against historical rate tables from 2018 onward, supports Special Monthly Compensation (SMC), and includes a Backpay Calculator for estimating retroactive compensation across a timeline of rating changes. All data stays on your device. Available on iPhone and iPad. No ads, no accounts, no data collection.
+Calculate VA disability compensation, track your claim journey, and explore "what if" scenarios — all on your device, with zero ads and no account required.
+
+Built by a veteran for veterans. Includes 9 focused calculators and references, a Claim Tracker with reminders, a searchable database of 300+ 38 CFR diagnostic codes, and PDF export for handing off to VSOs or attorneys. Free forever. Supported by an entirely optional Tip Jar — tipping unlocks nothing.
 
 [![App Store link](/assets/images/va-disability-app-images/download-on-the-app-store.svg)](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239?mttnsubad=6746081239)
 
+<style>
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin: 28px 0 32px;
+}
+.feature-card {
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 18px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+.feature-card:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
+}
+.feature-card .fc-icon {
+  font-size: 1.7em;
+  color: #2c5282;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+.feature-card .fc-title {
+  font-weight: 600;
+  font-size: 1.02em;
+  color: #1a202c;
+}
+.feature-card .fc-summary {
+  font-size: 0.9em;
+  color: #4a5568;
+  line-height: 1.4;
+}
+@media (prefers-color-scheme: dark) {
+  .feature-card {
+    background: #2d3748;
+    border-color: #4a5568;
+  }
+  .feature-card .fc-title { color: #f7fafc; }
+  .feature-card .fc-summary { color: #cbd5e0; }
+  .feature-card .fc-icon { color: #63b3ed; }
+}
+</style>
+
+<section class="feature-grid" aria-label="Feature highlights">
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-calculator" aria-hidden="true"></i></span>
+    <span class="fc-title">Combined Rating</span>
+    <span class="fc-summary">Accurate math per 38 CFR 4.25 including the bilateral factor.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></span>
+    <span class="fc-title">Monthly Compensation</span>
+    <span class="fc-summary">9 years of rate tables with full dependent support.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-history" aria-hidden="true"></i></span>
+    <span class="fc-title">Backpay Calculator</span>
+    <span class="fc-summary">Retroactive pay across rating timelines, with PDF export.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-calendar-check" aria-hidden="true"></i></span>
+    <span class="fc-title">Claim Tracker</span>
+    <span class="fc-summary">Track C&amp;P exams, hearings, and deadlines with reminders.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-book-medical" aria-hidden="true"></i></span>
+    <span class="fc-title">38 CFR Diagnostic Codes</span>
+    <span class="fc-summary">Searchable reference for 300+ codes across 15 body systems.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-sliders-h" aria-hidden="true"></i></span>
+    <span class="fc-title">What If? Scenarios</span>
+    <span class="fc-summary">See how rating changes affect your monthly compensation.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-lock" aria-hidden="true"></i></span>
+    <span class="fc-title">Privacy First</span>
+    <span class="fc-summary">All-local storage, Face ID lock, no accounts, no tracking.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-th-large" aria-hidden="true"></i></span>
+    <span class="fc-title">Tools &amp; Calculators</span>
+    <span class="fc-summary">Pay Date Predictor, COLA Estimator, CRDP/CRSC, more.</span>
+  </div>
+</section>
+
 ## Key Features
 
-**Official VA Math Engine**
-Combines multiple disability ratings step-by-step using the VA Combined Ratings Table, not simple addition.
+### Combined Rating & Monthly Compensation
+  - Combined disability rating per 38 CFR 4.25
+  - Bilateral factor per 38 CFR 4.26
+  - Monthly compensation across 9 years of rate tables (2018–2026)
+  - Full dependent support — spouse, spouse Aid & Attendance, dependent parents, children under 18, children 18–24 in school
+  - Projected rating that includes pending claims
 
-**Bilateral Factor Support**
-Automatically applies the 10% bilateral factor when both sides of an extremity are rated (left knee + right knee, etc.) per 38 CFR 4.26.
+### Backpay Calculator
+  - Retroactive compensation across timelines of rating changes
+  - Handles COLA boundary transitions automatically
+  - 38 CFR 3.31 full-month rule applied correctly
+  - Future-date projection for awards still pending
+  - Per-period breakdown showing each rate band
+  - Export as text or styled PDF
 
-**Claims Tracking**
-Track pending and denied claims alongside rated disabilities, with status filters (Rated, Pending, Denied) for the disabilities list.
+### Special Monthly Compensation (SMC)
+  - SMC-K (additive, up to 3 awards)
+  - SMC-S, L, R1, R2 (replace base compensation)
+  - Stacks correctly with regular compensation per VA rules
 
-**Projected Rating**
-See what your combined rating could be if your pending claims are approved, and optionally include pending claims in the shared breakdown.
+### TDIU Support
+  - Toggle to pay at the 100% rate when granted
+  - Schedular Eligibility Check screens 38 CFR 4.16(a) against your rated conditions
 
-**In-App "What's New"**
-Release notes are shown automatically after each update so you always know what changed.
+### Claim Tracking
+  - Three claim statuses — Rated, Pending, Denied
+  - Claim Tracker for upcoming C&P exams, hearings, appeal deadlines, and decision dates
+  - Local notification reminders (1 day before, 1 hour before)
+  - Free-form notes per disability — effective dates, decision letter references, symptom logs
+  - Disability search powered by the 38 CFR diagnostic code database
 
-**Backpay Calculator**
-Estimate retroactive compensation across a timeline of rating changes, with full SMC support.
+### Calculators & References
+  - Pay Date Predictor — first paid month plus the estimated deposit date
+  - What If? Scenario — explore rating changes interactively with side-by-side comparison
+  - Combined Ratings Table — the official 9×9 reference grid from 38 CFR 4.25
+  - 38 CFR Diagnostic Codes — searchable database covering 300+ codes across 15 body systems
+  - Healthcare Priority Group — derives your VA healthcare priority group from your rating
+  - Future COLA Estimator — project next year's monthly given an assumed COLA percent
+  - CRDP / CRSC Calculator — concurrent receipt estimator for military retirees
 
-**Special Monthly Compensation (SMC)**
-Supports SMC-K, S, L, R1, and R2 alongside the standard combined-rating calculation.
+### Privacy
+  - All data stored locally on your device
+  - iOS Complete File Protection — saved data is encrypted while your device is locked
+  - Optional Face ID or Touch ID lock to open the app
+  - No accounts, no analytics, no telemetry, no third-party tracking
+  - One-tap data reset
 
-**Accurate Compensation Estimates**
-Accounts for spouse, spouse Aid & Attendance, parents (0–2), children under 18, and children 18–24 in school.
-
-**Compensation Breakdown**
-Step-by-step calculation transparency showing exactly how your rating is combined and your compensation is determined.
-
-**Shareable Breakdown**
-Share your rating breakdown with privacy options to redact disability names, hide dependent information, and optionally include pending claims.
-
-**Dependents Manager**
-Tracks marital status, spouse A&A, parent dependents, and children with links to official VA resources.
-
-**Year Selector**
-Historical compensation rates from 2018 onward, selectable in the year picker. The picker autohides outside the December–February COLA window, with a Settings toggle to keep it always visible.
-
-**100% Private**
-All data stays on your device. Nothing is uploaded or shared. No accounts, no ads, no tracking.
+### Appearance & Usability
+  - Dark Mode — System, Light, or Dark
+  - Per-screen help and quick settings access
+  - Search and filter on the Disabilities list
+  - Smart year picker that auto-shows during COLA transition windows
+  - Quick orientation sheet on first launch
 
 ## Screenshots
 
@@ -213,15 +321,16 @@ All data stays on your device. Nothing is uploaded or shared. No accounts, no ad
   <div class="carousel">
     <button type="button" class="carousel-btn carousel-prev" aria-label="Previous screenshots">&#8249;</button>
     <div class="carousel-track">
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ios/ios-home.png" data-caption="Home — Combined Rating with SMC and Projected Rating"><img src="/assets/images/va-disability-app-images/1.26.5/ios/ios-home.png" alt="Home screen showing 80% rating with projected 90%, SMC-K, and quick-access buttons" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ios/ios-disabilities.png" data-caption="Disabilities — Rated, Pending, and Denied"><img src="/assets/images/va-disability-app-images/1.26.5/ios/ios-disabilities.png" alt="Disabilities list with mixed Rated, Pending, and Denied statuses including bilateral conditions" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ios/ios-dependents.png" data-caption="Dependent Information"><img src="/assets/images/va-disability-app-images/1.26.5/ios/ios-dependents.png" alt="Dependent information screen with marital status, A&A, parents, and children inputs" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ios/ios-smc.png" data-caption="Special Monthly Compensation"><img src="/assets/images/va-disability-app-images/1.26.5/ios/ios-smc.png" alt="Special Monthly Compensation screen showing SMC-K awards and SMC level selection" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ios/ios-backpay-input.png" data-caption="Backpay — Timeline of Rating Changes"><img src="/assets/images/va-disability-app-images/1.26.5/ios/ios-backpay-input.png" alt="Backpay calculator inputs showing initial rating, rating changes, and SMC configuration" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ios/ios-backpay-result.png" data-caption="Backpay — Estimate"><img src="/assets/images/va-disability-app-images/1.26.5/ios/ios-backpay-result.png" alt="Backpay estimate showing total backpay broken down by rating period" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ios/ios-breakdown.png" data-caption="Compensation Breakdown"><img src="/assets/images/va-disability-app-images/1.26.5/ios/ios-breakdown.png" alt="Compensation breakdown with step-by-step calculation, bilateral factor, and SMC" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ios/ios-share.png" data-caption="Share Options"><img src="/assets/images/va-disability-app-images/1.26.5/ios/ios-share.png" alt="Share options with toggles to redact disability names, hide dependents, and include pending claims" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ios/ios-settings.png" data-caption="Settings"><img src="/assets/images/va-disability-app-images/1.26.5/ios/ios-settings.png" alt="Settings screen with compensation year picker, projected rating toggle, and Help &amp; About" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-home.png" data-caption="Home — Combined Rating, Claim Tracker, and Calculators"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-home.png" alt="Home screen showing 80% rating with projected 100%, SMC-K, and quick-access buttons including Claim Tracker and Calculators & References" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-disabilities.png" data-caption="Disabilities — Rated, Pending, and Denied"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-disabilities.png" alt="Disabilities list with mixed Rated, Pending, and Denied statuses including bilateral knee and hearing loss conditions" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-claim-tracker.png" data-caption="Claim Tracker — Upcoming Dates with Reminders"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-claim-tracker.png" alt="Claim Tracker showing an upcoming C&P Exam scheduled in 6 days with reminder support" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-calculators.png" data-caption="Calculators & References"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-calculators.png" alt="Calculators and References menu listing Backpay Calculator, Pay Date Predictor, What If? Scenario, Combined Ratings Table, 38 CFR Diagnostic Codes, Healthcare Priority Group, TDIU Eligibility Check, Future COLA Estimator, and CRDP/CRSC Calculator" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-diagnostic-codes.png" data-caption="38 CFR Diagnostic Codes — Searchable Reference"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-diagnostic-codes.png" alt="38 CFR Diagnostic Codes search results for 'Post' showing PTSD, cardiovascular, and digestive codes grouped by body system" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-smc.png" data-caption="Special Monthly Compensation"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-smc.png" alt="Special Monthly Compensation screen showing SMC-K awards and SMC level selection" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-dependents.png" data-caption="Dependent Information"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-dependents.png" alt="Dependent information screen with marital status, A&A, parents, and children inputs" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-breakdown-top.png" data-caption="Compensation Breakdown — Disabilities & Bilateral Factor"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-breakdown-top.png" alt="Compensation breakdown top half showing disabilities, dependents, rating calculation, and bilateral factor details" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-breakdown-bottom.png" data-caption="Compensation Breakdown — Step-by-Step Calculation"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-breakdown-bottom.png" alt="Compensation breakdown bottom half showing step-by-step calculation and monthly compensation total with SMC-K" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-share.png" data-caption="Share Options — Share as Text or Save as PDF"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-share.png" alt="Share options with toggles to redact disability names, hide dependents, and include pending claims, plus Share as Text and Save as PDF actions" loading="lazy"></button>
     </div>
     <button type="button" class="carousel-btn carousel-next" aria-label="More screenshots">&#8250;</button>
   </div>
@@ -231,16 +340,15 @@ All data stays on your device. Nothing is uploaded or shared. No accounts, no ad
   <div class="carousel">
     <button type="button" class="carousel-btn carousel-prev" aria-label="Previous screenshots">&#8249;</button>
     <div class="carousel-track">
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-home.png" data-caption="Home — Combined Rating with SMC and Projected Rating"><img src="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-home.png" alt="iPad home screen showing 80% rating with projected 90%, SMC-K, and quick-access buttons" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-disabilities.png" data-caption="Disabilities — Bilateral Toggle"><img src="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-disabilities.png" alt="iPad disabilities list with bilateral toggle expanded showing side and extremity group selectors" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-add-disability.png" data-caption="Add Disability"><img src="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-add-disability.png" alt="iPad Add Disability form with name, percentage, bilateral toggle, and status fields" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-dependents.png" data-caption="Dependent Information"><img src="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-dependents.png" alt="iPad dependent information screen" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-smc.png" data-caption="Special Monthly Compensation — Level Picker"><img src="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-smc.png" alt="iPad SMC screen with the SMC level dropdown open showing K, S, L, R1, and R2" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-backpay.png" data-caption="Backpay Calculator"><img src="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-backpay.png" alt="iPad backpay calculator showing inputs and computed estimate on a single screen" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-breakdown.png" data-caption="Compensation Breakdown"><img src="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-breakdown.png" alt="iPad compensation breakdown sheet with step-by-step calculation" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-share.png" data-caption="Share Options"><img src="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-share.png" alt="iPad share options sheet" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-help.png" data-caption="How to Use"><img src="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-help.png" alt="iPad How to Use screen with table of contents and detailed sections" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-settings.png" data-caption="Settings"><img src="/assets/images/va-disability-app-images/1.26.5/ipad/ipad-settings.png" alt="iPad settings screen with year picker, projected rating, Help &amp; About, and data management" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-home.png" data-caption="Home — Combined Rating, Claim Tracker, and Calculators"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-home.png" alt="iPad home screen showing 80% rating with projected 100%, SMC-K, and quick-access buttons including Claim Tracker and Calculators & References" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-disabilities.png" data-caption="Disabilities — Rated, Pending, and Denied"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-disabilities.png" alt="iPad disabilities list with mixed Rated, Pending, and Denied statuses" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-claim-tracker.png" data-caption="Claim Tracker — Upcoming Dates with Reminders"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-claim-tracker.png" alt="iPad Claim Tracker showing an upcoming C&P Exam scheduled in 6 days" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-calculators.png" data-caption="Calculators & References"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-calculators.png" alt="iPad Calculators and References menu listing all available tools and references" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-diagnostic-codes.png" data-caption="38 CFR Diagnostic Code Picker"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-diagnostic-codes.png" alt="iPad Choose a Condition modal showing diagnostic code search with Mental Disorders results" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-smc.png" data-caption="Special Monthly Compensation"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-smc.png" alt="iPad SMC screen with SMC-K awards and SMC level selection" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-dependents.png" data-caption="Dependent Information"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-dependents.png" alt="iPad dependent information screen" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-breakdown.png" data-caption="Compensation Breakdown"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-breakdown.png" alt="iPad compensation breakdown sheet with step-by-step calculation, bilateral factor, and monthly compensation with SMC-K" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-share.png" data-caption="Share Options"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-share.png" alt="iPad share options sheet with privacy toggles and Share as Text action" loading="lazy"></button>
     </div>
     <button type="button" class="carousel-btn carousel-next" aria-label="More screenshots">&#8250;</button>
   </div>
@@ -359,19 +467,53 @@ All data stays on your device. Nothing is uploaded or shared. No accounts, no ad
 
 ## Version History
 
-<strong>v1.26.5 — May 2026</strong>
-  - Backpay Calculator: estimate retroactive compensation across a timeline of rating changes, with SMC support
-  - Special Monthly Compensation (SMC) — supports SMC-K, S, L, R1, and R2
-  - Historical compensation rates from 2018 onward, selectable in the year picker
-  - Corrected 2026 compensation rates to match the latest [VA.gov](https://www.va.gov) published values
-  - Restored ability to add 0% rated disabilities (regression from the 1.26.4 hotfix)
-  - Year picker on the main screen now hides automatically outside the December–February COLA window; toggle in Settings to always show it
-  - Help reorganized into three sections (What's New, How to Use, Help); added links to the r/VeteransBenefits community and Knowledge Base
-  - Some small UI changes and fixes
+<strong>v1.26.6 — May 2026</strong>
+
+*New tools*
+  - Claim Tracker — track upcoming C&P exams, hearings, deadlines, and decision dates with optional reminders
+  - What If? Scenario — interactively explore how rating changes affect your combined rating and monthly compensation
+  - 38 CFR Diagnostic Codes — searchable reference covering ~300 codes across 15 body systems
+  - TDIU support — schedular Eligibility Check, plus a Settings toggle to pay at the 100% rate when granted
+  - Save as PDF — export your Compensation Breakdown or Backpay results as a styled PDF
+  - Notes per disability — track effective dates, decision letter references, or symptom history
+  - Diagnostic-code search when adding a disability — fills the name and suggests common ratings (tinnitus auto-fills at 10%)
+
+*Privacy & appearance*
+  - Biometric lock — optionally require Face ID or Touch ID to open the app
+  - Saved data is now encrypted while your device is locked (iOS Complete File Protection)
+  - Dark Mode — System / Light / Dark in Settings → Appearance
+
+*Layout refresh*
+  - Per-screen Help (?) and Settings (gear) icons in the top-right of every screen
+  - Dedicated Help screen — How to Use, What's New, Support & Community, Rate & Review, and Tip Jar in one place
+  - New Calculators & References section on the main screen — Backpay, Pay Date Predictor, Combined Ratings Table, Healthcare Priority Group, Future COLA Estimator, CRDP / CRSC, plus the new tools above
+  - Search bar and new sort options on the Disabilities screen
+  - Quick orientation sheet on first launch and after this update
+
+*Tip jar*
+  - Four optional tip tiers ($2 / $5 / $10 / $20) to support development. The app stays free and ad-free forever; tipping unlocks no features.
+
+*Also*
+  - Backpay now accepts future dates for projecting retroactive pay
+  - Sorting Disabilities no longer reorders your saved list
+  - Backpay screen reworded for clarity
+  - Various small UI improvements and bug fixes
 
 <details>
-<summary><strong>Older releases (v1.26.0 — v1.26.4)</strong></summary>
-<p style="margin-top:1em;"><strong>v1.26.4 — April 2026</strong></p>
+<summary><strong>Older releases (v1.26.0 — v1.26.5)</strong></summary>
+<p style="margin-top:1em;"><strong>v1.26.5 — May 2026</strong></p>
+<ul>
+  <li>Backpay Calculator: estimate retroactive compensation across a timeline of rating changes, with SMC support</li>
+  <li>Special Monthly Compensation (SMC) — supports SMC-K, S, L, R1, and R2</li>
+  <li>Historical compensation rates from 2018 onward, selectable in the year picker</li>
+  <li>Corrected 2026 compensation rates to match the latest VA.gov published values</li>
+  <li>Restored ability to add 0% rated disabilities (regression from the 1.26.4 hotfix)</li>
+  <li>Year picker on the main screen now hides automatically outside the December–February COLA window; toggle in Settings to always show it</li>
+  <li>Help reorganized into three sections (What's New, How to Use, Help); added links to the r/VeteransBenefits community and Knowledge Base</li>
+  <li>Some small UI changes and fixes</li>
+</ul>
+
+<p><strong>v1.26.4 — April 2026</strong></p>
 <ul>
   <li>Hotfix: Allow adding disabilities rated at 0% (Rated, Pending, and Denied)</li>
 </ul>
