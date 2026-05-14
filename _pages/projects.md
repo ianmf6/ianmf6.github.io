@@ -1,7 +1,7 @@
 ---
 title: Projects
 permalink: /projects/
-last_modified_at: 2025-12-27T11:00:00-04:00
+last_modified_at: 2026-05-14T11:00:00-04:00
 
 toc: true
 toc_label: "On this page"
@@ -10,19 +10,19 @@ toc_sticky: true
 
 This page highlights tools and applications I’ve built to address real-world problems through a cybersecurity lens, with an emphasis on practical use, experimentation, and community value.
 
-## 📱 [VA Disability Calculator iOS App](/va-disability-calculator-ios-app/)
+## 📱 [VA Compensation Calculator](/va-compensation-calculator/)
 **Platform:** iOS  
 **Status:** Active development  
 **Download:**  
 [![App Store link](/assets/images/va-disability-app-images/download-on-the-app-store.svg)](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239?mttnsubad=6746081239)
 
-The **VA Disability Calculator** (iOS) started as a personal utility for tracking VA disability compensation with all data stored locally. It was later refined and released publicly to support the veteran community and to evaluate the effectiveness of AI-assisted development workflows in building a secure, offline-first iOS application.
+The **VA Compensation Calculator** (iOS) started as a personal utility for tracking VA disability compensation with all data stored locally. It was later refined and released publicly to support the veteran community and to evaluate the effectiveness of AI-assisted development workflows in building a secure, offline-first iOS application.
 
 *Source code will be released after all planned features are baked-in the product.*
 <!-- TODO -->
 <!-- ➡️ [Source Code](https://github.com/ianmf6) -->
 
-➡️ **[View Project Details](/va-disability-calculator-ios-app/)**  
+➡️ **[View Project Details](/va-compensation-calculator/)**  
 
 
 ## 🗣️ Human-Centered Cybersecurity

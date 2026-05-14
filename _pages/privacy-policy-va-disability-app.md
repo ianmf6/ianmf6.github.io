@@ -1,7 +1,9 @@
 ---
 layout: single
-title: "Privacy Policy — VA Disability Calculator"
-permalink: /privacy-policy-va-disability-app/
+title: "Privacy Policy — VA Compensation Calculator"
+permalink: /privacy-policy-va-compensation-app/
+redirect_from:
+  - /privacy-policy-va-disability-app/
 author_profile: true
 toc: true
 toc_label: "On this page"
@@ -14,7 +16,7 @@ toc_label: "On this page"
 
 ## 1. Introduction
 
-VA Disability Calculator is an independent iOS application developed and maintained by Ian Marrero ("I," "me," or "my"). This Privacy Policy explains what data the app collects, how it is stored, and your rights as a user.
+VA Compensation Calculator is an independent iOS application developed and maintained by Ian Marrero ("I," "me," or "my"). This Privacy Policy explains what data the app collects, how it is stored, and your rights as a user.
 
 This app is designed with a privacy-first philosophy: all data you enter stays on your device under your control. I do not collect, transmit, or have access to any information you enter into the app.
 
@@ -24,7 +26,7 @@ This app is designed with a privacy-first philosophy: all data you enter stays o
 
 ### User-entered data
 
-All disability ratings, dependent information, and settings you enter into VA Disability Calculator are stored locally on your device at `Documents/userData.json` within the app's data container. This data is never transmitted off your device by the app.
+All disability ratings, dependent information, and settings you enter into VA Compensation Calculator are stored locally on your device at `Documents/userData.json` within the app's data container. This data is never transmitted off your device by the app.
 
 Because data is stored in the app's Documents directory, it may be accessible via iTunes or Finder file sharing when your device is connected to a computer, and may be visible through the iOS Files app depending on your device settings. You can review your stored data at any time within the app via Settings → Data Management → View Saved Data.
 
@@ -120,19 +122,19 @@ I do not retain any copy of your data. Deleting the app removes all locally stor
 
 ## 9. Children's Privacy
 
-Because VA Disability Calculator does not collect any personal data from any user, no personal data is collected from children under 13. The app is intended for use by veterans and their families and does not knowingly target children.
+Because VA Compensation Calculator does not collect any personal data from any user, no personal data is collected from children under 13. The app is intended for use by veterans and their families and does not knowingly target children.
 
 ---
 
 ## 10. Do Not Track
 
-VA Disability Calculator is a native iOS application. It does not operate a web browser, does not engage in cross-site tracking, and does not respond to or honor browser-based Do Not Track (DNT) signals. DNT signals are not applicable to this app's functionality.
+VA Compensation Calculator is a native iOS application. It does not operate a web browser, does not engage in cross-site tracking, and does not respond to or honor browser-based Do Not Track (DNT) signals. DNT signals are not applicable to this app's functionality.
 
 ---
 
 ## 11. Your Privacy Rights
 
-Because VA Disability Calculator does not collect or hold any personal data, there is no personal data held by me to access, correct, export, or delete. All data you enter into the app is under your direct control on your device.
+Because VA Compensation Calculator does not collect or hold any personal data, there is no personal data held by me to access, correct, export, or delete. All data you enter into the app is under your direct control on your device.
 
 If you have submitted a support inquiry through the website contact form, you may request that I delete any correspondence I have on file by contacting me through the [contact page](https://www.ianm.tech/contact/).
 
@@ -142,13 +144,13 @@ Residents of California and other states with comprehensive privacy laws should 
 
 ## 12. Third-Party AI
 
-VA Disability Calculator does not share your data with any third-party AI systems, machine learning platforms, or external services. All calculations are performed locally on your device using the official VA incremental formula.
+VA Compensation Calculator does not share your data with any third-party AI systems, machine learning platforms, or external services. All calculations are performed locally on your device using the official VA incremental formula.
 
 ---
 
 ## 13. Disclaimer of Accuracy
 
-VA Disability Calculator is provided for **informational and estimation purposes only**. It is not affiliated with, endorsed by, or officially connected to the U.S. Department of Veterans Affairs.
+VA Compensation Calculator is provided for **informational and estimation purposes only**. It is not affiliated with, endorsed by, or officially connected to the U.S. Department of Veterans Affairs.
 
 Compensation estimates produced by this app are approximations based on publicly available VA rate tables and calculation formulas. The VA's official determination of your disability rating and compensation amount is authoritative. Do not make legal, financial, or medical decisions based solely on results from this app. For official ratings and benefits determinations, contact the VA directly at [va.gov](https://www.va.gov).
 

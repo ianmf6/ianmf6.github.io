@@ -1,7 +1,10 @@
 ---
-permalink: /va-disability-calculator-ios-app/
-title: "VA Disability Calculator iOS & iPadOS App"
-last_modified_at: 2026-05-13T00:00:00-04:00
+permalink: /va-compensation-calculator/
+redirect_from:
+  - /va-disability-calculator-ios-app/
+  - /va-compensation-calculator-ios-app/
+title: "VA Compensation Calculator"
+last_modified_at: 2026-05-14T00:00:00-04:00
 
 toc: true
 toc_label: "On this page"

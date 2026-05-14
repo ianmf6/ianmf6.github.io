@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "VA Compensation Calculator iOS App — Update 1.26.5"
+title: "VA Compensation Calculator — Update 1.26.5"
 date: 2026-05-02
 categories: posts
 tags: [va-disability-calculator, ios, release]
