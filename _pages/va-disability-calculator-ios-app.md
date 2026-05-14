@@ -111,62 +111,6 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   </div>
 </section>
 
-## Key Features
-
-### Combined Rating & Monthly Compensation
-  - Combined disability rating per 38 CFR 4.25
-  - Bilateral factor per 38 CFR 4.26
-  - Monthly compensation across 9 years of rate tables (2018–2026)
-  - Full dependent support — spouse, spouse Aid & Attendance, dependent parents, children under 18, children 18–24 in school
-  - Projected rating that includes pending claims
-
-### Backpay Calculator
-  - Retroactive compensation across timelines of rating changes
-  - Handles COLA boundary transitions automatically
-  - 38 CFR 3.31 full-month rule applied correctly
-  - Future-date projection for awards still pending
-  - Per-period breakdown showing each rate band
-  - Export as text or styled PDF
-
-### Special Monthly Compensation (SMC)
-  - SMC-K (additive, up to 3 awards)
-  - SMC-S, L, R1, R2 (replace base compensation)
-  - Stacks correctly with regular compensation per VA rules
-
-### TDIU Support
-  - Toggle to pay at the 100% rate when granted
-  - Schedular Eligibility Check screens 38 CFR 4.16(a) against your rated conditions
-
-### Claim Tracking
-  - Three claim statuses — Rated, Pending, Denied
-  - Claim Tracker for upcoming C&P exams, hearings, appeal deadlines, and decision dates
-  - Local notification reminders (1 day before, 1 hour before)
-  - Free-form notes per disability — effective dates, decision letter references, symptom logs
-  - Disability search powered by the 38 CFR diagnostic code database
-
-### Calculators & References
-  - Pay Date Predictor — first paid month plus the estimated deposit date
-  - What If? Scenario — explore rating changes interactively with side-by-side comparison
-  - Combined Ratings Table — the official 9×9 reference grid from 38 CFR 4.25
-  - 38 CFR Diagnostic Codes — searchable database covering 300+ codes across 15 body systems
-  - Healthcare Priority Group — derives your VA healthcare priority group from your rating
-  - Future COLA Estimator — project next year's monthly given an assumed COLA percent
-  - CRDP / CRSC Calculator — concurrent receipt estimator for military retirees
-
-### Privacy
-  - All data stored locally on your device
-  - iOS Complete File Protection — saved data is encrypted while your device is locked
-  - Optional Face ID or Touch ID lock to open the app
-  - No accounts, no analytics, no telemetry, no third-party tracking
-  - One-tap data reset
-
-### Appearance & Usability
-  - Dark Mode — System, Light, or Dark
-  - Per-screen help and quick settings access
-  - Search and filter on the Disabilities list
-  - Smart year picker that auto-shows during COLA transition windows
-  - Quick orientation sheet on first launch
-
 ## Screenshots
 
 <style>
@@ -467,6 +411,62 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   });
 })();
 </script>
+
+## Key Features
+
+### Combined Rating & Monthly Compensation
+  - Combined disability rating per 38 CFR 4.25
+  - Bilateral factor per 38 CFR 4.26
+  - Monthly compensation across 9 years of rate tables (2018–2026)
+  - Full dependent support — spouse, spouse Aid & Attendance, dependent parents, children under 18, children 18–24 in school
+  - Projected rating that includes pending claims
+
+### Backpay Calculator
+  - Retroactive compensation across timelines of rating changes
+  - Handles COLA boundary transitions automatically
+  - 38 CFR 3.31 full-month rule applied correctly
+  - Future-date projection for awards still pending
+  - Per-period breakdown showing each rate band
+  - Export as text or styled PDF
+
+### Special Monthly Compensation (SMC)
+  - SMC-K (additive, up to 3 awards)
+  - SMC-S, L, R1, R2 (replace base compensation)
+  - Stacks correctly with regular compensation per VA rules
+
+### TDIU Support
+  - Toggle to pay at the 100% rate when granted
+  - Schedular Eligibility Check screens 38 CFR 4.16(a) against your rated conditions
+
+### Claim Tracking
+  - Three claim statuses — Rated, Pending, Denied
+  - Claim Tracker for upcoming C&P exams, hearings, appeal deadlines, and decision dates
+  - Local notification reminders (1 day before, 1 hour before)
+  - Free-form notes per disability — effective dates, decision letter references, symptom logs
+  - Disability search powered by the 38 CFR diagnostic code database
+
+### Calculators & References
+  - Pay Date Predictor — first paid month plus the estimated deposit date
+  - What If? Scenario — explore rating changes interactively with side-by-side comparison
+  - Combined Ratings Table — the official 9×9 reference grid from 38 CFR 4.25
+  - 38 CFR Diagnostic Codes — searchable database covering 300+ codes across 15 body systems
+  - Healthcare Priority Group — derives your VA healthcare priority group from your rating
+  - Future COLA Estimator — project next year's monthly given an assumed COLA percent
+  - CRDP / CRSC Calculator — concurrent receipt estimator for military retirees
+
+### Privacy
+  - All data stored locally on your device
+  - iOS Complete File Protection — saved data is encrypted while your device is locked
+  - Optional Face ID or Touch ID lock to open the app
+  - No accounts, no analytics, no telemetry, no third-party tracking
+  - One-tap data reset
+
+### Appearance & Usability
+  - Dark Mode — System, Light, or Dark
+  - Per-screen help and quick settings access
+  - Search and filter on the Disabilities list
+  - Smart year picker that auto-shows during COLA transition windows
+  - Quick orientation sheet on first launch
 
 ## Version History
 
