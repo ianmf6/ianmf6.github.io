@@ -4,7 +4,7 @@ redirect_from:
   - /va-disability-calculator-ios-app/
   - /va-compensation-calculator-ios-app/
 title: "VA Compensation Calculator"
-last_modified_at: 2026-05-14T00:00:00-04:00
+last_modified_at: 2026-05-21T00:00:00-04:00
 
 toc: true
 toc_label: "On this page"
@@ -16,7 +16,7 @@ toc_sticky: true
 
 Calculate VA disability compensation, track your claim journey, and explore "what if" scenarios — all on your device, with zero ads and no account required.
 
-Built by a veteran for veterans. Includes 9 focused calculators and references, a Claim Tracker with reminders, a searchable database of 300+ 38 CFR diagnostic codes, and PDF export for handing off to VSOs or attorneys. Free forever. Supported by an entirely optional Tip Jar — tipping unlocks nothing.
+Built by a veteran for veterans. Includes 9 focused calculators and references, a Claim Tracker with reminders, the full 38 CFR Part 4 schedule (700+ diagnostic codes with per-percentage rating criteria), and PDF export for handing off to VSOs or attorneys. Free forever. Supported by an entirely optional Tip Jar — tipping unlocks nothing.
 
 [![App Store link](/assets/images/va-disability-app-images/download-on-the-app-store.svg)](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239?mttnsubad=6746081239)
 
@@ -92,7 +92,7 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-book-medical" aria-hidden="true"></i></span>
     <span class="fc-title">38 CFR Diagnostic Codes</span>
-    <span class="fc-summary">Searchable reference for 300+ codes across 15 body systems.</span>
+    <span class="fc-summary">Full 38 CFR Part 4 schedule — 700+ codes with per-band rating criteria.</span>
   </div>
   <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-sliders-h" aria-hidden="true"></i></span>
@@ -443,13 +443,13 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   - Claim Tracker for upcoming C&P exams, hearings, appeal deadlines, and decision dates
   - Local notification reminders (1 day before, 1 hour before)
   - Free-form notes per disability — effective dates, decision letter references, symptom logs
-  - Disability search powered by the 38 CFR diagnostic code database
+  - Diagnostic-code lookup against the full 38 CFR Part 4 schedule, with a "Most Claimed" shortcut for the top 15 conditions (tinnitus, hearing loss, PTSD, knee, back, sleep apnea, etc.) and tap-to-add as a new disability
 
 ### Calculators & References
   - Pay Date Predictor — first paid month plus the estimated deposit date
   - What If? Scenario — explore rating changes interactively with side-by-side comparison
   - Combined Ratings Table — the official 9×9 reference grid from 38 CFR 4.25
-  - 38 CFR Diagnostic Codes — searchable database covering 300+ codes across 15 body systems
+  - 38 CFR Diagnostic Codes — full 38 CFR Part 4 schedule (700+ codes across 15 body systems) with per-percentage rating criteria, "Most Claimed" shortcuts, and tap-to-add-as-a-disability
   - Healthcare Priority Group — derives your VA healthcare priority group from your rating
   - Future COLA Estimator — project next year's monthly given an assumed COLA percent
   - CRDP / CRSC Calculator — concurrent receipt estimator for military retirees
@@ -469,6 +469,14 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   - Quick orientation sheet on first launch
 
 ## Version History
+
+<strong>v1.26.7 — May 2026</strong> <em>(Latest)</em>
+  - **Full 38 CFR Part 4 schedule** — 700+ diagnostic codes ingested from the official eCFR, replacing the curated subset
+  - **Per-percentage rating criteria** — see exactly what the VA requires for each rating band; hand-edited on the most-claimed codes (PTSD, sleep apnea, hypertension, diabetes, migraines, Mental Disorders and Spine formulas)
+  - **"Most Claimed" section** — top 15 conditions (tinnitus, hearing loss, PTSD, knee, back, sleep apnea, etc.) one tap away
+  - **Add to My Disabilities** — from any code's detail view, with name and DC pre-filled
+  - **Neurological grouped by nerve** — each nerve expands to reveal paralysis, neuritis, and neuralgia variants. Cuts the section from 119 rows to ~21 nerve groups
+  - **Also:** Back-to-top in How to Use, app display name matches App Store name, small UI improvements, bug fixes
 
 <strong>v1.26.6 — May 2026</strong>
 
