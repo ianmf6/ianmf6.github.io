@@ -54,7 +54,7 @@ System / Light / Dark, selectable in **Settings → Appearance**.
 
 ### Tip Jar
 
-Four optional tip tiers — **$2 / $5 / $10 / $20** — if you'd like to support development. The app stays free and ad-free forever, and **tipping unlocks no features**.
+Four optional tip tiers — **$1.99 / $4.99 / $9.99 / $19.99** — if you'd like to support development. The app stays free and ad-free forever, and **tipping unlocks no features**.
 
 ### Refinements
 

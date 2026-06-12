@@ -61,3 +61,8 @@ yarn-error.log
 # ======================
 *.log
 tmp/
+
+# ======================
+# Claude Code (per-user session state — never publish)
+# ======================
+.claude/

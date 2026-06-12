@@ -4,7 +4,7 @@ redirect_from:
   - /va-disability-calculator-ios-app/
   - /va-compensation-calculator-ios-app/
 title: "VA Compensation Calculator"
-last_modified_at: 2026-05-21T00:00:00-04:00
+last_modified_at: 2026-06-12T00:00:00-04:00
 
 toc: true
 toc_label: "On this page"
@@ -470,7 +470,13 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
 
 ## Version History
 
-<strong>v1.26.7 — May 2026</strong> <em>(Latest)</em>
+<strong>v1.26.8 — June 2026</strong> <em>(Latest)</em>
+  - **Improved accuracy of combined ratings and monthly compensation** — several calculation edge cases now match 38 CFR exactly, including the bilateral factor and school-age dependents (children 18–23 in school). A small number of estimates shift slightly as a result.
+  - **Claim Tracker reliability** — events stay saved across app restarts
+  - **Updated 38 CFR Diagnostic Codes to the latest VA schedule** — digestive-system criteria, cranial nerve codes, and rating bands now match the current regulation
+  - **Also:** various bug fixes and improvements
+
+<strong>v1.26.7 — May 2026</strong>
   - **Full 38 CFR Part 4 schedule** — 700+ diagnostic codes ingested from the official eCFR, replacing the curated subset
   - **Per-percentage rating criteria** — see exactly what the VA requires for each rating band; hand-edited on the most-claimed codes (PTSD, sleep apnea, hypertension, diabetes, migraines, Mental Disorders and Spine formulas)
   - **"Most Claimed" section** — top 15 conditions (tinnitus, hearing loss, PTSD, knee, back, sleep apnea, etc.) one tap away
@@ -502,7 +508,7 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   - Quick orientation sheet on first launch and after this update
 
 *Tip jar*
-  - Four optional tip tiers ($2 / $5 / $10 / $20) to support development. The app stays free and ad-free forever; tipping unlocks no features.
+  - Four optional tip tiers ($1.99 / $4.99 / $9.99 / $19.99) to support development. The app stays free and ad-free forever; tipping unlocks no features.
 
 *Also*
   - Backpay now accepts future dates for projecting retroactive pay
