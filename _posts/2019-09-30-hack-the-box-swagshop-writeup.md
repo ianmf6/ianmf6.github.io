@@ -56,7 +56,7 @@ Awesome! SSH and HTTP services are available. After a bit of password guessing a
 
 I encountered *Magento*, an e-commence webapp. Poking for SQL Injection on the search fields, login boxes, but nothing worked. Let’s look at what *dirbuster* discovered.
 
-![](/asset/2019/09/image-1.png)
+![](/assets/images/2019/09/image-1.png)
 
 In these directories, I encountered installation scripts that wouldn’t run and a *config.xml* containing credentials and an encryption key but we don’t know the algorithm used. However, I found the version of *Magento* at *http://10.10.10.140/RELEASE\_NOTES.txt*. Next, I searched for exploits available at <https://www.exploit-db.com> using *searchsploit*.
 

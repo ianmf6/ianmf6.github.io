@@ -1,9 +1,12 @@
 ---
 permalink: /va-compensation-calculator/
+# Keep these redirects alive — external apps/links still point at the old
+# permalinks. Revisit removing them after ~June 2027 (1-year transition).
 redirect_from:
   - /va-disability-calculator-ios-app/
   - /va-compensation-calculator-ios-app/
 title: "VA Compensation Calculator"
+description: "Free VA disability & compensation calculator for iPhone and iPad — combined ratings (38 CFR), bilateral factor, monthly pay, backpay, SMC, and the full 38 CFR diagnostic-code schedule. Built by a veteran, no ads, no account."
 last_modified_at: 2026-06-12T00:00:00-04:00
 
 toc: true
@@ -12,13 +15,27 @@ toc_sticky: true
 
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "VA Compensation Calculator",
+  "operatingSystem": "iOS",
+  "applicationCategory": "UtilitiesApplication",
+  "url": "https://www.ianm.tech/va-compensation-calculator/",
+  "downloadUrl": "https://apps.apple.com/us/app/va-compensation-calculator/id6746081239",
+  "author": { "@type": "Person", "name": "Ian Marrero" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
+
 ## Overview
 
 Calculate VA disability compensation, track your claim journey, and explore "what if" scenarios — all on your device, with zero ads and no account required.
 
 Built by a veteran for veterans. Includes 9 focused calculators and references, a Claim Tracker with reminders, the full 38 CFR Part 4 schedule (700+ diagnostic codes with per-percentage rating criteria), and PDF export for handing off to VSOs or attorneys. Free forever. Supported by an entirely optional Tip Jar — tipping unlocks nothing.
 
-[![App Store link](/assets/images/va-disability-app-images/download-on-the-app-store.svg)](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239?mttnsubad=6746081239)
+[![Download VA Compensation Calculator on the App Store](/assets/images/va-disability-app-images/download-on-the-app-store.svg)](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239)
 
 <style>
 .feature-grid {

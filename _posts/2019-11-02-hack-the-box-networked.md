@@ -58,8 +58,8 @@ root@kali:~/htb/boxes/networked/nmap# gobuster dir -u 10.10.10.146 -w /usr/share
 
 In the **/backup** directory, I found a **tar** file that contained the source code for the web application. Nothing of interest was found in **index.php**. However, **lib.php** and **upload.php** a vulnerability in how the images are validated before being uploaded.
 
-![](/assets/images/2019/11/image-1.tiff)
-![](/assets/images/2019/11/image.tiff)
+![](/assets/images/2019/11/image-1.png)
+![](/assets/images/2019/11/image.png)
 
 The file **lib.php** is a required include in **upload.php**. **upload.php** performs the check before images are uploaded into the application based on the following criteria: file size &lt; 60kb, filename extension must be jpg, gif, and a few other, and lastly it checks for that the file contains the magic bytes of known image formats. **Upload.php** provides a custom upload interface.
 

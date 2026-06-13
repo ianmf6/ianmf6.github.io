@@ -28,7 +28,12 @@ logo: "/assets/images/logo.png" # path of logo image to display in the masthead,
 # Build settings
 encoding: utf-8
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+# Pinned to a released tag so an upstream push to the theme's master can't
+# change markup/CSS or break the hand-written carousel between deploys.
+# MAINTENANCE: each time you update site content, check for a newer
+# Minimal Mistakes release (github.com/mmistakes/minimal-mistakes/releases),
+# bump this tag deliberately, and verify the project page still renders.
+remote_theme: mmistakes/minimal-mistakes@4.28.0
 #theme: minimal-mistakes-jekyll
 # Outputting
 permalink: /:year/:month/:title/
