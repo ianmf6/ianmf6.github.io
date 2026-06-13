@@ -7,6 +7,8 @@ redirect_from:
   - /va-compensation-calculator-ios-app/
 title: "VA Compensation Calculator"
 description: "Free VA disability & compensation calculator for iPhone and iPad — combined ratings (38 CFR), bilateral factor, monthly pay, backpay, SMC, and the full 38 CFR diagnostic-code schedule. Built by a veteran, no ads, no account."
+header:
+  og_image: /assets/images/va-disability-app-images/og-card.png
 last_modified_at: 2026-06-12T00:00:00-04:00
 
 toc: true

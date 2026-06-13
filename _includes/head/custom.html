@@ -9,4 +9,15 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
+<!-- Twitter/X large-image card — emitted only for pages that set a
+     header.og_image (e.g. the app landing page). The theme gates its own
+     twitter tags behind a Twitter handle we don't have, and og:image
+     alone doesn't give X a large card without twitter:card. -->
+{% if page.header.og_image %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | default: site.title }}">
+<meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace }}">
+<meta name="twitter:image" content="{{ page.header.og_image | absolute_url }}">
+{% endif %}
+
 <!-- end custom head snippets -->
