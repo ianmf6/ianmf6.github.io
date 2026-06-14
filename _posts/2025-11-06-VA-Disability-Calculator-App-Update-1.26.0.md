@@ -2,7 +2,6 @@
 title: "VA Compensation Calculator — Update 1.26.0"
 date: 2025-11-06T19:00:00-04:00
 categories: [VA Calculator]
-  - Software
 tags:
   - resources
   - veterans

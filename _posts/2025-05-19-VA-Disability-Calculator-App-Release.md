@@ -3,7 +3,6 @@ title: "VA Compensation Calculator Released!"
 date: 2025-05-19T19:00:00-04:00
 last_modified_at: 2025-06-01T10:30:00-04:00
 categories: [VA Calculator]
-  - Software
 tags:
   - resources
   - veterans
