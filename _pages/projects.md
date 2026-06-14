@@ -14,7 +14,7 @@ This page highlights tools and applications I’ve built to address real-world p
 **Platform:** iOS  
 **Status:** Active development  
 **Download:**  
-[![App Store link](/assets/images/va-disability-app-images/download-on-the-app-store.svg)](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239?mttnsubad=6746081239)
+[![Download VA Compensation Calculator on the App Store](/assets/images/va-disability-app-images/download-on-the-app-store.svg)](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239)
 
 The **VA Compensation Calculator** (iOS) started as a personal utility for tracking VA disability compensation with all data stored locally. It was later refined and released publicly to support the veteran community and to evaluate the effectiveness of AI-assisted development workflows in building a secure, offline-first iOS application.
 
