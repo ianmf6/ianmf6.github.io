@@ -17,10 +17,10 @@ title: IanM.tech
 repository: ianmf6/ianmf6
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Ian Marrero's personal blog. 
+  Ian Marrero — cybersecurity engineer (CISSP, GIAC GCIH) and Army veteran. Notes on detection engineering, incident response, HackTheBox writeups, and the VA Compensation Calculator iOS app.
 # twitter_username: username
 github_username: ianmf6
-minimal_mistakes_skin: default
+minimal_mistakes_skin: ianm
 search: true
 url: https://www.ianm.tech
 logo: "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -37,8 +37,6 @@ remote_theme: mmistakes/minimal-mistakes@4.28.0
 #theme: minimal-mistakes-jekyll
 # Outputting
 permalink: /:year/:month/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: EST # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
@@ -58,7 +56,6 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -66,48 +63,42 @@ plugins:
   - jekyll-include-cache
   - jekyll-redirect-from
 
+# Drives the Person JSON-LD that Jekyll-SEO emits on every page.
+# Without this block, Jekyll-SEO emits "name": null in the schema.org
+# Person object, which Google Search Console flags as an invalid entity.
+social:
+  type: "Person"
+  name: "Ian Marrero"
+  links:
+    - "https://www.linkedin.com/in/ianmarrero/"
+
 author:
   name   : "Ian Marrero"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Cybersecurity Engineer"
+  bio    : "Cybersecurity Engineer — CISSP, GIAC GCIH. Army veteran. Building the VA Compensation Calculator iOS app."
   links:
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      url: "https://twitter.com/"
-#    - label: "GitHub"
-#      icon: "fab fa-fw fa-github"
-#      url: "https://github.com/ianmf6"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ianmarrero/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://facebook.com/ian.marrero"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/ian.marrero"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/ianmarrero/"
-#    - label: "Website"
-#      icon: "fas fa-fw fa-link"
-#      url: "https://www.ianm.tech"
-      
+
 
 footer:
   links:
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      url: "https://twitter.com/"
-#    - label: "GitHub"
-#      icon: "fab fa-fw fa-github"
-#      url: "https://github.com/ianmf6"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ianmarrero/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://facebook.com/ian.marrero"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/ian.marrero"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/ianmarrero/"
   
 
 defaults:

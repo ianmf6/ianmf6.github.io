@@ -19,4 +19,4 @@ This initial release includes a full VA compensation calculator that covers comm
 
 You can find more details, screenshots, and updates on the dedicated project page:
 
-📱 **[VA Disability Calculator iOS App](/va-disability-calculator-ios-app/)**
+📱 **[VA Disability Calculator iOS App](/va-compensation-calculator/)**

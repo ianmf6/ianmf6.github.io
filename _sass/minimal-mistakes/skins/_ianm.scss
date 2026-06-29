@@ -1,0 +1,22 @@
+/* ==========================================================================
+   Skin: ianm — slate-teal accent (#0f766e)
+   Picked to read as serious-engineer/security work without clashing with the
+   #2c5282 deep blue used inline on the VA Compensation Calculator project
+   page (carousel tabs, lightbox, feature grid).
+   ========================================================================== */
+
+/* Colors */
+$background-color: #fff !default;
+$text-color: #3f3f3f !default;
+$muted-text-color: #6a737d !default;
+$primary-color: #0f766e;
+$border-color: $muted-text-color !default;
+$footer-background-color: #f7f7f7 !default;
+$link-color: #0f766e;
+$link-color-hover: #0b5b54;
+$link-color-visited: #134e4a;
+$masthead-link-color: $primary-color;
+$masthead-link-color-hover: #0b5b54;
+$navicon-link-color-hover: mix(#fff, $primary-color, 75%);
+
+@import "minimal-mistakes/skins/default";

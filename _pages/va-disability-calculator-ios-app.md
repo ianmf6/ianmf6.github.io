@@ -600,7 +600,7 @@ This app is not affiliated with the U.S. Department of Veterans Affairs. It is a
 All data stays on your device and under your control.
 
 ## Privacy Policy
-[Privacy Policy](/privacy-policy-va-disability-app/)
+[Privacy Policy](/privacy-policy-va-compensation-app/)
 
 ## Support
 For support or to report issues with the app, use the [Contact](/contact/) page.

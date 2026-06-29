@@ -30,4 +30,4 @@ What’s New - **v1.26.0**
 
 You can find more details, screenshots, and ongoing updates on the dedicated project page:  
 
-📱 **[VA Disability Calculator iOS App](/va-disability-calculator-ios-app/)**
+📱 **[VA Disability Calculator iOS App](/va-compensation-calculator/)**

@@ -7,7 +7,7 @@ tags: [va-disability-calculator, ios, release]
 author_profile: true
 ---
 
-Version 1.26.3 of the [VA Compensation Calculator](/va-disability-calculator-ios-app/) is now available on the App Store.
+Version 1.26.3 of the [VA Compensation Calculator](/va-compensation-calculator/) is now available on the App Store.
 
 ## What's New
 
