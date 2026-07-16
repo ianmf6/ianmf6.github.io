@@ -121,7 +121,7 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-lock" aria-hidden="true"></i></span>
     <span class="fc-title">Privacy First</span>
-    <span class="fc-summary">All-local storage, Face ID lock, no accounts, no tracking.</span>
+    <span class="fc-summary">All-local storage, Face ID lock, no accounts, no ads.</span>
   </div>
   <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-th-large" aria-hidden="true"></i></span>
@@ -477,7 +477,8 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   - All data stored locally on your device
   - iOS Complete File Protection — saved data is encrypted while your device is locked
   - Optional Face ID or Touch ID lock to open the app
-  - No accounts, no analytics, no telemetry, no third-party tracking
+  - No accounts, no ads, and no third-party trackers or advertising SDKs
+  - Anonymous, opt-out usage analytics (Settings → Analytics) — never your VA data
   - One-tap data reset
 
 ### Appearance & Usability
@@ -489,7 +490,15 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
 
 ## Version History
 
-<strong>v1.26.8 — June 2026</strong> <em>(Latest)</em>
+<strong>v1.26.9 — July 2026</strong> <em>(Latest)</em>
+  - **Veterans Crisis Line & VA resources** — the Support screen now leads with the Veterans Crisis Line (call 988 → 1, text 838255, or chat) plus quick links to file a claim, check claim or appeal status, compensation rates, find a VSO, VA health care, and the facility locator
+  - **Anonymous, opt-out analytics** — the app now sends a small amount of anonymous usage data (which screens and tools are used) to help prioritize features. It never includes your disabilities, ratings, notes, dollar amounts, or location, and you can turn it off in Settings → Analytics. Your VA data still never leaves your device.
+  - **Tip Jar, one tap from the main screen** — optional as ever, still unlocks nothing
+  - **More accurate Backpay for rating decreases**, and CRDP eligibility now reflects TDIU
+  - **Clearer 38 CFR Diagnostic Codes guidance** — nerve rating caps, incapacitating-episode definitions, and dependent details
+  - **Also:** iPad multi-window PDF export fix, performance improvements, and bug fixes
+
+<strong>v1.26.8 — June 2026</strong>
   - **Improved accuracy of combined ratings and monthly compensation** — several calculation edge cases now match 38 CFR exactly, including the bilateral factor and school-age dependents (children 18–23 in school). A small number of estimates shift slightly as a result.
   - **Claim Tracker reliability** — events stay saved across app restarts
   - **Updated 38 CFR Diagnostic Codes to the latest VA schedule** — digestive-system criteria, cranial nerve codes, and rating bands now match the current regulation
@@ -597,7 +606,7 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
 This app is not affiliated with the U.S. Department of Veterans Affairs. It is an independent tool for estimation purposes only. Always verify your rating and compensation with the VA directly.
 
 **Privacy First**
-All data stays on your device and under your control.
+Your VA data stays on your device and under your control.
 
 ## Privacy Policy
 [Privacy Policy](/privacy-policy-va-compensation-app/)
