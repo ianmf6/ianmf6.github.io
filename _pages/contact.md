@@ -24,7 +24,6 @@ It posts straight to my self-hosted server: no Google, no trackers, nothing stor
 #cf-status{font-size:.9em;margin-top:12px}
 #cf-status.cf-err{color:#c0392b;font-weight:600}
 #cf-ok{border:1px solid #b6d7c4;background:#eef7f1;color:#1c6b3c;border-radius:8px;padding:16px 18px;margin:8px 0 16px}
-.cf-note{font-size:.75em;color:#767676;margin-top:14px}
 </style>
 
 <div id="cf-ok" hidden>
@@ -34,8 +33,8 @@ It posts straight to my self-hosted server: no Google, no trackers, nothing stor
 
 <form id="cf" novalidate>
   <div class="cf-row">
-    <label for="cf-name">Name <span>(optional)</span></label>
-    <input id="cf-name" type="text" maxlength="80" autocomplete="name">
+    <label for="cf-name">Name</label>
+    <input id="cf-name" type="text" maxlength="80" autocomplete="name" required>
   </div>
   <div class="cf-row">
     <label for="cf-email">Email <span>(optional — only if you'd like a reply)</span></label>
@@ -62,9 +61,6 @@ It posts straight to my self-hosted server: no Google, no trackers, nothing stor
   <button type="submit" id="cf-send">Send message</button>
   <p id="cf-status" role="status"></p>
 </form>
-
-<p class="cf-note">Sent over HTTPS to my own server — no third parties involved. Your message and optional
-email are used only to read and answer it, never for marketing or profiling.</p>
 
 <noscript><p><em>This form needs JavaScript to send. My apps also have a built-in
 <strong>Contact Me</strong> screen that reaches me the same way.</em></p></noscript>
@@ -118,6 +114,9 @@ email are used only to read and answer it, never for marketing or profiling.</p>
     var email = document.getElementById("cf-email").value.trim();
     var message = msgEl.value.trim();
 
+    // Required on the website form only — the API contract keeps name optional
+    // so the app forms decide their own UX.
+    if (!name) { fail("Please add your name."); return; }
     if (!message) { fail("Please write a message first."); return; }
     if (email && !EMAIL_RE.test(email)) {
       fail("That email address doesn't look right — fix it or leave it empty.");
@@ -136,11 +135,11 @@ email are used only to read and answer it, never for marketing or profiling.</p>
     var payload = {
       v: 1,
       install_id: uuid(),          // random per submission — deliberately not stored
-      app_version: "1.1.0",        // version of this form's contract (1.1.0: name became a real field)
+      app_version: "1.2.0",        // form contract (1.1.0: name became a real field; 1.2.0: name required)
       category: document.getElementById("cf-topic").value,
-      message: message
+      message: message,
+      name: name
     };
-    if (name) payload.name = name;
     if (email) payload.contact = email;
 
     send.disabled = true;
