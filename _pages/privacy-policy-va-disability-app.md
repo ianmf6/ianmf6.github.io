@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Privacy Policy — VA Compensation Calculator"
-permalink: /privacy-policy-va-compensation-app/
+permalink: /va-compensation-calculator/privacy/
+# Old privacy URLs are kept alive as redirects — the App Store listing and any
+# external links still point at them. Revisit removing after ~July 2027.
 redirect_from:
+  - /privacy-policy-va-compensation-app/
   - /privacy-policy-va-disability-app/
 author_profile: true
 toc: true

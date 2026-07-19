@@ -9,7 +9,7 @@ title: "VA Compensation Calculator"
 description: "Free VA disability & compensation calculator for iPhone and iPad — combined ratings (38 CFR), bilateral factor, monthly pay, backpay, SMC, and the full 38 CFR diagnostic-code schedule. Built by a veteran, no ads, no account."
 header:
   og_image: /assets/images/va-disability-app-images/og-card.png
-last_modified_at: 2026-06-12T00:00:00-04:00
+last_modified_at: 2026-07-19T00:00:00-04:00
 
 toc: true
 toc_label: "On this page"
@@ -112,6 +112,11 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
     <span class="fc-icon"><i class="fas fa-book-medical" aria-hidden="true"></i></span>
     <span class="fc-title">38 CFR Diagnostic Codes</span>
     <span class="fc-summary">Full 38 CFR Part 4 schedule — 700+ codes with per-band rating criteria.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-notes-medical" aria-hidden="true"></i></span>
+    <span class="fc-title">Symptom Log</span>
+    <span class="fc-summary">Log episodes over time and share a claim-language summary with your VSO.</span>
   </div>
   <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-sliders-h" aria-hidden="true"></i></span>
@@ -287,16 +292,16 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   <div class="carousel">
     <button type="button" class="carousel-btn carousel-prev" aria-label="Previous screenshots">&#8249;</button>
     <div class="carousel-track">
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-home.png" data-caption="Home — Combined Rating, Claim Tracker, and Calculators"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-home.png" alt="Home screen showing 80% rating with projected 100%, SMC-K, and quick-access buttons including Claim Tracker and Calculators & References" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-disabilities.png" data-caption="Disabilities — Rated, Pending, and Denied"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-disabilities.png" alt="Disabilities list with mixed Rated, Pending, and Denied statuses including bilateral knee and hearing loss conditions" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-claim-tracker.png" data-caption="Claim Tracker — Upcoming Dates with Reminders"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-claim-tracker.png" alt="Claim Tracker showing an upcoming C&P Exam scheduled in 6 days with reminder support" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-calculators.png" data-caption="Calculators & References"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-calculators.png" alt="Calculators and References menu listing Backpay Calculator, Pay Date Predictor, What If? Scenario, Combined Ratings Table, 38 CFR Diagnostic Codes, Healthcare Priority Group, TDIU Eligibility Check, Future COLA Estimator, and CRDP/CRSC Calculator" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-diagnostic-codes.png" data-caption="38 CFR Diagnostic Codes — Searchable Reference"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-diagnostic-codes.png" alt="38 CFR Diagnostic Codes search results for 'Post' showing PTSD, cardiovascular, and digestive codes grouped by body system" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-smc.png" data-caption="Special Monthly Compensation"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-smc.png" alt="Special Monthly Compensation screen showing SMC-K awards and SMC level selection" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-dependents.png" data-caption="Dependent Information"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-dependents.png" alt="Dependent information screen with marital status, A&A, parents, and children inputs" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-breakdown-top.png" data-caption="Compensation Breakdown — Disabilities & Bilateral Factor"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-breakdown-top.png" alt="Compensation breakdown top half showing disabilities, dependents, rating calculation, and bilateral factor details" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-breakdown-bottom.png" data-caption="Compensation Breakdown — Step-by-Step Calculation"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-breakdown-bottom.png" alt="Compensation breakdown bottom half showing step-by-step calculation and monthly compensation total with SMC-K" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ios/ios-share.png" data-caption="Share Options — Share as Text or Save as PDF"><img src="/assets/images/va-disability-app-images/1.26.6/ios/ios-share.png" alt="Share options with toggles to redact disability names, hide dependents, and include pending claims, plus Share as Text and Save as PDF actions" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-home.png" data-caption="Home — combined rating, monthly pay, and quick access"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-home.png" alt="Home screen showing an 80% combined rating with a projected 100%, monthly compensation of $2,546.02 with SMC-K, and quick-access buttons for My Disabilities, Dependents, SMC, Claim Tracker, Symptom Log, and Calculators & References" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-disabilities.png" data-caption="Disabilities — Rated, Pending, and Denied, with a Log symptoms chip"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-disabilities.png" alt="Disabilities list with mixed Rated, Pending, and Denied statuses including bilateral knee and hearing loss, each row offering a Log symptoms shortcut" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-symptom-log.png" data-caption="Symptom Log — episodes summarized in VA rating-criteria language"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-symptom-log.png" alt="Symptom Log for Migraines (DC 8100) showing 6 episodes, 4 prostrating, about 2 per month over the last 90 days, with each dated episode listing duration and severity" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-claim-tracker.png" data-caption="Claim Tracker — upcoming C&P exams, decisions, and hearings"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-claim-tracker.png" alt="Claim Tracker with upcoming events: a knee C&P exam in 5 days, an expected decision on a sleep apnea claim, and a BVA hearing, each with reminder support" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-calculators.png" data-caption="Calculators & References"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-calculators.png" alt="Calculators and References menu listing Backpay Calculator, Pay Date Predictor, What If? Scenario, Combined Ratings Table, 38 CFR Diagnostic Codes, Healthcare Priority Group, TDIU Eligibility Check, Future COLA Estimator, and CRDP/CRSC Calculator" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-diagnostic-codes.png" data-caption="38 CFR Diagnostic Codes — searchable, Most Claimed first"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-diagnostic-codes.png" alt="38 CFR Diagnostic Codes picker showing the Most Claimed list — tinnitus, hearing impairment, PTSD, back, knee, sleep apnea, hypertension, migraine, and more — with codes and body systems" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-smc.png" data-caption="Special Monthly Compensation — SMC-K and the full SMC ladder"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-smc.png" alt="Special Monthly Compensation screen showing one SMC-K award and the SMC level selector" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-dependents.png" data-caption="Dependent Information"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-dependents.png" alt="Dependent information screen with marital status, spouse Aid and Attendance, dependent parents, and children inputs" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-breakdown.png" data-caption="Compensation Breakdown — the step-by-step math"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-breakdown.png" alt="Compensation Breakdown listing each disability, dependents, the combined percentage before rounding, the official VA rating, the bilateral factor, and a step-by-step calculation" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-share.png" data-caption="Share Options — redact names, choose format, export text or PDF"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-share.png" alt="Share options with toggles to redact disability names, include dependent information, and include pending claims, a live preview, and Share as Text and Save as PDF actions" loading="lazy"></button>
     </div>
     <button type="button" class="carousel-btn carousel-next" aria-label="More screenshots">&#8250;</button>
   </div>
@@ -306,15 +311,16 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   <div class="carousel">
     <button type="button" class="carousel-btn carousel-prev" aria-label="Previous screenshots">&#8249;</button>
     <div class="carousel-track">
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-home.png" data-caption="Home — Combined Rating, Claim Tracker, and Calculators"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-home.png" alt="iPad home screen showing 80% rating with projected 100%, SMC-K, and quick-access buttons including Claim Tracker and Calculators & References" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-disabilities.png" data-caption="Disabilities — Rated, Pending, and Denied"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-disabilities.png" alt="iPad disabilities list with mixed Rated, Pending, and Denied statuses" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-claim-tracker.png" data-caption="Claim Tracker — Upcoming Dates with Reminders"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-claim-tracker.png" alt="iPad Claim Tracker showing an upcoming C&P Exam scheduled in 6 days" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-calculators.png" data-caption="Calculators & References"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-calculators.png" alt="iPad Calculators and References menu listing all available tools and references" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-diagnostic-codes.png" data-caption="38 CFR Diagnostic Code Picker"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-diagnostic-codes.png" alt="iPad Choose a Condition modal showing diagnostic code search with Mental Disorders results" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-smc.png" data-caption="Special Monthly Compensation"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-smc.png" alt="iPad SMC screen with SMC-K awards and SMC level selection" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-dependents.png" data-caption="Dependent Information"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-dependents.png" alt="iPad dependent information screen" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-breakdown.png" data-caption="Compensation Breakdown"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-breakdown.png" alt="iPad compensation breakdown sheet with step-by-step calculation, bilateral factor, and monthly compensation with SMC-K" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-share.png" data-caption="Share Options"><img src="/assets/images/va-disability-app-images/1.26.6/ipad/ipad-share.png" alt="iPad share options sheet with privacy toggles and Share as Text action" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-home.png" data-caption="Home — combined rating, monthly pay, and quick access"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-home.png" alt="iPad home screen showing an 80% combined rating with a projected 100%, monthly compensation of $2,546.02 with SMC-K, and quick-access buttons including Claim Tracker, Symptom Log, and Calculators & References" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-disabilities.png" data-caption="Disabilities — Rated, Pending, and Denied, with a Log symptoms chip"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-disabilities.png" alt="iPad disabilities list with mixed Rated, Pending, and Denied statuses, each row offering a Log symptoms shortcut" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-symptom-log.png" data-caption="Symptom Log — episodes summarized in VA rating-criteria language"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-symptom-log.png" alt="iPad Symptom Log for Migraines (DC 8100) showing 6 episodes, 4 prostrating, about 2 per month over the last 90 days, with dated episodes listing duration and severity" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-claim-tracker.png" data-caption="Claim Tracker — upcoming C&P exams, decisions, and hearings"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-claim-tracker.png" alt="iPad Claim Tracker with upcoming events: a knee C&P exam in 5 days, an expected decision on a sleep apnea claim, and a BVA hearing" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-calculators.png" data-caption="Calculators & References"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-calculators.png" alt="iPad Calculators and References menu listing Backpay Calculator, Pay Date Predictor, What If? Scenario, Combined Ratings Table, 38 CFR Diagnostic Codes, Healthcare Priority Group, TDIU Eligibility Check, Future COLA Estimator, and CRDP/CRSC Calculator" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-diagnostic-codes.png" data-caption="38 CFR Diagnostic Codes — searchable, Most Claimed first"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-diagnostic-codes.png" alt="iPad Choose a Condition picker showing the Most Claimed list of diagnostic codes with codes and body systems" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-smc.png" data-caption="Special Monthly Compensation — SMC-K and the full SMC ladder"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-smc.png" alt="iPad Special Monthly Compensation screen with one SMC-K award and the SMC level selector" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-dependents.png" data-caption="Dependent Information"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-dependents.png" alt="iPad dependent information screen with marital status, spouse Aid and Attendance, parents, and children inputs" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-breakdown.png" data-caption="Compensation Breakdown — the step-by-step math"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-breakdown.png" alt="iPad Compensation Breakdown with disabilities, dependents, the combined percentage before rounding, the official VA rating, the bilateral factor, and a step-by-step calculation" loading="lazy"></button>
+      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-share.png" data-caption="Share Options — redact names, choose format, export text or PDF"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-share.png" alt="iPad share options sheet with toggles to redact disability names, include dependent information, and include pending claims, a live preview, and Share as Text and Save as PDF actions" loading="lazy"></button>
     </div>
     <button type="button" class="carousel-btn carousel-next" aria-label="More screenshots">&#8250;</button>
   </div>
@@ -450,8 +456,17 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
 
 ### Special Monthly Compensation (SMC)
   - SMC-K (additive, up to 3 awards)
-  - SMC-S, L, R1, R2 (replace base compensation)
+  - The full SMC ladder — S, L, L½, M, M½, N, N½, O/P, R.1, R.2, and T (replace base compensation)
+  - Rates sourced from VA.gov for 2025 and 2026 and cross-checked against the schedule
   - Stacks correctly with regular compensation per VA rules
+
+### Symptom Log
+  - Log episodic conditions as they happen — migraines, seizures, breathing or GI flare-ups, mental-health episodes, chronic-pain flares
+  - Capture start time, duration, severity, symptoms, level of care, and whether an attack was prostrating
+  - Per-condition summaries written in rating-criteria language (e.g. "6 episodes · 4 prostrating · ~2 / month · last 90 days") — your logged data, never a rating determination
+  - Open a condition's log from its row in My Disabilities, or from the main Symptom Log screen
+  - Optionally add a newly logged condition to My Disabilities and tag it with a 38 CFR diagnostic code
+  - Share a report as text or styled PDF for your VSO or provider — all stored locally, nothing uploaded
 
 ### TDIU Support
   - Toggle to pay at the 100% rate when granted
@@ -490,7 +505,14 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
 
 ## Version History
 
-<strong>v1.26.9 — July 2026</strong> <em>(Latest)</em>
+<strong>v1.26.10 — July 2026</strong> <em>(Latest)</em>
+  - **Symptom Log** — record episodic conditions (migraines, seizures, breathing or GI flare-ups, mental-health episodes, chronic pain) as they happen, with duration, severity, symptoms, and prostrating-attack tracking. Per-condition summaries are written in rating-criteria language and export as text or PDF for your VSO or provider. The app logs and summarizes — it never rates or diagnoses; everything stays on your device.
+  - **Full Special Monthly Compensation ladder** — added the intermediate SMC levels (L½, M, M½, N, N½, O/P) and SMC-T, with rates sourced from VA.gov for 2025 and 2026
+  - **Backpay handles life events** — add dependents that changed during the retroactive period (a marriage or a new child) for a more accurate estimate
+  - **Contact Me** — the in-app feedback form replaces the old external Google form; report a bug, ask a question, or suggest a feature without leaving the app
+  - **Also:** various bug fixes and improvements
+
+<strong>v1.26.9 — July 2026</strong>
   - **Veterans Crisis Line & VA resources** — the Support screen now leads with the Veterans Crisis Line (call 988 → 1, text 838255, or chat) plus quick links to file a claim, check claim or appeal status, compensation rates, find a VSO, VA health care, and the facility locator
   - **Anonymous, opt-out analytics** — the app now sends a small amount of anonymous usage data (which screens and tools are used) to help prioritize features. It never includes your disabilities, ratings, notes, dollar amounts, or location, and you can turn it off in Settings → Analytics. Your VA data still never leaves your device.
   - **Tip Jar, one tap from the main screen** — optional as ever, still unlocks nothing
@@ -609,7 +631,7 @@ This app is not affiliated with the U.S. Department of Veterans Affairs. It is a
 Your VA data stays on your device and under your control.
 
 ## Privacy Policy
-[Privacy Policy](/privacy-policy-va-compensation-app/)
+[Privacy Policy](/va-compensation-calculator/privacy/)
 
 ## Support
 For support or to report issues with the app, use the [Contact](/contact/) page.
