@@ -123,20 +123,24 @@ email are used only to read and answer it, never for marketing or profiling.</p>
       fail("That email address doesn't look right — fix it or leave it empty.");
       return;
     }
-    if (name) message = "From: " + name + "\n\n" + message;
-    // The server caps the message at 4000 BYTES (not characters).
+    // The server caps the message at 4000 BYTES and the name at 200 (not characters).
     if (new TextEncoder().encode(message).length > 4000) {
       fail("Your message is a little too long — please shorten it.");
+      return;
+    }
+    if (new TextEncoder().encode(name).length > 200) {
+      fail("That name is a little too long — please shorten it.");
       return;
     }
 
     var payload = {
       v: 1,
       install_id: uuid(),          // random per submission — deliberately not stored
-      app_version: "1.0.0",        // version of this form's contract, not of any app
+      app_version: "1.1.0",        // version of this form's contract (1.1.0: name became a real field)
       category: document.getElementById("cf-topic").value,
       message: message
     };
+    if (name) payload.name = name;
     if (email) payload.contact = email;
 
     send.disabled = true;
