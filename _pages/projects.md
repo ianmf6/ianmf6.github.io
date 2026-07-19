@@ -25,6 +25,22 @@ The **VA Compensation Calculator** (iOS) started as a personal utility for track
 ➡️ **[View Project Details](/va-compensation-calculator/)**  
 
 
+## 🎞️ [MediaHarbor](/mediaharbor/)
+{% assign mh = site.data.apps.mediaharbor %}
+{% if mh.app_store_id != "" %}{% assign mh_url = "https://apps.apple.com/us/app/" | append: mh.app_store_slug | append: "/id" | append: mh.app_store_id %}{% endif %}
+**Platform:** iOS &amp; iPadOS  
+**Status:** {{ mh.status }}  
+{% if mh_url %}**Download:**  
+[![Download MediaHarbor on the App Store](/assets/images/mediaharbor-images/download-on-the-app-store.svg)]({{ mh_url }})
+{% endif %}
+
+**MediaHarbor** is a photo and video player for media stored on your own hardware. It connects directly to SMB network shares — a Synology, QNAP, TrueNAS, Unraid, or Windows box — and presents them as a fast photo grid rather than a file listing, with a two-engine video player that streams MKV and AVI straight off the share without downloading first.
+
+The project explores a privacy-preserving alternative to cloud photo services: no accounts, no analytics, no uploads, and credentials held only in the device Keychain. It also served as a study in implementing a network file protocol and a dual playback stack on iOS, where the platform provides neither out of the box.
+
+➡️ **[View Project Details](/mediaharbor/)**  
+
+
 ## 🗣️ Human-Centered Cybersecurity
 **Status:** Ongoing  
 

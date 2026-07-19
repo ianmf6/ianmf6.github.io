@@ -1,0 +1,18 @@
+# Per-app facts that change when an app ships.
+#
+# WHY THIS FILE EXISTS: the App Store ID isn't known until Apple approves the
+# app, and it's needed in several places (project page badge, JSON-LD
+# downloadUrl, the Projects index). Keeping it here means going live is ONE
+# edit — fill in app_store_id, set status to "Released" — and every page
+# switches from "coming soon" to real download links on the next build.
+#
+# Reminder: the app itself also carries the ID (AboutView.swift's
+# PLACEHOLDER_appStoreURL) — update that in the app repo at the same time.
+
+mediaharbor:
+  name: "MediaHarbor"
+  status: "Active development"
+  # Numeric Apple ID, e.g. "6746081239". Leave blank until the app is approved.
+  app_store_id: ""
+  # App Store URL slug (the human-readable part before /id######).
+  app_store_slug: "mediaharbor"
