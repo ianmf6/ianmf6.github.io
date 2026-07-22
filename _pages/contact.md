@@ -41,10 +41,21 @@ Questions, feedback, a bug in one of my apps — or just want to send me a note?
   <div class="cf-row">
     <label for="cf-topic">Topic</label>
     <select id="cf-topic">
-      <option value="other" selected>General / something else</option>
-      <option value="support">Question</option>
-      <option value="bug">Bug report</option>
-      <option value="feature">Feature request</option>
+      <optgroup label="VA Compensation Calculator">
+        <option value="va-bug">Bug report</option>
+        <option value="va-feature">Feature request</option>
+        <option value="va-support">Question or help</option>
+        <option value="va-data">Wrong rate or number</option>
+      </optgroup>
+      <optgroup label="MediaHarbor">
+        <option value="mh-bug">Bug report</option>
+        <option value="mh-feature">Feature request</option>
+        <option value="mh-support">Question or help</option>
+      </optgroup>
+      <optgroup label="Other">
+        <option value="site-content">Website content or corrections</option>
+        <option value="general" selected>General — anything else</option>
+      </optgroup>
     </select>
   </div>
   <div class="cf-row">
@@ -68,6 +79,20 @@ Questions, feedback, a bug in one of my apps — or just want to send me a note?
   var API = "https://apps.ianm.tech/api/feedback";
   var KEY = "7eb0cb662855c08357af02deecbee576d7a6cefa518863a7cb458f518b123bc8"; // public by design — identifies this form, grants nothing
   var EMAIL_RE = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+
+  // Each topic maps to the shared category vocabulary plus a display-only
+  // "about" tag telling the inbox which app/site area the message concerns.
+  var TOPICS = {
+    "va-bug":       { category: "bug",     about: "va-calc" },
+    "va-feature":   { category: "feature", about: "va-calc" },
+    "va-support":   { category: "support", about: "va-calc" },
+    "va-data":      { category: "data",    about: "va-calc" },
+    "mh-bug":       { category: "bug",     about: "mediaharbor" },
+    "mh-feature":   { category: "feature", about: "mediaharbor" },
+    "mh-support":   { category: "support", about: "mediaharbor" },
+    "site-content": { category: "other",   about: "website" },
+    "general":      { category: "other",   about: "general" }
+  };
 
   var form = document.getElementById("cf");
   var okBox = document.getElementById("cf-ok");
@@ -130,11 +155,13 @@ Questions, feedback, a bug in one of my apps — or just want to send me a note?
       return;
     }
 
+    var topic = TOPICS[document.getElementById("cf-topic").value] || TOPICS.general;
     var payload = {
       v: 1,
       install_id: uuid(),          // random per submission — deliberately not stored
-      app_version: "1.2.0",        // form contract (1.1.0: name became a real field; 1.2.0: name required)
-      category: document.getElementById("cf-topic").value,
+      app_version: "1.3.0",        // form contract (1.2.0: name required; 1.3.0: cross-app topics + about)
+      category: topic.category,
+      about: topic.about,
       message: message,
       name: name
     };
