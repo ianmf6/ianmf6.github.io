@@ -5,9 +5,7 @@ layout: single
 #author_profile: false
 ---
 
-Questions, feedback, a bug in one of my apps, or anything about a project or post — use the form below.
-
-It posts straight to my self-hosted server: no Google, no trackers, nothing stored in your browser.
+Questions, feedback, a bug in one of my apps — or just want to send me a note? Use the form below. If you include your email, I'll reply there.
 
 <style>
 .cf-row{margin:0 0 16px}
