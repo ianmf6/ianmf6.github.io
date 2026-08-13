@@ -124,7 +124,7 @@ Save SMB connections to Synology, QNAP, TrueNAS, Unraid, or any Windows share an
   <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-user-shield" aria-hidden="true"></i></span>
     <span class="fc-title">Privacy First</span>
-    <span class="fc-summary">No accounts, no analytics, no cloud. Passwords stay in the Keychain.</span>
+    <span class="fc-summary">No accounts, no cloud, no trackers. Passwords stay in the Keychain.</span>
   </div>
   <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-map-marked-alt" aria-hidden="true"></i></span>
@@ -461,10 +461,10 @@ Save SMB connections to Synology, QNAP, TrueNAS, Unraid, or any Windows share an
 
 ### Privacy
 
-  - No accounts, no ads, no third-party SDKs, and no analytics of any kind
+  - No accounts, no ads, no third-party SDKs, no trackers
   - Nothing is uploaded — the app talks to your server and nobody else's
   - SMB passwords live in the iOS Keychain, device-scoped
-  - The only data ever sent anywhere is a support message you explicitly write and send
+  - The only data that ever reaches the developer: support messages you explicitly send, and four anonymous usage counters (app opens and purchases — with an off switch in Settings, full details in the [privacy policy](/mediaharbor/privacy/))
 
 ## Pricing
 
