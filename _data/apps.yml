@@ -7,12 +7,12 @@
 # switches from "coming soon" to real download links on the next build.
 #
 # Reminder: the app itself also carries the ID (AboutView.swift's
-# PLACEHOLDER_appStoreURL) — update that in the app repo at the same time.
+# appStoreURL) — filled in the app repo Aug 13, 2026, with this same ID.
 
 mediaharbor:
   name: "MediaHarbor"
-  status: "Active development"
-  # Numeric Apple ID, e.g. "6746081239". Leave blank until the app is approved.
-  app_store_id: ""
+  status: "Released"
+  # Numeric Apple ID (live since the 1.0.0 approval).
+  app_store_id: "6792407366"
   # App Store URL slug (the human-readable part before /id######).
   app_store_slug: "mediaharbor"
