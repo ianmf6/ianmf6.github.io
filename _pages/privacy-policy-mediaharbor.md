@@ -39,7 +39,7 @@ Because MediaHarbor collects no data for advertising, shares nothing with any ot
 
 ## 3. Anonymous Usage Statistics
 
-Starting with version 1.0.1, MediaHarbor counts a small set of anonymous usage statistics so I can tell whether the app is being used and whether its one-time unlock keeps it sustainable. The scope is deliberately tiny, and there is an off switch.
+Starting with version 1.1.0, MediaHarbor counts a small set of anonymous usage statistics so I can tell whether the app is being used and whether its one-time unlock keeps it sustainable. The scope is deliberately tiny, and there is an off switch.
 
 **Exactly four things are counted:**
 

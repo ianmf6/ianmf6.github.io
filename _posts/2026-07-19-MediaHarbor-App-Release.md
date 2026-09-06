@@ -36,7 +36,7 @@ Video streams straight off the share by default — no waiting for a multi-gigab
 
 ## The privacy part
 
-> **Update, August 2026:** starting with version 1.0.1, MediaHarbor counts four anonymous usage statistics — app opens and purchases, nothing about your files, servers, or viewing — sent to my own server, with an off switch in Settings. The paragraph below described 1.0 as it shipped; the [privacy policy](/mediaharbor/privacy/) has the full, current details.
+> **Update, August 2026:** starting with version 1.1.0, MediaHarbor counts four anonymous usage statistics — app opens and purchases, nothing about your files, servers, or viewing — sent to my own server, with an off switch in Settings. The paragraph below described 1.0 as it shipped; the [privacy policy](/mediaharbor/privacy/) has the full, current details.
 
 This is the piece I care most about, and it's simpler to describe than most privacy policies: the app has no analytics. Not opt-out analytics — none at all. It has no accounts, no third-party SDKs, and no server of mine sitting between you and your files. Your photos never leave your device to be analyzed; even the scene detection behind smart albums runs locally through Apple's on-device Vision framework.
 
