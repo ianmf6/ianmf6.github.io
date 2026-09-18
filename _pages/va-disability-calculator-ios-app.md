@@ -9,7 +9,7 @@ title: "VA Compensation Calculator"
 description: "Free VA disability & compensation calculator for iPhone and iPad — combined ratings (38 CFR), bilateral factor, monthly pay, backpay, SMC, and the full 38 CFR diagnostic-code schedule. Built by a veteran, no ads, no account."
 header:
   og_image: /assets/images/va-disability-app-images/og-card.png
-last_modified_at: 2026-07-19T00:00:00-04:00
+last_modified_at: 2026-09-17T00:00:00-04:00
 
 toc: true
 toc_label: "On this page"
@@ -35,7 +35,7 @@ toc_sticky: true
 
 Calculate VA disability compensation, track your claim journey, and explore "what if" scenarios — all on your device, with zero ads and no account required.
 
-Built by a veteran for veterans. Includes 9 focused calculators and references, a Claim Tracker with reminders, the full 38 CFR Part 4 schedule (700+ diagnostic codes with per-percentage rating criteria), and PDF export for handing off to VSOs or attorneys. Free forever. Supported by an entirely optional Tip Jar — tipping unlocks nothing.
+Built by a veteran for veterans. Includes 11 focused calculators and references, a Claim Tracker with reminders, the full 38 CFR Part 4 schedule (700+ diagnostic codes with per-percentage rating criteria), and PDF export for handing off to VSOs or attorneys. Free forever. Supported by an entirely optional Tip Jar — tipping unlocks nothing.
 
 [![Download VA Compensation Calculator on the App Store](/assets/images/va-disability-app-images/download-on-the-app-store.svg)](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239)
 
@@ -119,9 +119,19 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
     <span class="fc-summary">Log episodes over time and share a claim-language summary with your VSO.</span>
   </div>
   <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-level-up-alt" aria-hidden="true"></i></span>
+    <span class="fc-title">Increase Finder</span>
+    <span class="fc-summary">What the next rating step requires per condition, and what it's worth.</span>
+  </div>
+  <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-sliders-h" aria-hidden="true"></i></span>
     <span class="fc-title">What If? Scenarios</span>
     <span class="fc-summary">See how rating changes affect your monthly compensation.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-file-export" aria-hidden="true"></i></span>
+    <span class="fc-title">Backup &amp; Restore</span>
+    <span class="fc-summary">Everything in one file you keep — restore it on a new phone.</span>
   </div>
   <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-lock" aria-hidden="true"></i></span>
@@ -131,7 +141,7 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-th-large" aria-hidden="true"></i></span>
     <span class="fc-title">Tools &amp; Calculators</span>
-    <span class="fc-summary">Pay Date Predictor, COLA Estimator, CRDP/CRSC, more.</span>
+    <span class="fc-summary">SMC Screener, Pay Date Predictor, COLA Estimator, CRDP/CRSC, more.</span>
   </div>
 </section>
 
@@ -445,12 +455,14 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   - Monthly compensation across 9 years of rate tables (2018–2026)
   - Full dependent support — spouse, spouse Aid & Attendance, dependent parents, children under 18, children 18–24 in school
   - Projected rating that includes pending claims
+  - Rounding explainer on the main screen — "Combined value 83% rounds to 80%", with the step-by-step breakdown one tap away
 
 ### Backpay Calculator
   - Retroactive compensation across timelines of rating changes
   - Handles COLA boundary transitions automatically
   - 38 CFR 3.31 full-month rule applied correctly
   - Future-date projection for awards still pending
+  - "Already being paid at" offset — an increase shows only the difference owed
   - Per-period breakdown showing each rate band
   - Export as text or styled PDF
 
@@ -458,7 +470,8 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   - SMC-K (additive, up to 3 awards)
   - The full SMC ladder — S, L, L½, M, M½, N, N½, O/P, R.1, R.2, and T (replace base compensation)
   - Rates sourced from VA.gov for 2025 and 2026 and cross-checked against the schedule
-  - Stacks correctly with regular compensation per VA rules
+  - Stacks correctly with regular compensation per VA rules, including the 38 U.S.C. 1114(o) cap on SMC-K
+  - SMC Eligibility Screener — plain-language questions map to the levels worth asking about, with an automatic statutory-housebound (1114(s)) check from your ratings
 
 ### Symptom Log
   - Log episodic conditions as they happen — migraines, seizures, breathing or GI flare-ups, mental-health episodes, chronic-pain flares
@@ -478,8 +491,10 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   - Local notification reminders (1 day before, 1 hour before)
   - Free-form notes per disability — effective dates, decision letter references, symptom logs
   - Diagnostic-code lookup against the full 38 CFR Part 4 schedule, with a "Most Claimed" shortcut for the top 15 conditions (tinnitus, hearing loss, PTSD, knee, back, sleep apnea, etc.) and tap-to-add as a new disability
+  - Add or change a disability's diagnostic code from its row; search understands everyday names (PTSD, GERD, TBI, carpal tunnel, flat feet…)
 
 ### Calculators & References
+  - Increase Finder — for each rated condition, what the next rating step requires under 38 CFR and what it would do to your combined rating and monthly pay
   - Pay Date Predictor — first paid month plus the estimated deposit date
   - What If? Scenario — explore rating changes interactively with side-by-side comparison
   - Combined Ratings Table — the official 9×9 reference grid from 38 CFR 4.25
@@ -494,6 +509,7 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
   - Optional Face ID or Touch ID lock to open the app
   - No accounts, no ads, and no third-party trackers or advertising SDKs
   - Anonymous, opt-out usage analytics (Settings → Analytics) — never your VA data
+  - Backup & Restore — export everything to a single file you keep (Files, iCloud Drive, AirDrop) and restore it on a new phone; nothing is uploaded
   - One-tap data reset
 
 ### Appearance & Usability
@@ -505,7 +521,18 @@ Built by a veteran for veterans. Includes 9 focused calculators and references, 
 
 ## Version History
 
-<strong>v1.26.10 — July 2026</strong> <em>(Latest)</em>
+<strong>v1.26.11 — September 2026</strong> <em>(Latest — submitted to the App Store September 17, rolling out once approved)</em>
+  - **Backup & Restore** — export everything (disabilities, dependents, SMC, TDIU, claim events, symptom log) to a single file you keep, and restore it on a new phone. Nothing is uploaded.
+  - **Increase Finder** — for each rated condition, what the next rating step requires under 38 CFR and its effect on your combined rating and monthly pay, sorted by impact; add a missing diagnostic code right from the screen
+  - **SMC Eligibility Screener** — plain-language questions map to the SMC levels worth asking about, with an automatic statutory-housebound (1114(s)) check
+  - **Rounding explainer** — the main screen shows your combined value and how it rounds, with "See why" opening the step-by-step
+  - **Backpay "Already being paid at"** — an increase shows only the difference owed; estimate caveats now travel with shared text and PDFs
+  - **Diagnostic codes** — add or change a code from a disability's row; search understands everyday names (PTSD, GERD, TBI, carpal tunnel…)
+  - **Contact Me** — optional name field and standardized topics, matching the web form
+  - **Accuracy fixes** — displayed combined value can no longer disagree with the official rating across a rounding boundary; SMC-K no longer stacks past the 1114(o) cap; CRDP/CRSC show the waived pay actually restored; eleven mis-named diagnostic codes and several rating formulas (heart, interstitial lung, spine, flat foot, median/ulnar nerve) corrected; reminders warn when notifications are off
+  - **Also:** safer data loading (a newer version's file can't wipe an older app), various bug fixes and improvements
+
+<strong>v1.26.10 — July 2026</strong>
   - **Symptom Log** — record episodic conditions (migraines, seizures, breathing or GI flare-ups, mental-health episodes, chronic pain) as they happen, with duration, severity, symptoms, and prostrating-attack tracking. Per-condition summaries are written in rating-criteria language and export as text or PDF for your VSO or provider. The app logs and summarizes — it never rates or diagnoses; everything stays on your device.
   - **Full Special Monthly Compensation ladder** — added the intermediate SMC levels (L½, M, M½, N, N½, O/P) and SMC-T, with rates sourced from VA.gov for 2025 and 2026
   - **Backpay handles life events** — add dependents that changed during the retroactive period (a marriage or a new child) for a more accurate estimate
