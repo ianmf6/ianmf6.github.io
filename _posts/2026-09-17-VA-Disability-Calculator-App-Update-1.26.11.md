@@ -7,7 +7,7 @@ tags: [va-disability-calculator, ios, release]
 author_profile: true
 ---
 
-Version 1.26.11 of the [VA Compensation Calculator](/va-compensation-calculator/) was submitted to the App Store today and will roll out as soon as Apple approves it. This one adds **Backup & Restore**, an **Increase Finder**, and an **SMC Eligibility Screener** — and it comes out of the most thorough accuracy audit the app has had, with several fixes worth knowing about.
+Version 1.26.11 of the [VA Compensation Calculator](/va-compensation-calculator/) is now available on the App Store. This one adds **Backup & Restore**, an **Increase Finder**, and an **SMC Eligibility Screener** — and it comes out of the most thorough accuracy audit the app has had, with several fixes worth knowing about.
 
 ## Backup & Restore
 

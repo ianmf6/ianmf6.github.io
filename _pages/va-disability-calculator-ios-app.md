@@ -9,7 +9,7 @@ title: "VA Compensation Calculator"
 description: "Free VA disability & compensation calculator for iPhone and iPad — combined ratings (38 CFR), bilateral factor, monthly pay, backpay, SMC, and the full 38 CFR diagnostic-code schedule. Built by a veteran, no ads, no account."
 header:
   og_image: /assets/images/va-disability-app-images/og-card.png
-last_modified_at: 2026-09-17T00:00:00-04:00
+last_modified_at: 2026-09-25T00:00:00-04:00
 
 toc: true
 toc_label: "On this page"
@@ -521,7 +521,7 @@ Built by a veteran for veterans. Includes 11 focused calculators and references,
 
 ## Version History
 
-<strong>v1.26.11 — September 2026</strong> <em>(Latest — submitted to the App Store September 17, rolling out once approved)</em>
+<strong>v1.26.11 — September 2026</strong> <em>(Latest)</em>
   - **Backup & Restore** — export everything (disabilities, dependents, SMC, TDIU, claim events, symptom log) to a single file you keep, and restore it on a new phone. Nothing is uploaded.
   - **Increase Finder** — for each rated condition, what the next rating step requires under 38 CFR and its effect on your combined rating and monthly pay, sorted by impact; add a missing diagnostic code right from the screen
   - **SMC Eligibility Screener** — plain-language questions map to the SMC levels worth asking about, with an automatic statutory-housebound (1114(s)) check
