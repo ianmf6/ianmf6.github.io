@@ -8,7 +8,7 @@ toc_label: "On this page"
 ---
 
 **Effective date:** July 19, 2026  
-**Last updated:** August 3, 2026  
+**Last updated:** October 1, 2026  
 
 ---
 
@@ -86,7 +86,9 @@ MediaHarbor connects directly to **SMB servers that you specify** — typically 
 
 **Credentials.** When you choose to save a password, it is stored in the **iOS Keychain** with device-only accessibility, which means it is encrypted by the system, never included in an iCloud Keychain sync, and never written into the app's own files or settings. Passwords are sent only to the server you entered them for, as part of the SMB authentication the protocol requires. They are never logged, never embedded in URLs, and never transmitted to me.
 
-**Local Network permission.** iOS asks for Local Network access the first time the app connects to a server on your network. This is required for SMB to work at all. Declining it does not send any data anywhere; it simply prevents connections from succeeding.
+**Finding servers on your network.** Starting with version 1.2, while you're on the SMB Connections screen or adding a connection, MediaHarbor listens for file servers that announce themselves on your local network (Bonjour), so you can pick one instead of typing its address. This happens entirely on your local network; nothing is sent to me or to anyone else, and the app stops looking as soon as you leave those screens.
+
+**Local Network permission.** iOS asks for Local Network access the first time the app connects to, or looks for, a server on your network. This is required for SMB to work at all. Declining it does not send any data anywhere; it simply prevents connections and server discovery from working.
 
 ---
 
@@ -97,7 +99,9 @@ To make browsing fast, MediaHarbor stores the following in its own sandboxed con
 - **Thumbnails and decoded previews** of images and video poster frames.
 - **Downloaded copies of files** you open from a network share, so they don't have to be fetched twice. This cache is capped and evicts the least recently used files automatically.
 - **Directory listings**, so a folder you have visited opens instantly next time.
-- **Your settings, bookmarks, favorites, recent files, and video resume positions.**
+- **Your settings, bookmarks, favorites, recent files, and video resume positions** (resume positions also power the Continue Watching row on the Home screen).
+
+When a video plays, iOS shows its file name and poster frame on the Lock Screen and in Control Center so you can control playback there. That information stays on your device.
 
 All of this is local. You can remove it at any time in **Settings → Storage → Clear Caches**, which also shows how much space is in use. Uninstalling the app removes everything, including saved passwords in the Keychain.
 
