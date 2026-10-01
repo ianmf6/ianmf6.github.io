@@ -19,9 +19,18 @@ Questions, feedback, a bug in one of my apps — or just want to send me a note?
 #cf-send{display:inline-block;font:inherit;font-size:.9em;font-weight:600;color:#fff;background:#0a7ea4;border:0;border-radius:6px;padding:10px 22px;cursor:pointer}
 #cf-send:hover{background:#086b8c}
 #cf-send[disabled]{opacity:.6;cursor:default}
+#cf-send[hidden]{display:none}
 #cf-status{font-size:.9em;margin-top:12px}
 #cf-status.cf-err{color:#c0392b;font-weight:600}
 #cf-ok{border:1px solid #b6d7c4;background:#eef7f1;color:#1c6b3c;border-radius:8px;padding:16px 18px;margin:8px 0 16px}
+#cf-noemail{border:1px solid #e3c98f;background:#fdf6e7;color:#5c4400;border-radius:8px;padding:14px 16px;margin:4px 0 12px}
+#cf-noemail p{margin:0 0 10px;font-size:.9em}
+#cf-noemail .cf-actions{display:flex;flex-wrap:wrap;gap:10px}
+#cf-addemail{font:inherit;font-size:.9em;font-weight:600;color:#fff;background:#0a7ea4;border:0;border-radius:6px;padding:9px 18px;cursor:pointer}
+#cf-addemail:hover{background:#086b8c}
+#cf-anyway{font:inherit;font-size:.9em;font-weight:600;color:#0a7ea4;background:transparent;border:1px solid #0a7ea4;border-radius:6px;padding:8px 16px;cursor:pointer}
+#cf-anyway:hover{background:#eaf5f9}
+#cf-addemail:focus-visible,#cf-anyway:focus-visible{outline:2px solid #0a7ea4;outline-offset:2px}
 </style>
 
 <div id="cf-ok" hidden>
@@ -67,6 +76,14 @@ Questions, feedback, a bug in one of my apps — or just want to send me a note?
     <label for="cf-web">Leave this field empty</label>
     <input id="cf-web" type="text" tabindex="-1" autocomplete="off">
   </div>
+  <div id="cf-noemail" role="alert" hidden>
+    <p><strong>Send without an email address?</strong></p>
+    <p>Without an email, I can't reply to you or let you know what happens because of your message, like a fix, an answer or a decision. You can still send it anonymously.</p>
+    <div class="cf-actions">
+      <button type="button" id="cf-addemail">Add my email</button>
+      <button type="button" id="cf-anyway">Send without email</button>
+    </div>
+  </div>
   <button type="submit" id="cf-send">Send message</button>
   <p id="cf-status" role="status"></p>
 </form>
@@ -100,6 +117,44 @@ Questions, feedback, a bug in one of my apps — or just want to send me a note?
   var send = document.getElementById("cf-send");
   var msgEl = document.getElementById("cf-msg");
   var countEl = document.getElementById("cf-count");
+  var emailEl = document.getElementById("cf-email");
+  var noEmail = document.getElementById("cf-noemail");
+  var addEmailBtn = document.getElementById("cf-addemail");
+  var anywayBtn = document.getElementById("cf-anyway");
+  // A blank email gets one friendly check before sending: anonymous messages
+  // are welcome, but without an address there's no reply and no word on what
+  // came of it. Same notice as the apps' Contact Me screens.
+  var sendWithoutEmail = false;
+
+  function showNoEmailNotice() {
+    noEmail.hidden = false;
+    send.hidden = true;
+    status.className = "";
+    status.textContent = "";
+    addEmailBtn.focus();
+  }
+
+  function hideNoEmailNotice() {
+    noEmail.hidden = true;
+    send.hidden = false;
+  }
+
+  addEmailBtn.addEventListener("click", function () {
+    hideNoEmailNotice();
+    emailEl.focus();
+  });
+
+  anywayBtn.addEventListener("click", function () {
+    sendWithoutEmail = true;
+    hideNoEmailNotice();
+    if (form.requestSubmit) { form.requestSubmit(); } else { send.click(); }
+  });
+
+  // Typing an address answers the question; clearing it again asks again.
+  emailEl.addEventListener("input", function () {
+    sendWithoutEmail = false;
+    if (!noEmail.hidden) hideNoEmailNotice();
+  });
 
   msgEl.addEventListener("input", function () {
     countEl.textContent = msgEl.value.length + " / 3800";
@@ -143,6 +198,10 @@ Questions, feedback, a bug in one of my apps — or just want to send me a note?
     if (!message) { fail("Please write a message first."); return; }
     if (email && !EMAIL_RE.test(email)) {
       fail("That email address doesn't look right — fix it or leave it empty.");
+      return;
+    }
+    if (!email && !sendWithoutEmail) {
+      showNoEmailNotice();
       return;
     }
     // The server caps the message at 4000 BYTES and the name at 200 (not characters).
