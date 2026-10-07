@@ -13,7 +13,7 @@ toc_label: "On this page"
 ---
 
 **Effective date:** November 7, 2025  
-**Last updated:** July 14, 2026  
+**Last updated:** October 7, 2026  
 
 ---
 
@@ -112,7 +112,9 @@ The Settings → Data Management → View Saved Data screen includes a **Copy** 
 
 The app includes an optional **Tip Jar** that lets you support development through Apple's **In-App Purchase** system. Tipping is entirely optional, unlocks no features, and can be ignored — the app remains free and ad-free either way.
 
-Tips are processed by **Apple**. The app never sees or handles your payment card details, billing address, or Apple ID. I receive only aggregate, anonymized sales and payout information through App Store Connect (for example, how many tips of each amount were purchased), which never identifies you. All payment processing and any personal information involved are governed by **Apple's Privacy Policy**.
+Tips are processed by **Apple**. The app never sees or handles your payment card details, billing address, or Apple ID. From Apple, I receive only aggregate, anonymized sales and payout information through App Store Connect (for example, how many tips of each amount were purchased), which never identifies you. All payment processing and any personal information involved are governed by **Apple's Privacy Policy**.
+
+If the anonymous usage analytics described in Section 2 are on, the app also records the Tip Jar steps you take, such as opening it, choosing an amount, or cancelling Apple's payment sheet, and, starting with version 1.26.13, which size of tip was completed (Small, Coffee, Lunch or Dinner). These are anonymous events like the rest: they carry no payment details and nothing that identifies you, and they stop when analytics are off.
 
 ---
 
