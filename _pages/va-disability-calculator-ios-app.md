@@ -9,7 +9,7 @@ title: "VA Compensation Calculator"
 description: "Free VA disability & compensation calculator for iPhone and iPad — combined ratings (38 CFR), bilateral factor, monthly pay, backpay, SMC, and the full 38 CFR diagnostic-code schedule. Built by a veteran, no ads, no account."
 header:
   og_image: /assets/images/va-disability-app-images/og-card.png
-last_modified_at: 2026-10-03T00:00:00-04:00
+last_modified_at: 2026-10-15T00:00:00-04:00
 
 toc: true
 toc_label: "On this page"
@@ -521,7 +521,15 @@ Built by a veteran for veterans. Includes 11 focused calculators and references,
 
 ## Version History
 
-<strong>v1.26.12 — October 2026</strong> <em>(Latest)</em>
+<strong>v1.26.13 — October 2026</strong> <em>(Latest)</em>
+  - **2027 pay rates** — VA's rates with the 3.6% cost-of-living adjustment, in effect December 1; the app switches to them by itself that day
+  - **A new main screen** — your rating, monthly pay and pending-claim projection in one summary card, with your tools as cards below that show where things stand; the classic screen is one tap away (top left, or Settings → Main Screen)
+  - **New pay tables without an app update** — the app checks for new, signed VA pay tables and picks them up by itself; the rate year switches to the new rates on December 1
+  - **News** — COLA updates, VA changes and app news under a megaphone on the main screen, and an update notice in Settings when a new version is out
+  - **Calendar fix** — on a phone set to the Buddhist (Thailand), Japanese, Islamic or Persian calendar, the main screen, Backpay and the Pay Date Predictor now use VA's years and months, and the right year's pay rates
+  - **Also:** the main screen works at the largest text sizes, with easier-to-read labels, and various bug fixes and improvements
+
+<strong>v1.26.12 — October 2026</strong>
   - **Dominant and non-dominant arm** — 38 CFR rates 74 arm and hand codes lower for the non-dominant arm; the code reference shows both columns, the app asks which arm, and the Increase Finder uses that arm's next step
   - **The regulation's own notes** — the 38 CFR reference shows each code's notes and links the codes they point to; searching "diverticulitis" finds DC 7329
   - **Accuracy fixes** — rating criteria corrected for about 200 diagnostic codes, including erectile dysfunction (DC 7522), which is rated 0%
