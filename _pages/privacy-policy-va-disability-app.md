@@ -13,7 +13,7 @@ toc_label: "On this page"
 ---
 
 **Effective date:** November 7, 2025  
-**Last updated:** October 7, 2026  
+**Last updated:** October 9, 2026  
 
 ---
 
@@ -21,7 +21,7 @@ toc_label: "On this page"
 
 VA Compensation Calculator is an independent iOS application developed and maintained by Ian Marrero ("I," "me," or "my"). This Privacy Policy explains what data the app collects, how it is stored, and your rights as a user.
 
-This app is designed with a privacy-first philosophy: all data you enter stays on your device under your control. I do not collect, transmit, or have access to any information you enter into the app. The only data the app sends off your device is anonymous, non-identifying usage analytics — described in Section 2 — which never include anything you enter and which you can turn off at any time.
+This app is designed with a privacy-first philosophy: all data you enter stays on your device under your control. I do not collect, transmit, or have access to any information you enter into the app. The only data the app sends off your device is anonymous, non-identifying usage analytics — described in Section 2 — which never include anything you enter and which you can turn off at any time. The app also checks my server for new pay tables, news and app versions (the "Update check" in Section 2); those requests send nothing about you.
 
 ---
 
@@ -60,6 +60,14 @@ There are **no third-party analytics tools, advertising networks, crash reporter
 Because this data contains no identifying information and is never combined with data from other apps or with data from data brokers, it is **not used to track you** as "tracking" is defined by Apple's App Tracking Transparency framework, and the app does not present a tracking-permission prompt.
 
 **Turning analytics off:** when you switch "Share anonymous usage" off, the app sends a single anonymous signal recording that analytics were disabled, and then sends nothing further. This lets me count how many people opt out without ever identifying them. While analytics are off, no usage data of any kind leaves your device.
+
+### Update check (pay tables, news and app version)
+
+Starting with version 1.26.13, when you open the app, and when you return to it (at most once an hour), the app downloads a small file from a server I operate (apps.ianm.tech). The file says what's newest: the current version of the app on the App Store, the latest compensation pay tables, and the latest news posts. When something is newer than what the app already has, the app downloads it too. This is how new VA rates, for example after the yearly cost-of-living adjustment, and news reach the app without an app update.
+
+These requests **send nothing about you**: no identifier, no analytics, nothing you entered, and no cookies. They are plain downloads of the same public files every user gets. As with any connection to a website, your IP address is visible to the server and to Cloudflare, which carries the traffic to it. The server's logs don't keep IP addresses. The update check runs whether or not analytics are on, because it isn't analytics: it's how the app gets current rates.
+
+Pay tables and news are signed with a key only I hold, and the app checks the signature and the contents before using either. If anything doesn't check out, the app ignores the download and keeps the rates it already has.
 
 ### Crash reporting
 
