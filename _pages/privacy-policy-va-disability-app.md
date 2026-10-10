@@ -13,7 +13,7 @@ toc_label: "On this page"
 ---
 
 **Effective date:** November 7, 2025  
-**Last updated:** October 9, 2026  
+**Last updated:** October 10, 2026  
 
 ---
 
@@ -21,7 +21,7 @@ toc_label: "On this page"
 
 VA Compensation Calculator is an independent iOS application developed and maintained by Ian Marrero ("I," "me," or "my"). This Privacy Policy explains what data the app collects, how it is stored, and your rights as a user.
 
-This app is designed with a privacy-first philosophy: all data you enter stays on your device under your control. I do not collect, transmit, or have access to any information you enter into the app. The only data the app sends off your device is anonymous, non-identifying usage analytics — described in Section 2 — which never include anything you enter and which you can turn off at any time. The app also checks my server for new pay tables, news and app versions (the "Update check" in Section 2); those requests send nothing about you.
+This app is designed with a privacy-first philosophy: all data you enter stays on your device under your control. I do not collect, transmit, or have access to the VA information you enter into the app. Apart from messages you choose to send me through Contact Me, the only data the app sends off your device is anonymous, non-identifying usage analytics — described in Section 2 — which never include anything you enter and which you can turn off at any time. The app also checks my server for new pay tables, news and app versions (the "Update check" in Section 2); those requests send nothing about you.
 
 ---
 
@@ -75,11 +75,13 @@ I do not integrate any crash-reporting SDK. The app uses Apple's on-device **Met
 
 ### Support and feedback submissions
 
-The website's contact and feedback form is powered by **Google Forms**, a third-party service operated by Google LLC. When you submit a form, your response is transmitted to and stored on Google's servers, governed by **Google's Privacy Policy** and terms of service. I do not control Google's data infrastructure or retention practices.
+You can write to me from the app (**? → Contact Me**) or from the [contact page](https://www.ianm.tech/contact/) on this website. Both send your message to a server I operate, not to Google or any other form service. It travels over an encrypted connection through Cloudflare, which carries the traffic to my server.
 
-You may voluntarily provide personal information in a form submission, including your name, email address, or written messages. Because this app serves veterans managing disability-related information, some users have chosen to include sensitive details such as disability ratings, health conditions, or other personal information in their messages. The form includes an explicit notice advising users not to submit sensitive personal or medical information beyond what is necessary. **You are not required to share this information.**
+A message carries what you type into the form: your message, its topic, your name, and your email address if you give one (in the app, the name is optional too). A message from the app also carries the app's version, your iOS version, and a one-way ID that groups your own messages together. That ID is deliberately separate from the analytics ID described above, so a message can't be linked to how you use the app. A message from the website form carries a random ID that changes with every message instead.
 
-Your email address is used solely to reply to your message. It is not used for marketing, stored in any system I own or operate, or shared with any third party. I do not store submission content in any personally owned database or storage system beyond what Google Forms retains.
+Messages are stored on my server, and only I have access to them. When one arrives, I get a notification through Discord that says which app it's about, its topic and the app version, never its text, your name or your email address.
+
+Your email address is used only to reply to you. It is never used for marketing or shared with anyone. Because this app serves veterans, please don't include medical details or anything from your VA file in a message. **You are not required to share any of this.** Section 8 says how long messages are kept, and Section 11 how to have yours deleted.
 
 ---
 
@@ -130,12 +132,11 @@ If the anonymous usage analytics described in Section 2 are on, the app also rec
 
 I do not sell, rent, or share your personal data with advertising networks, data brokers, or other external services for commercial purposes. There are no third-party SDKs embedded in the app that collect data.
 
-Aside from the anonymous usage analytics described in Section 2 — which are sent to a server I operate, contain no identifying information, and can be turned off — the app does not transmit your data off your device. In addition, two third-party services are accessible through this app and its associated website:
+Aside from what Section 2 describes, the app does not transmit your data off your device. That's the anonymous usage analytics (no identifying information, and you can turn them off), the update check (which sends nothing about you), and any message you choose to send me. All three go to a server I operate. One third-party service is accessible through this app:
 
-- **Google Forms** (support/feedback contact): Form responses are stored on Google's servers. Google's privacy policy governs this data.
 - **Apple In-App Purchase** (optional Tip Jar): tips are processed by Apple; your payment details are handled entirely by Apple and governed by Apple's privacy policy.
 
-Your use of these services is voluntary. I do not receive personal information from either service in any storage I own or operate.
+Your use of it is voluntary. I do not receive personal information from Apple in any storage I own or operate.
 
 ---
 
@@ -157,7 +158,9 @@ Your data persists on your device until you delete it. You have full control:
 - **Clear all app data** using the clear data options in the app's Settings view.
 - **Uninstall the app** to permanently remove all locally stored data from your device.
 
-I do not retain any copy of your data. Deleting the app removes all locally stored data from your device. If iCloud Backup has previously backed up your data, you can manage or delete those backups through Apple's iCloud settings.
+I do not retain any copy of the data you keep in the app. Deleting the app removes all locally stored data from your device. If iCloud Backup has previously backed up your data, you can manage or delete those backups through Apple's iCloud settings.
+
+Messages you send me through Contact Me or the contact page are the exception. They're kept on my server so I can read and answer them, until I delete them. A deleted message also leaves my server's backups as those rotate out.
 
 ---
 
@@ -175,9 +178,9 @@ VA Compensation Calculator is a native iOS application. It does not operate a we
 
 ## 11. Your Privacy Rights
 
-The anonymous usage analytics described in Section 2 contain no information that identifies you, so there is no way to link them back to an individual to access, correct, export, or delete on a per-person basis; you control whether they are collected at all using the opt-out in **Settings → Analytics**, and deleting the app erases the random identifier entirely. Apart from those anonymous analytics, VA Compensation Calculator does not collect or hold any personal data, so there is no personal data held by me to access, correct, export, or delete. All data you enter into the app is under your direct control on your device.
+The anonymous usage analytics described in Section 2 contain no information that identifies you, so there is no way to link them back to an individual to access, correct, export, or delete on a per-person basis; you control whether they are collected at all using the opt-out in **Settings → Analytics**, and deleting the app erases the random identifier entirely. Apart from those anonymous analytics and any message you send me, VA Compensation Calculator does not collect or hold any personal data, so there is no other personal data held by me to access, correct, export, or delete. All data you enter into the app is under your direct control on your device.
 
-If you have submitted a support inquiry through the website contact form, you may request that I delete any correspondence I have on file by contacting me through the [contact page](https://www.ianm.tech/contact/).
+If you have sent me a message through Contact Me in the app or the website's contact page, you may ask me what I have on file from you, or ask me to delete it, through the [contact page](https://www.ianm.tech/contact/).
 
 Residents of California and other states with comprehensive privacy laws should be aware that I do not sell or share personal information, do not engage in targeted advertising, and do not meet the revenue or data volume thresholds that trigger obligations under the California Consumer Privacy Act (CCPA/CPRA) or similar state laws. The privacy protections in this policy apply to all users regardless of location.
 
