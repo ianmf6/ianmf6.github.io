@@ -8,7 +8,7 @@ last_modified_at: 2026-10-23T00:00:00-04:00
 ---
 
 <style>
-.vp{position:relative;aspect-ratio:16/9;margin:0 0 .5em;border-radius:10px;overflow:hidden;background:#0f2c4f}
+.vp{position:relative;aspect-ratio:16/9;margin:0 0 1.4em;border-radius:10px;overflow:hidden;background:#0f2c4f}
 .vp-thumb{display:block;position:relative;width:100%;height:100%;color:#fff;text-decoration:none}
 .vp-thumb img{display:block;width:100%;height:100%;object-fit:cover}
 .vp-play{position:absolute;left:50%;bottom:7%;transform:translateX(-50%);display:inline-flex;align-items:center;gap:.55em;padding:.5em 1.05em;border-radius:999px;background:#0a7ea4;box-shadow:0 4px 16px rgba(0,0,0,.35);font-size:.85em;font-weight:600;white-space:nowrap;transition:background .15s}
@@ -16,7 +16,6 @@ last_modified_at: 2026-10-23T00:00:00-04:00
 .vp-thumb:hover .vp-play{background:#086b8c}
 .vp-thumb:focus-visible{outline:3px solid #0a7ea4;outline-offset:3px}
 .vp iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.page__content p.vp-note{font-size:.75em;color:#5f6b76;margin-bottom:1.6em}
 .page__content ul.vp-chapters{list-style:none;margin:0 0 1.6em;padding:0;font-size:.9em}
 .page__content ul.vp-chapters li{margin:0 0 .35em}
 .page__content ul.vp-chapters span{display:inline-block;min-width:3.2em;color:#5f6b76;font-variant-numeric:tabular-nums}
@@ -30,7 +29,6 @@ The next update to [VA Compensation Calculator](/va-compensation-calculator/) is
     <span class="vp-play" aria-hidden="true">Watch the preview · 3:22</span>
   </a>
 </div>
-<p class="vp-note">The video plays from YouTube. Nothing loads from YouTube until you press play; from then on, YouTube's own privacy policy applies (see the app's <a href="/va-compensation-calculator/privacy/">privacy policy</a>).</p>
 
 ## In the video
 
