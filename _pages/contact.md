@@ -53,6 +53,7 @@ Questions, feedback, a bug in one of my apps — or just want to send me a note?
       <optgroup label="VA Compensation Calculator">
         <option value="va-bug">Bug report</option>
         <option value="va-feature">Feature request</option>
+        <option value="va-feedback">Feedback or ideas</option>
         <option value="va-support">Question or help</option>
         <option value="va-data">Wrong rate or number</option>
       </optgroup>
@@ -102,6 +103,7 @@ Questions, feedback, a bug in one of my apps — or just want to send me a note?
   var TOPICS = {
     "va-bug":       { category: "bug",     about: "va-calc" },
     "va-feature":   { category: "feature", about: "va-calc" },
+    "va-feedback":  { category: "other",   about: "va-calc" },
     "va-support":   { category: "support", about: "va-calc" },
     "va-data":      { category: "data",    about: "va-calc" },
     "mh-bug":       { category: "bug",     about: "mediaharbor" },
@@ -117,6 +119,9 @@ Questions, feedback, a bug in one of my apps — or just want to send me a note?
   var send = document.getElementById("cf-send");
   var msgEl = document.getElementById("cf-msg");
   var countEl = document.getElementById("cf-count");
+  // A link can pick the topic, like /contact/?topic=va-feedback from the 1.27.0 preview page.
+  var wantedTopic = new URLSearchParams(window.location.search).get("topic");
+  if (wantedTopic && TOPICS[wantedTopic]) document.getElementById("cf-topic").value = wantedTopic;
   var emailEl = document.getElementById("cf-email");
   var noEmail = document.getElementById("cf-noemail");
   var addEmailBtn = document.getElementById("cf-addemail");

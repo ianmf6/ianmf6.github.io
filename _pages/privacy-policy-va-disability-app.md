@@ -13,7 +13,7 @@ toc_label: "On this page"
 ---
 
 **Effective date:** November 7, 2025  
-**Last updated:** October 10, 2026  
+**Last updated:** October 23, 2026  
 
 ---
 
@@ -21,7 +21,7 @@ toc_label: "On this page"
 
 VA Compensation Calculator is an independent iOS application developed and maintained by Ian Marrero ("I," "me," or "my"). This Privacy Policy explains what data the app collects, how it is stored, and your rights as a user.
 
-This app is designed with a privacy-first philosophy: all data you enter stays on your device under your control. I do not collect, transmit, or have access to the VA information you enter into the app. Apart from messages you choose to send me through Contact Me, the only data the app sends off your device is anonymous, non-identifying usage analytics — described in Section 2 — which never include anything you enter and which you can turn off at any time. The app also checks my server for new pay tables, news and app versions (the "Update check" in Section 2); those requests send nothing about you.
+This app is designed with a privacy-first philosophy: all data you enter stays on your device under your control. I do not collect, transmit, or have access to the VA information you enter into the app. Apart from messages you choose to send me through Contact Me, the only data the app sends off your device is anonymous, non-identifying usage analytics — described in Section 2 — which never include anything you enter and which you can turn off at any time. The app also checks my server for new pay tables, news, Claim Finder lists, military job lists and app versions (the "Update check" in Section 2); those requests send nothing about you.
 
 ---
 
@@ -31,28 +31,34 @@ This app is designed with a privacy-first philosophy: all data you enter stays o
 
 All disability ratings, dependent information, and settings you enter into VA Compensation Calculator are stored locally on your device at `Documents/userData.json` within the app's data container. This data is never transmitted off your device by the app.
 
+That includes **My Profile** (starting with version 1.27.0): your dependents, your Special Monthly Compensation and TDIU, and your military service, meaning the jobs you look up in Military Job Lookup, where you served and what you did. It also includes the answers you give the welcome screen's questions and anything you mark in the Claim Finder or in "What you may be able to claim". The Claim Finder and Military Job Lookup work entirely on your device, from lists that ship with the app or arrive through the update check below. VA never sees any of it, and I don't either.
+
 Because data is stored in the app's Documents directory, it may be accessible via iTunes or Finder file sharing when your device is connected to a computer, and may be visible through the iOS Files app depending on your device settings. You can review your stored data at any time within the app via Settings → Data Management → View Saved Data.
 
 I do not collect, receive, or have access to this data at any time.
+
+### Widgets
+
+Starting with version 1.27.0, the app has widgets for your Home Screen and Lock Screen. To draw them, the app saves a small summary in a container on your device that only the app and its widget can read: your combined rating, your monthly pay, your next pay date and your next Claim Tracker event. It never includes a disability's name, a note or an event's title (an event shows only its type, like "C&P exam"), and while App Lock is on it holds no numbers at all, so the widget shows a lock. The widget sends nothing anywhere.
 
 ### Analytics
 
 The app collects a small amount of **anonymous, first-party usage analytics** so I can see which features are used and prioritize improvements. This is **on by default**, and you can turn it off at any time in **Settings → Analytics → Share anonymous usage**.
 
-There are **no third-party analytics tools, advertising networks, crash reporters, or tracking SDKs** in the app. The analytics are sent only to a server I operate; they are never shared with, sold to, or accessible by any third party.
+There are **no third-party analytics tools, advertising networks, crash reporters, or tracking SDKs** in the app. The analytics are sent only to a server I operate, over an encrypted connection through Cloudflare, which carries the traffic to my server; they are never shared with, sold to, or accessible by any third party.
 
 **What is collected:**
 
 - A **random install identifier** — a value generated on your device that is not derived from and cannot be linked to your identity, your Apple ID, your name, or any device hardware identifier. It is stored on your device and is **permanently erased if you delete the app** (reinstalling generates a new, unrelated identifier).
 - The **app version**.
-- **Which screens and tools you open**, and a few in-app actions (for example, that a calculation was run or a PDF was exported), drawn from a fixed list of feature names.
+- **Which screens and tools you open**, and **which features, choices and settings you use**: for example, that a calculation was run or a PDF was exported, which of the welcome screen's three choices you picked, that a condition was marked in "What you may be able to claim" and with which mark, the status a disability was added with or changed to (rated, pending, might file or denied), that a resource on the Support & Community screen was opened (never which one, and nothing at all for the Veterans Crisis Line), or that you switched to dark mode. These come from a fixed list of feature names and record only that something was used, never what you entered: not the condition, its rating, your dependents, your SMC or TDIU, your job, where you served or what you did.
 - **How long** the app was in use and roughly how long each screen was open (durations in seconds).
 - **Anonymous reliability counts** — that a crash, hang, or failed export occurred. Only the count is sent: no stack traces, no error messages, no device details.
 - A **timestamp** for each event.
 
 **What is never collected:**
 
-- Anything you enter — disability names, ratings, percentages, dependents, notes, or dollar amounts.
+- Anything you enter — disability names, ratings, percentages, dependents, notes, dollar amounts, or your military service (jobs, where you served, what you did).
 - Your name, email, Apple ID, or any contact information.
 - Your location — neither precise nor general. No IP-based geolocation is performed or stored.
 - Advertising identifiers (IDFA), the device vendor identifier (IDFV), or your device model.
@@ -61,13 +67,13 @@ Because this data contains no identifying information and is never combined with
 
 **Turning analytics off:** when you switch "Share anonymous usage" off, the app sends a single anonymous signal recording that analytics were disabled, and then sends nothing further. This lets me count how many people opt out without ever identifying them. While analytics are off, no usage data of any kind leaves your device.
 
-### Update check (pay tables, news and app version)
+### Update check (pay tables, news, lists and app version)
 
-Starting with version 1.26.13, when you open the app, and when you return to it (at most once an hour), the app downloads a small file from a server I operate (apps.ianm.tech). The file says what's newest: the current version of the app on the App Store, the latest compensation pay tables, and the latest news posts. When something is newer than what the app already has, the app downloads it too. This is how new VA rates, for example after the yearly cost-of-living adjustment, and news reach the app without an app update.
+Starting with version 1.26.13, when you open the app, and when you return to it (at most once an hour), the app downloads a small file from a server I operate (apps.ianm.tech). The file says what's newest: the current version of the app on the App Store, the latest compensation pay tables, the latest news posts, and, starting with version 1.27.0, the latest Claim Finder lists (the conditions VA presumes after certain service, and those often claimed together), military job lists (what Military Job Lookup searches), and the Support & Community resources (the phone numbers and links on that screen). When something is newer than what the app already has, the app downloads it too. This is how new VA rates, for example after the yearly cost-of-living adjustment, a change to VA's lists, a changed phone number, and news reach the app without an app update.
 
 These requests **send nothing about you**: no identifier, no analytics, nothing you entered, and no cookies. They are plain downloads of the same public files every user gets. As with any connection to a website, your IP address is visible to the server and to Cloudflare, which carries the traffic to it. The server's logs don't keep IP addresses. The update check runs whether or not analytics are on, because it isn't analytics: it's how the app gets current rates.
 
-Pay tables and news are signed with a key only I hold, and the app checks the signature and the contents before using either. If anything doesn't check out, the app ignores the download and keeps the rates it already has.
+Pay tables, news, the Claim Finder lists, the job lists and the support resources are all signed with a key only I hold, and the app checks the signature and the contents before using any of them. If anything doesn't check out, the app ignores the download and keeps what it already has.
 
 ### Crash reporting
 
@@ -137,6 +143,12 @@ Aside from what Section 2 describes, the app does not transmit your data off you
 - **Apple In-App Purchase** (optional Tip Jar): tips are processed by Apple; your payment details are handled entirely by Apple and governed by Apple's privacy policy.
 
 Your use of it is voluntary. I do not receive personal information from Apple in any storage I own or operate.
+
+### Links and videos
+
+Some screens and News posts link to websites, like VA.gov and this one. They open in your browser, the app sends them nothing, and each has its own privacy policy.
+
+The page on this website that previews a new version ([What's coming in 1.27.0](/va-compensation-calculator/whats-new/)) shows a video hosted on YouTube. Nothing loads from YouTube until you press play. Once you do, the video plays in YouTube's own player: YouTube (Google) receives your IP address and browser details and may set cookies, under [Google's Privacy Policy](https://policies.google.com/privacy). The same applies if you watch the video in the YouTube app or on youtube.com.
 
 ---
 
