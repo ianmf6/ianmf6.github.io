@@ -105,18 +105,20 @@ I do not have access to your iCloud backup data or any file transfers you make u
 
 ## 4. Sharing and Copying Your Data
 
-### Compensation Breakdown Share
+### Sharing as Text or PDF
 
-The app includes an optional feature that allows you to share a summary of your compensation breakdown using the native iOS share sheet. This feature is entirely user-initiated and user-controlled. The app does not transmit any data to me or any third party — you choose where the output goes (Messages, Mail, clipboard, etc.).
+The app can share what you've entered as text or a PDF using the native iOS share sheet: from **Rating & Pay** ("Share as text or PDF"), from **My Profile** ("Share a summary", a summary for a VSO, an attorney or your family), from the **Backpay** results and from the **Symptom Log** report. Sharing is entirely user-initiated and user-controlled. The app does not transmit any data to me or any third party — you choose where the output goes (Messages, Mail, Files, a printer, etc.).
 
-Before sharing, you are presented with a **Share Options screen** that gives you control over what is included:
+Before sharing, you see a live preview of exactly what will be shared, and you choose what goes in:
 
-- **Redact disability names** (enabled by default) — replaces your specific condition names with generic labels (e.g., "Disability 1") in the shared output
-- **Include dependent information** (enabled by default) — includes marital status, spouse Aid & Attendance, and dependent counts in the shared output
+- **Rating & Pay:** **Redact disability names** (off by default) replaces your condition names with generic labels (e.g., "Disability 1"), and **Include dependent information** (on by default) includes marital status, spouse Aid and Attendance and dependent counts. What's shared follows the screen: if you switched on your pending claims or the claims you might file there, they're included.
+- **Share a summary:** a switch for each part that has something in it: your disabilities and claims, your rating and pay, your dependents, your military service (your jobs, where you served and what you did), your Claim Tracker dates (with the titles and places you entered), a summary of the last 90 days of your Symptom Log, and your notes on each disability (off by default).
 
-The shared output may contain sensitive health information including disability ratings, percentages, dependent status, and estimated monthly compensation. **You are responsible for where you direct this information once it leaves the app.** Once shared to a third-party service (such as Messages, Mail, or any other app), that service's own privacy policy governs the data.
+A PDF is written to the app's temporary folder with the same file protection as your saved data and deleted when the share sheet closes.
 
-I recommend using the "Redact disability names" toggle if you are sharing with anyone other than a trusted individual such as a VSO or benefits attorney.
+The shared output may contain sensitive health information including disability ratings, percentages, claims, dependent status, military service and estimated monthly compensation. **You are responsible for where you direct this information once it leaves the app.** Once shared to a third-party service (such as Messages, Mail, or any other app), that service's own privacy policy governs the data.
+
+I recommend using the "Redact disability names" switch, or leaving parts of the summary out, if you are sharing with anyone other than a trusted individual such as a VSO or benefits attorney.
 
 ### Saved Data Copy
 
