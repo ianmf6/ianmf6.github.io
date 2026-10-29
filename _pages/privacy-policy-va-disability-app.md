@@ -13,7 +13,7 @@ toc_label: "On this page"
 ---
 
 **Effective date:** November 7, 2025  
-**Last updated:** October 23, 2026  
+**Last updated:** October 29, 2026  
 
 ---
 
@@ -21,7 +21,7 @@ toc_label: "On this page"
 
 VA Compensation Calculator is an independent iOS application developed and maintained by Ian Marrero ("I," "me," or "my"). This Privacy Policy explains what data the app collects, how it is stored, and your rights as a user.
 
-This app is designed with a privacy-first philosophy: all data you enter stays on your device under your control. I do not collect, transmit, or have access to the VA information you enter into the app. Apart from messages you choose to send me through Contact Me, the only data the app sends off your device is anonymous, non-identifying usage analytics — described in Section 2 — which never include anything you enter and which you can turn off at any time. The app also checks my server for new pay tables, news, Claim Finder lists, military job lists and app versions (the "Update check" in Section 2); those requests send nothing about you.
+This app is designed with a privacy-first philosophy: all data you enter stays on your device under your control. I do not collect, transmit, or have access to the VA information you enter into the app. Apart from messages you choose to send me through Contact Me, and, starting with version 1.27.1, what your iPhone shares with your own Apple Watch, the only data the app sends off your device is anonymous, non-identifying usage analytics — described in Section 2 — which never include anything you enter and which you can turn off at any time. The app also checks my server for new pay tables, news, Claim Finder lists, military job lists and app versions (the "Update check" in Section 2); those requests send nothing about you.
 
 ---
 
@@ -29,9 +29,11 @@ This app is designed with a privacy-first philosophy: all data you enter stays o
 
 ### User-entered data
 
-All disability ratings, dependent information, and settings you enter into VA Compensation Calculator are stored locally on your device at `Documents/userData.json` within the app's data container. This data is never transmitted off your device by the app.
+All disability ratings, dependent information, and settings you enter into VA Compensation Calculator are stored locally on your device at `Documents/userData.json` within the app's data container. This data is never transmitted off your device by the app, except what your iPhone shares with your own Apple Watch, starting with version 1.27.1 (see "Apple Watch" below).
 
 That includes **My Profile** (starting with version 1.27.0): your dependents, your Special Monthly Compensation and TDIU, and your military service, meaning the jobs you look up in Military Job Lookup, where you served and what you did. It also includes the answers you give the welcome screen's questions and anything you mark in the Claim Finder or in "What you may be able to claim". The Claim Finder and Military Job Lookup work entirely on your device, from lists that ship with the app or arrive through the update check below. VA never sees any of it, and I don't either.
+
+Starting with version 1.27.1, your saved data also includes what you enter in **Survivor Benefits** under "For your family": the month your 100% or TDIU rating began, the month you married, whether you've been rated that way since you left active duty, whether you're a former prisoner of war, and how many of your children are 18 or older and became disabled before 18. These are stored in `userData.json` with the rest of your data and never sent. The answers you give under "For a survivor" aren't saved at all: they're kept only while that screen is open.
 
 Because data is stored in the app's Documents directory, it may be accessible via iTunes or Finder file sharing when your device is connected to a computer, and may be visible through the iOS Files app depending on your device settings. You can review your stored data at any time within the app via Settings → Data Management → View Saved Data.
 
@@ -40,6 +42,18 @@ I do not collect, receive, or have access to this data at any time.
 ### Widgets
 
 Starting with version 1.27.0, the app has widgets for your Home Screen and Lock Screen. To draw them, the app saves a small summary in a container on your device that only the app and its widget can read: your combined rating, your monthly pay, your next pay date and your next Claim Tracker event. It never includes a disability's name, a note or an event's title (an event shows only its type, like "C&P exam"), and while App Lock is on it holds no numbers at all, so the widget shows a lock. The widget sends nothing anywhere.
+
+### Apple Watch
+
+Starting with version 1.27.1, the app comes with an Apple Watch app. When the watch app is installed on your paired Apple Watch, your iPhone sends it what it shows, over Apple's WatchConnectivity, the system's own link between an iPhone and its paired watch. It goes only to your own watch, and none of it comes to me.
+
+- **What your iPhone sends your watch:** the same summary the widgets use (your combined rating and monthly pay, and your rating and pay with pending claims), plus the titles and dates of your upcoming Claim Tracker events and the names and diagnostic codes of your disabilities, so you can pick one when you log a symptom episode. It also sends the random IDs of the episodes from the watch that it has already saved.
+- **What your watch keeps:** the latest summary your iPhone sent, which each new one replaces; an episode while you're timing it; and the episodes you've logged on the watch, until your iPhone has saved them. They stay on your watch, in storage only the watch app and its complications can read, encrypted until the watch is first unlocked after it starts up.
+- **What your watch sends back:** each episode you log on it: which condition it was for, when it started, how long it lasted, how bad it was, whether a migraine was prostrating, any care you sought, and whether the "Log a migraine" shortcut started it. Your iPhone adds it to your Symptom Log, where you can change or delete it like any other episode, and the watch then deletes its copy. The watch also tells your iPhone the last day you opened the watch app, for the count described below.
+- **With App Lock on:** your iPhone sends your watch only a lock and those episode IDs: no numbers and no names. The watch app and the watch face show a lock instead, and the "Log a migraine" shortcut won't start an episode. In the watch app, an episode you were timing when App Lock went on still shows, as "Episode" without its condition's name, so you can end it.
+- **On your watch face:** the complications show your rating, your monthly pay, your next pay date or your next Claim Tracker date by its type (like "C&P in 6 days"), and an episode's timer while one runs. They never show a disability's name or an event's title.
+- **No servers:** the watch app never contacts any server. It talks only to your iPhone.
+- **Analytics:** if analytics are on, your iPhone counts, in the anonymous analytics described below, that you used the watch app (once a day), that an episode from the watch reached your Symptom Log, and that the "Log a migraine" shortcut started it. Never what you logged. The watch itself sends no analytics.
 
 ### Analytics
 
@@ -51,7 +65,7 @@ There are **no third-party analytics tools, advertising networks, crash reporter
 
 - A **random install identifier** — a value generated on your device that is not derived from and cannot be linked to your identity, your Apple ID, your name, or any device hardware identifier. It is stored on your device and is **permanently erased if you delete the app** (reinstalling generates a new, unrelated identifier).
 - The **app version**.
-- **Which screens and tools you open**, and **which features, choices and settings you use**: for example, that a calculation was run or a PDF was exported, which of the welcome screen's three choices you picked, that a condition was marked in "What you may be able to claim" and with which mark, the status a disability was added with or changed to (rated, pending, might file or denied), that a resource on the Support & Community screen was opened (never which one, and nothing at all for the Veterans Crisis Line), or that you switched to dark mode. These come from a fixed list of feature names and record only that something was used, never what you entered: not the condition, its rating, your dependents, your SMC or TDIU, your job, where you served or what you did.
+- **Which screens and tools you open**, and **which features, choices and settings you use**: for example, that a calculation was run or a PDF was exported, which of the welcome screen's three choices you picked, that a condition was marked in "What you may be able to claim" and with which mark, the status a disability was added with or changed to (rated, pending, might file or denied), that a resource on the Support & Community screen was opened (never which one, and nothing at all for the Veterans Crisis Line), that a date was added in Survivor Benefits (never the date), or that you switched to dark mode. These come from a fixed list of feature names and record only that something was used, never what you entered: not the condition, its rating, your dependents, your SMC or TDIU, your job, where you served or what you did.
 - **How long** the app was in use and roughly how long each screen was open (durations in seconds).
 - **Anonymous reliability counts** — that a crash, hang, or failed export occurred. Only the count is sent: no stack traces, no error messages, no device details.
 - A **timestamp** for each event.
@@ -150,7 +164,7 @@ Your use of it is voluntary. I do not receive personal information from Apple in
 
 Some screens and News posts link to websites, like VA.gov and this one. They open in your browser, the app sends them nothing, and each has its own privacy policy.
 
-The page on this website that previews a new version ([What's coming in 1.27.0](/va-compensation-calculator/whats-new/)) shows a video hosted on YouTube. Nothing loads from YouTube until you press play. Once you do, the video plays in YouTube's own player: YouTube (Google) receives your IP address and browser details and may set cookies, under [Google's Privacy Policy](https://policies.google.com/privacy). The same applies if you watch the video in the YouTube app or on youtube.com.
+The page on this website that previews new versions ([What's coming in VA Compensation Calculator](/va-compensation-calculator/whats-new/)) shows a video hosted on YouTube. Nothing loads from YouTube until you press play. Once you do, the video plays in YouTube's own player: YouTube (Google) receives your IP address and browser details and may set cookies, under [Google's Privacy Policy](https://policies.google.com/privacy). The same applies if you watch the video in the YouTube app or on youtube.com.
 
 ---
 
