@@ -8,7 +8,7 @@ toc_label: "On this page"
 ---
 
 **Effective date:** July 19, 2026  
-**Last updated:** October 1, 2026  
+**Last updated:** November 1, 2026  
 
 ---
 
@@ -18,20 +18,20 @@ MediaHarbor is an independent iOS application developed and maintained by Ian Ma
 
 MediaHarbor is built on a simple principle: **it is a viewer for files you already own, and those files are none of my business.** Your photos, your videos, your server addresses, and your passwords stay on your device and on your own network. There is no account to create, no cloud service behind the app, and no third-party analytics or tracking of any kind.
 
-Only two things ever reach me: a support message you deliberately write and send from inside the app (Section 4), and a handful of anonymous usage counters — app opens and purchases, nothing more — which you can switch off at any time (Section 3).
+Only three things ever reach me: a support message you deliberately write and send from inside the app (Section 4), and anonymous usage counters and crash reports (Section 3), which you can switch off at any time, and which, starting with version 1.4.0, are sent only if you allow them in the EU, the EEA, the UK, and Switzerland.
 
 ---
 
 ## 2. What the App Does Not Collect
 
-MediaHarbor contains **no third-party analytics or advertising SDKs, no crash-reporting SDK, and no trackers of any kind.** The only measurement it performs is the minimal, anonymous usage counting described in Section 3 — implemented in my own code, sent only to my own server, and controlled by a switch in Settings. The following never leave your device:
+MediaHarbor contains **no third-party analytics or advertising SDKs, no third-party crash-reporting SDK, and no trackers of any kind.** The only measurement it performs is the anonymous usage counting and crash reporting described in Section 3 — implemented in my own code, sent only to my own server, and controlled by a switch in Settings. The following never leave your device:
 
 - **Your photos and videos.** The app reads them to display them. It never uploads them anywhere.
 - **File names, folder names, and directory listings** from your devices or servers.
 - **Server addresses, share names, user names, domains, and passwords** for your network connections.
-- **Which screens you open, which features you use, which files you view, or how long you watch.** The app counts only *that* a session started (Section 3) — never what you did in it.
+- **Which files you view, what you search for, or how long you watch.** The app records which of its features were used on a given day (Section 3), never what they were used on.
 - **Your location.** The app does not request location permission. Photos may contain GPS coordinates in their own metadata; those are read on your device to draw a map and are never transmitted.
-- **Advertising identifiers (IDFA), the device vendor identifier (IDFV), or your device model.**
+- **Advertising identifiers (IDFA) or the device vendor identifier (IDFV).** Your device model is sent only in a crash report (Section 3).
 
 Because MediaHarbor collects no data for advertising, shares nothing with any other company, and its usage counters cannot be linked to you, it does not present an App Tracking Transparency prompt and does not track you as Apple defines tracking.
 
@@ -39,22 +39,26 @@ Because MediaHarbor collects no data for advertising, shares nothing with any ot
 
 ## 3. Anonymous Usage Statistics
 
-Starting with version 1.1.0, MediaHarbor counts a small set of anonymous usage statistics so I can tell whether the app is being used and whether its one-time unlock keeps it sustainable. The scope is deliberately tiny, and there is an off switch.
+Starting with version 1.1.0, MediaHarbor counts a small set of anonymous usage statistics so I can tell whether the app is being used and whether its one-time unlock keeps it sustainable. Starting with version 1.4.0, it also records which features get used, so I can tell what to improve, and sends crash reports, so I can fix what breaks. There is one off switch for all of it. Starting with version 1.4.0, in the EU, the EEA, the UK, and Switzerland, the app asks first, and sends nothing unless you allow it.
 
-**Exactly four things are counted:**
+**Four things are counted:**
 
 - That the app was **opened** (at most one count per session).
 - That a purchase of the **Lifetime Unlock completed**.
 - That a **Restore Purchases** succeeded.
 - That an install **has the unlock active** — counted once per install, so I can know how many active users are paid users.
 
-Each count is sent with the app version, a timestamp, and a **random install identifier** generated on your device. That identifier is not derived from your identity, your Apple ID, your name, or any hardware identifier, and it is deliberately a *different* random value than the feedback form's identifier — so a feedback message that carries your email address can never be connected to usage counts. Deleting the app destroys the identifier permanently.
+**Feature use.** The app records which features from a fixed list were used on a given day: for example that a slideshow ran, that a gallery was sorted by date, or that a video played in Picture in Picture. A feature counts once a day however often it's used, with the date and no time of day. Each entry is a fixed name built into the app, so no file name, search term, or other value can travel with it.
 
-**Nothing else is ever sent.** No file names, folder names, server addresses, screens, features, viewing or playback activity, searches, location, or device model. The receiving server accepts only the four counters above and rejects anything else; it never logs or stores IP addresses.
+Each count is sent with the app version, a timestamp (only the date, for feature use), and a **random install identifier** generated on your device. That identifier is not derived from your identity, your Apple ID, your name, or any hardware identifier, and it is deliberately a *different* random value than the feedback form's identifier — so a feedback message that carries your email address can never be connected to usage counts. Deleting the app destroys the identifier permanently.
 
-These counters go to **a server I own and administer personally** — the same self-hosted server that receives feedback messages. No third-party analytics service, SDK, or cloud platform is involved at any point.
+**Crash reports.** If the app crashes, your device gives it a diagnostic report the next time it opens. The app cuts that down to the app and system versions, your device's model (such as "iPad14,8"), the technical cause of the crash, and the position in the app's code where it happened, and sends only that. A crash report carries no install identifier, so it can't be connected to usage counts, and it holds no file names or paths.
 
-**Turning it off:** Settings → Privacy → **Share Anonymous Usage Statistics**. Switching it off stops all counting immediately and discards anything not yet sent. The app works identically either way.
+**Nothing else is ever sent.** No file names, folder names, server addresses, viewing or playback activity, searches, or location. The receiving server accepts only the counts and crash reports described above and rejects anything else; it never logs or stores IP addresses.
+
+These go to **a server I own and administer personally** — the same self-hosted server that receives feedback messages. No third-party analytics service, SDK, or cloud platform is involved at any point.
+
+**Turning it off:** Settings → Privacy → **Share Anonymous Usage Statistics**. Switching it off stops all counting and crash reports immediately, discards anything not yet sent, and, starting with version 1.4.0, deletes the random identifier from your device. The app works identically either way.
 
 ---
 
@@ -141,6 +145,7 @@ The only external parties involved in MediaHarbor at all are:
 - **On your device:** everything the app stores is yours to remove. Clear caches in Settings, or uninstall the app to erase all local data and Keychain entries.
 - **Feedback messages:** retained on my server only as long as needed to respond and to track the underlying bug or request. There is no automated retention limit; you may request deletion at any time (Section 11).
 - **Usage counters:** stored on my server as anonymous counts. They contain no personal data and cannot be traced back to you or your device, so they are retained as aggregate history (e.g., "daily users over time"). Turning the switch off (Section 3) stops new counts immediately.
+- **Crash reports:** kept as long as they help fix the problem they show. They contain no personal data and can't be connected to you.
 
 I hold no other copy of anything related to your use of the app.
 
@@ -148,9 +153,11 @@ I hold no other copy of anything related to your use of the app.
 
 ## 11. Your Privacy Rights
 
-Because MediaHarbor collects nothing except feedback you deliberately send and anonymous counters that cannot identify you, there is very little data to exercise rights over — but those rights apply fully to what does exist.
+Because MediaHarbor collects nothing except feedback you deliberately send and anonymous counters and crash reports that cannot identify you, there is very little data to exercise rights over — but those rights apply fully to what does exist.
 
 If you have sent feedback, you may request a copy of it or ask me to delete it by using the [contact page](https://www.ianm.tech/contact/). Please include enough detail (approximate date, and the email address you used, if any) for me to locate the message.
+
+**In the EU, the EEA, the UK, and Switzerland,** starting with version 1.4.0, usage statistics and crash reports are sent only with your permission, which is the legal basis for them. The app asks the first time you open it, nothing is sent before you answer, and either answer works the same. You can withdraw your permission at any time with the switch in Settings → Privacy. That also deletes the random identifier from your device, after which counts already sent can't be connected to your device, by me or anyone else.
 
 Residents of California and other states with comprehensive privacy laws should be aware that I do not sell or share personal information, do not engage in targeted advertising, and do not meet the revenue or data-volume thresholds that trigger obligations under the California Consumer Privacy Act (CCPA/CPRA) or similar state laws. The protections in this policy apply to all users regardless of location.
 
