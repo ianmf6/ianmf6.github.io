@@ -1,10 +1,10 @@
 ---
 permalink: /va-compensation-calculator/whats-new/
-title: "What's Coming in VA Compensation Calculator"
+title: "What's New in VA Compensation Calculator"
 description: "A 4-minute look at 1.27.0: Rating & Pay, the Claim Finder, Military Job Lookup, My Profile, widgets and more. After it: Survivor Benefits and an Apple Watch app."
 header:
   og_image: /assets/images/va-disability-app-images/whats-new-1.27.0.jpg
-last_modified_at: 2026-10-29T00:00:00-04:00
+last_modified_at: 2026-11-01T00:00:00-05:00
 ---
 
 <style>
@@ -58,12 +58,12 @@ last_modified_at: 2026-10-29T00:00:00-04:00
 .lightbox-caption{position:absolute;bottom:18px;left:16px;right:16px;width:fit-content;max-width:760px;margin:0 auto;padding:6px 14px;border-radius:6px;background:rgba(0,0,0,.55);color:#fff;font-size:.9em;line-height:1.4;text-align:center}
 </style>
 
-The next update to [VA Compensation Calculator](/va-compensation-calculator/), 1.27.0, is planned for November. Here's a 4-minute look at what's coming. Further down are screenshots, and what comes after it.
+[VA Compensation Calculator](/va-compensation-calculator/) 1.27.0 is out. Here's a 4-minute look at what's new. Further down are screenshots, and what comes after it.
 
 <div class="vp" id="vp">
-  <a class="vp-thumb" href="https://www.youtube.com/watch?v=eNAiKTJv8SI" aria-label="Play the 4-minute preview of VA Compensation Calculator 1.27.0">
+  <a class="vp-thumb" href="https://www.youtube.com/watch?v=eNAiKTJv8SI" aria-label="Play the 4-minute video of what's new in VA Compensation Calculator 1.27.0">
     <img src="/assets/images/va-disability-app-images/whats-new-1.27.0.jpg" alt="VA Compensation Calculator: What's new in 1.27.0" width="1280" height="720">
-    <span class="vp-play" aria-hidden="true">Watch the preview · 4:08</span>
+    <span class="vp-play" aria-hidden="true">Watch the video · 4:08</span>
   </a>
 </div>
 
@@ -80,7 +80,7 @@ The next update to [VA Compensation Calculator](/va-compensation-calculator/), 1
   <li><span>3:43</span> <a href="https://www.youtube.com/watch?v=eNAiKTJv8SI&amp;t=223s" data-start="223">More help in Support &amp; Community</a></li>
 </ul>
 
-## What's coming in 1.27.0
+## What's new in 1.27.0
 
 - **Claim Finder:** conditions often claimed with the ones you have, the ones VA presumes after certain service (like Agent Orange, burn pits, the Gulf War and Camp Lejeune), and the ones linked to what you did in service, like loud noise, combat or asbestos.
 - **Military Job Lookup:** the job code from your DD 214, today's or decades old. What the job was, what it became, and the conditions linked to its duties.
@@ -135,7 +135,7 @@ The next update to [VA Compensation Calculator](/va-compensation-calculator/), 1
   <button type="button" class="carousel-btn carousel-next" aria-label="More screenshots">&#8250;</button>
 </div>
 
-When it's out, it shows up as an update in the [App Store](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239).
+It's an update in the [App Store](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239).
 
 ## Coming after 1.27.0
 
@@ -197,7 +197,7 @@ With App Lock on, the watch shows a lock, not your numbers. The watch face never
 
 ## Tell me what you think
 
-I'd like to hear what you think of what's coming: what looks useful, what's missing, or anything that's unclear. [Send me a note](/contact/?topic=va-feedback), and leave your email if you'd like a reply.
+I'd like to hear what you think: what's useful, what's missing, or anything that's unclear. [Send me a note](/contact/?topic=va-feedback), and leave your email if you'd like a reply.
 
 — Ian
 
@@ -209,7 +209,7 @@ I'd like to hear what you think of what's coming: what looks useful, what's miss
   function play(start) {
     var f = document.createElement("iframe");
     f.src = "https://www.youtube.com/embed/eNAiKTJv8SI?autoplay=1&rel=0&playsinline=1" + (start ? "&start=" + start : "");
-    f.title = "What's Coming in VA Compensation Calculator 1.27.0";
+    f.title = "What's New in VA Compensation Calculator 1.27.0";
     f.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
     f.setAttribute("allowfullscreen", "");
     f.referrerPolicy = "strict-origin-when-cross-origin";

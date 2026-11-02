@@ -13,7 +13,7 @@ toc_label: "On this page"
 ---
 
 **Effective date:** November 7, 2025  
-**Last updated:** October 29, 2026  
+**Last updated:** November 1, 2026  
 
 ---
 
@@ -164,7 +164,7 @@ Your use of it is voluntary. I do not receive personal information from Apple in
 
 Some screens and News posts link to websites, like VA.gov and this one. They open in your browser, the app sends them nothing, and each has its own privacy policy.
 
-The page on this website that previews new versions ([What's coming in VA Compensation Calculator](/va-compensation-calculator/whats-new/)) shows a video hosted on YouTube. Nothing loads from YouTube until you press play. Once you do, the video plays in YouTube's own player: YouTube (Google) receives your IP address and browser details and may set cookies, under [Google's Privacy Policy](https://policies.google.com/privacy). The same applies if you watch the video in the YouTube app or on youtube.com.
+Two pages on this website show videos hosted on YouTube: [Getting Started with VA Compensation Calculator](/va-compensation-calculator/getting-started/) and the page that previews new versions ([What's new in VA Compensation Calculator](/va-compensation-calculator/whats-new/)). Nothing loads from YouTube until you press play. Once you do, the video plays in YouTube's own player: YouTube (Google) receives your IP address and browser details and may set cookies, under [Google's Privacy Policy](https://policies.google.com/privacy). The same applies if you watch a video in the YouTube app or on youtube.com.
 
 ---
 

@@ -39,6 +39,8 @@ Built by a veteran for veterans. Includes 11 focused calculators and references,
 
 [![Download VA Compensation Calculator on the App Store](/assets/images/va-disability-app-images/download-on-the-app-store.svg)](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239)
 
+New here? [Watch the 8-minute Getting Started video](/va-compensation-calculator/getting-started/).
+
 <style>
 .feature-grid {
   display: grid;
@@ -521,7 +523,17 @@ Built by a veteran for veterans. Includes 11 focused calculators and references,
 
 ## Version History
 
-<strong>v1.26.13 — October 2026</strong> <em>(Latest)</em>
+<strong>v1.27.0 — November 2026</strong> <em>(Latest)</em>
+  - **Claim Finder** — conditions you may be able to claim: often claimed with the ones you have, presumed by VA after certain service (Agent Orange, burn pits and the PACT Act, the Gulf War, Camp Lejeune and more), and linked to what you did in service; the lists update without an app update
+  - **Military Job Lookup** — the job code from your DD 214 (an MOS, rating or AFSC, today's or decades old) or its title: what the job was, what it became, and the conditions linked to its duties
+  - **My Profile** — your dependents, SMC and TDIU (moved from Settings) and your military service in one card, with "See what you may be able to claim"
+  - **Might file** — a status for a claim you're thinking about, apart from one you've filed, and a Claim Tracker reminder before your intent to file runs out
+  - **Widgets** — your rating, monthly pay, next pay date and next event on the Home Screen and Lock Screen; a lock instead of your numbers with App Lock on
+  - **iPad** — your rating and cards on the left, each card's screen beside them
+  - **One main screen** — the cards, with the Claim Finder and the Increase Finder among them, and a welcome that asks where you are with VA
+  - **Also:** various bug fixes and improvements
+
+<strong>v1.26.13 — October 2026</strong>
   - **2027 pay rates** — VA's rates with the 3.6% cost-of-living adjustment, in effect December 1; the app switches to them by itself that day
   - **A new main screen** — your rating, monthly pay and pending-claim projection in one summary card, with your tools as cards below that show where things stand; the classic screen is one tap away (top left, or Settings → Main Screen)
   - **New pay tables without an app update** — the app checks for new, signed VA pay tables and picks them up by itself; the rate year switches to the new rates on December 1
