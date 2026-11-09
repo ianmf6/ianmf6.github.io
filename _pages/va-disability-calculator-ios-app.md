@@ -6,10 +6,10 @@ redirect_from:
   - /va-disability-calculator-ios-app/
   - /va-compensation-calculator-ios-app/
 title: "VA Compensation Calculator"
-description: "Free VA disability & compensation calculator for iPhone and iPad — combined ratings (38 CFR), bilateral factor, monthly pay, backpay, SMC, and the full 38 CFR diagnostic-code schedule. Built by a veteran, no ads, no account."
+description: "Free VA disability & compensation calculator for iPhone, iPad and Apple Watch — combined ratings (38 CFR), monthly pay, backpay, SMC, a Claim Finder, survivor benefits (DIC), and the full 38 CFR diagnostic-code schedule. Built by a veteran, no ads, no account."
 header:
   og_image: /assets/images/va-disability-app-images/og-card.png
-last_modified_at: 2026-10-15T00:00:00-04:00
+last_modified_at: 2026-11-11T00:00:00-05:00
 
 toc: true
 toc_label: "On this page"
@@ -33,9 +33,9 @@ toc_sticky: true
 
 ## Overview
 
-Calculate VA disability compensation, track your claim journey, and explore "what if" scenarios — all on your device, with zero ads and no account required.
+Calculate VA disability compensation, find what else you may be able to claim, track your claim journey, and explore "what if" scenarios — all on your device, with zero ads and no account required.
 
-Built by a veteran for veterans. Includes 11 focused calculators and references, a Claim Tracker with reminders, the full 38 CFR Part 4 schedule (700+ diagnostic codes with per-percentage rating criteria), and PDF export for handing off to VSOs or attorneys. Free forever. Supported by an entirely optional Tip Jar — tipping unlocks nothing.
+Built by a veteran for veterans. Includes 14 focused calculators and references (among them the Claim Finder, Military Job Lookup and Survivor Benefits), a Claim Tracker with reminders, the full 38 CFR Part 4 schedule (700+ diagnostic codes with per-percentage rating criteria), and PDF export for handing off to VSOs or attorneys. For iPhone and iPad, with an Apple Watch app and widgets for your Home Screen and Lock Screen. Free forever. Supported by an entirely optional Tip Jar — tipping unlocks nothing.
 
 [![Download VA Compensation Calculator on the App Store](/assets/images/va-disability-app-images/download-on-the-app-store.svg)](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239)
 
@@ -93,12 +93,32 @@ New here? [Watch the 8-minute Getting Started video](/va-compensation-calculator
   <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-calculator" aria-hidden="true"></i></span>
     <span class="fc-title">Combined Rating</span>
-    <span class="fc-summary">Accurate math per 38 CFR 4.25 including the bilateral factor.</span>
+    <span class="fc-summary">Accurate math per 38 CFR 4.25 and the bilateral factor, each step shown in Rating &amp; Pay.</span>
   </div>
   <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></span>
     <span class="fc-title">Monthly Compensation</span>
-    <span class="fc-summary">9 years of rate tables with full dependent support.</span>
+    <span class="fc-summary">10 years of rate tables (2018–2027) with full dependent support.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-search-plus" aria-hidden="true"></i></span>
+    <span class="fc-title">Claim Finder</span>
+    <span class="fc-summary">Conditions you may be able to claim, from your conditions, service and duties.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-id-card" aria-hidden="true"></i></span>
+    <span class="fc-title">Military Job Lookup</span>
+    <span class="fc-summary">The job code on your DD 214: what the job was, what it became, its duties.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-user-circle" aria-hidden="true"></i></span>
+    <span class="fc-title">My Profile</span>
+    <span class="fc-summary">Dependents, SMC, TDIU and your military service, with a summary to share.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-hand-holding-heart" aria-hidden="true"></i></span>
+    <span class="fc-title">Survivor Benefits</span>
+    <span class="fc-summary">What VA's DIC would pay your spouse and children, and when it would apply.</span>
   </div>
   <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-history" aria-hidden="true"></i></span>
@@ -106,14 +126,14 @@ New here? [Watch the 8-minute Getting Started video](/va-compensation-calculator
     <span class="fc-summary">Retroactive pay across rating timelines, with PDF export.</span>
   </div>
   <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-level-up-alt" aria-hidden="true"></i></span>
+    <span class="fc-title">Increase Finder</span>
+    <span class="fc-summary">What the next rating step requires per condition, and what it's worth.</span>
+  </div>
+  <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-calendar-check" aria-hidden="true"></i></span>
     <span class="fc-title">Claim Tracker</span>
     <span class="fc-summary">Track C&amp;P exams, hearings, and deadlines with reminders.</span>
-  </div>
-  <div class="feature-card">
-    <span class="fc-icon"><i class="fas fa-book-medical" aria-hidden="true"></i></span>
-    <span class="fc-title">38 CFR Diagnostic Codes</span>
-    <span class="fc-summary">Full 38 CFR Part 4 schedule — 700+ codes with per-band rating criteria.</span>
   </div>
   <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-notes-medical" aria-hidden="true"></i></span>
@@ -121,14 +141,24 @@ New here? [Watch the 8-minute Getting Started video](/va-compensation-calculator
     <span class="fc-summary">Log episodes over time and share a claim-language summary with your VSO.</span>
   </div>
   <div class="feature-card">
-    <span class="fc-icon"><i class="fas fa-level-up-alt" aria-hidden="true"></i></span>
-    <span class="fc-title">Increase Finder</span>
-    <span class="fc-summary">What the next rating step requires per condition, and what it's worth.</span>
+    <span class="fc-icon"><i class="fas fa-stopwatch" aria-hidden="true"></i></span>
+    <span class="fc-title">Apple Watch</span>
+    <span class="fc-summary">Your rating and pay on your wrist; log an episode the moment it starts.</span>
   </div>
   <div class="feature-card">
-    <span class="fc-icon"><i class="fas fa-sliders-h" aria-hidden="true"></i></span>
-    <span class="fc-title">What If? Scenarios</span>
-    <span class="fc-summary">See how rating changes affect your monthly compensation.</span>
+    <span class="fc-icon"><i class="fas fa-mobile-alt" aria-hidden="true"></i></span>
+    <span class="fc-title">Widgets</span>
+    <span class="fc-summary">Your rating, pay and next pay date on your Home Screen and Lock Screen.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-book-medical" aria-hidden="true"></i></span>
+    <span class="fc-title">38 CFR Diagnostic Codes</span>
+    <span class="fc-summary">Full 38 CFR Part 4 schedule — 700+ codes with per-band rating criteria.</span>
+  </div>
+  <div class="feature-card">
+    <span class="fc-icon"><i class="fas fa-th-large" aria-hidden="true"></i></span>
+    <span class="fc-title">Tools &amp; Calculators</span>
+    <span class="fc-summary">What If?, SMC Screener, Pay Date Predictor, COLA Estimator, CRDP/CRSC, more.</span>
   </div>
   <div class="feature-card">
     <span class="fc-icon"><i class="fas fa-file-export" aria-hidden="true"></i></span>
@@ -140,310 +170,284 @@ New here? [Watch the 8-minute Getting Started video](/va-compensation-calculator
     <span class="fc-title">Privacy First</span>
     <span class="fc-summary">All-local storage, Face ID lock, no accounts, no ads.</span>
   </div>
-  <div class="feature-card">
-    <span class="fc-icon"><i class="fas fa-th-large" aria-hidden="true"></i></span>
-    <span class="fc-title">Tools &amp; Calculators</span>
-    <span class="fc-summary">SMC Screener, Pay Date Predictor, COLA Estimator, CRDP/CRSC, more.</span>
-  </div>
 </section>
 
 ## Screenshots
 
 <style>
-.device-tabs {
-  display: flex;
-  gap: 8px;
-  margin: 12px 0 16px;
-}
-.device-tab {
-  padding: 8px 18px;
-  background: #f0f0f0;
-  border: 1px solid #d0d0d0;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 0.95em;
-  font-weight: 500;
-  color: #333;
-}
-.device-tab:hover { background: #e6e6e6; }
-.device-tab.is-active {
-  background: #2c5282;
-  color: #fff;
-  border-color: #2c5282;
-}
-.device-pane { display: none; }
-.device-pane.is-active { display: block; }
+/* Device tabs, then the What's New page's carousel and lightbox, with a label under each screenshot */
+.device-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 16px}
+.device-tab{padding:8px 18px;background:#f0f0f0;border:1px solid #d0d0d0;border-radius:6px;cursor:pointer;font-size:.95em;font-weight:500;color:#333}
+.device-tab:hover{background:#e6e6e6}
+.device-tab.is-active{background:#2c5282;color:#fff;border-color:#2c5282}
+.device-tab:focus-visible{outline:3px solid #0a7ea4;outline-offset:2px}
+.device-pane{display:none}
+.device-pane.is-active{display:block}
 
-.carousel {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 0;
+.carousel{display:flex;align-items:center;gap:10px;margin:0 0 1.4em}
+.carousel-btn{flex:0 0 40px;width:40px;height:40px;border:1px solid #d0d0d0;background:#f5f5f5;border-radius:50%;font-size:1.4em;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#333;transition:background .15s}
+.carousel-btn:hover:not(:disabled){background:#e6e6e6}
+.carousel-btn:disabled{opacity:.3;cursor:default}
+.carousel-btn:focus-visible{outline:3px solid #0a7ea4;outline-offset:2px}
+.carousel-track{display:flex;align-items:flex-start;gap:10px;flex:1 1 auto;min-width:0;overflow-x:auto;scroll-behavior:smooth;scroll-snap-type:x mandatory;scroll-padding:0 2px;padding:4px 2px 8px;scrollbar-width:none}
+.carousel-track::-webkit-scrollbar{display:none}
+.page__content figure.shot{display:block;margin:0}
+.carousel .shot{flex:0 0 calc((100% - 20px) / 3);scroll-snap-align:start}
+.shot-thumb{display:block;width:100%;padding:0;border:none;background:none;cursor:zoom-in;border-radius:8px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.15)}
+.shot-thumb:hover{box-shadow:0 2px 10px rgba(0,0,0,.25)}
+.shot-thumb:focus-visible{outline:3px solid #0a7ea4;outline-offset:-3px}
+.page__content .shot-thumb img{display:block;width:100%;height:auto;margin:0;border-radius:0}
+.page__content .shot figcaption{margin:.45em 0 0;font-family:inherit;font-size:.75em;line-height:1.35;color:#5f6b76}
+.shot-solo{max-width:440px;margin:0 0 1.4em}
+.carousel.is-watch .shot-thumb{border-radius:14%;background:#000}
+@media (max-width:600px){
+  .carousel .shot{flex-basis:calc((100% - 10px) / 2)}
 }
-.carousel-btn {
-  flex: 0 0 40px;
-  width: 40px;
-  height: 40px;
-  border: 1px solid #d0d0d0;
-  background: #f5f5f5;
-  border-radius: 50%;
-  font-size: 1.4em;
-  line-height: 1;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #333;
-  transition: background 0.15s;
-}
-.carousel-btn:hover:not(:disabled) { background: #e6e6e6; }
-.carousel-btn:disabled { opacity: 0.3; cursor: default; }
-.carousel-track {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-  gap: 10px;
-  flex: 1 1 auto;
-  min-width: 0;
-  padding: 4px 2px 8px;
-  scrollbar-width: none;
-}
-.carousel-track::-webkit-scrollbar { display: none; }
-.carousel-thumb {
-  flex: 0 0 calc((100% - 20px) / 3);
-  scroll-snap-align: start;
-  border: none;
-  padding: 0;
-  background: none;
-  cursor: zoom-in;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
-}
-.carousel-thumb:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.25); }
-.carousel-thumb img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 8px;
-}
-@media (max-width: 600px) {
-  .carousel-thumb { flex: 0 0 calc((100% - 10px) / 2); }
-}
-
-.lightbox {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.88);
-  display: none;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999;
-  padding: 24px;
-}
-.lightbox.is-open { display: flex; }
-.lightbox-img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-}
-.lightbox-btn {
-  position: absolute;
-  background: rgba(255,255,255,0.18);
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.15s;
-}
-.lightbox-btn:hover { background: rgba(255,255,255,0.32); }
-.lightbox-prev,
-.lightbox-next {
-  top: 50%;
-  transform: translateY(-50%);
-  width: 52px;
-  height: 52px;
-  font-size: 2em;
-}
-.lightbox-prev { left: 16px; }
-.lightbox-next { right: 16px; }
-.lightbox-close {
-  top: 16px;
-  right: 16px;
-  width: 44px;
-  height: 44px;
-  font-size: 1.6em;
-}
-.lightbox-caption {
-  position: absolute;
-  bottom: 18px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #fff;
-  background: rgba(0,0,0,0.55);
-  padding: 6px 14px;
-  border-radius: 6px;
-  font-size: 0.9em;
-  max-width: 80%;
-  text-align: center;
-}
+.lightbox{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:68px 16px 100px;background:rgba(0,0,0,.88)}
+.lightbox.is-open{display:flex}
+.lightbox-img{max-width:100%;max-height:100%;object-fit:contain;border-radius:8px;box-shadow:0 4px 20px rgba(0,0,0,.5)}
+.lightbox-btn{position:absolute;display:flex;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,.45);border-radius:50%;background:rgba(0,0,0,.6);color:#fff;cursor:pointer;transition:background .15s}
+.lightbox-btn:hover{background:rgba(0,0,0,.8)}
+.lightbox-btn:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.lightbox-btn[hidden]{display:none}
+.lightbox-prev,.lightbox-next{top:50%;transform:translateY(-50%);width:52px;height:52px;font-size:2em}
+.lightbox-prev{left:16px}
+.lightbox-next{right:16px}
+.lightbox-close{top:16px;right:16px;width:44px;height:44px;font-size:1.6em}
+.lightbox-caption{position:absolute;bottom:18px;left:16px;right:16px;width:fit-content;max-width:760px;margin:0 auto;padding:6px 14px;border-radius:6px;background:rgba(0,0,0,.55);color:#fff;font-size:.9em;line-height:1.4;text-align:center}
 </style>
 
-<div class="device-tabs" role="tablist">
-  <button type="button" class="device-tab is-active" data-target="iphone-pane" role="tab" aria-selected="true">iPhone</button>
-  <button type="button" class="device-tab" data-target="ipad-pane" role="tab" aria-selected="false">iPad</button>
+<div class="device-tabs" role="tablist" aria-label="Screenshots by device">
+  <button type="button" class="device-tab is-active" id="iphone-tab" role="tab" aria-selected="true" aria-controls="iphone-pane">iPhone</button>
+  <button type="button" class="device-tab" id="ipad-tab" role="tab" aria-selected="false" aria-controls="ipad-pane" tabindex="-1">iPad</button>
+  <button type="button" class="device-tab" id="watch-tab" role="tab" aria-selected="false" aria-controls="watch-pane" tabindex="-1">Apple Watch</button>
 </div>
 
-<div id="iphone-pane" class="device-pane is-active" role="tabpanel">
-  <div class="carousel">
+<div id="iphone-pane" class="device-pane is-active" role="tabpanel" aria-labelledby="iphone-tab">
+  <div class="carousel" data-gallery>
     <button type="button" class="carousel-btn carousel-prev" aria-label="Previous screenshots">&#8249;</button>
     <div class="carousel-track">
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-home.png" data-caption="Home — combined rating, monthly pay, and quick access"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-home.png" alt="Home screen showing an 80% combined rating with a projected 100%, monthly compensation of $2,546.02 with SMC-K, and quick-access buttons for My Disabilities, Dependents, SMC, Claim Tracker, Symptom Log, and Calculators & References" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-disabilities.png" data-caption="Disabilities — Rated, Pending, and Denied, with a Log symptoms chip"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-disabilities.png" alt="Disabilities list with mixed Rated, Pending, and Denied statuses including bilateral knee and hearing loss, each row offering a Log symptoms shortcut" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-symptom-log.png" data-caption="Symptom Log — episodes summarized in VA rating-criteria language"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-symptom-log.png" alt="Symptom Log for Migraines (DC 8100) showing 6 episodes, 4 prostrating, about 2 per month over the last 90 days, with each dated episode listing duration and severity" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-claim-tracker.png" data-caption="Claim Tracker — upcoming C&P exams, decisions, and hearings"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-claim-tracker.png" alt="Claim Tracker with upcoming events: a knee C&P exam in 5 days, an expected decision on a sleep apnea claim, and a BVA hearing, each with reminder support" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-calculators.png" data-caption="Calculators & References"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-calculators.png" alt="Calculators and References menu listing Backpay Calculator, Pay Date Predictor, What If? Scenario, Combined Ratings Table, 38 CFR Diagnostic Codes, Healthcare Priority Group, TDIU Eligibility Check, Future COLA Estimator, and CRDP/CRSC Calculator" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-diagnostic-codes.png" data-caption="38 CFR Diagnostic Codes — searchable, Most Claimed first"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-diagnostic-codes.png" alt="38 CFR Diagnostic Codes picker showing the Most Claimed list — tinnitus, hearing impairment, PTSD, back, knee, sleep apnea, hypertension, migraine, and more — with codes and body systems" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-smc.png" data-caption="Special Monthly Compensation — SMC-K and the full SMC ladder"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-smc.png" alt="Special Monthly Compensation screen showing one SMC-K award and the SMC level selector" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-dependents.png" data-caption="Dependent Information"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-dependents.png" alt="Dependent information screen with marital status, spouse Aid and Attendance, dependent parents, and children inputs" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-breakdown.png" data-caption="Compensation Breakdown — the step-by-step math"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-breakdown.png" alt="Compensation Breakdown listing each disability, dependents, the combined percentage before rounding, the official VA rating, the bilateral factor, and a step-by-step calculation" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ios/ios-share.png" data-caption="Share Options — redact names, choose format, export text or PDF"><img src="/assets/images/va-disability-app-images/1.26.10/ios/ios-share.png" alt="Share options with toggles to redact disability names, include dependent information, and include pending claims, a live preview, and Share as Text and Save as PDF actions" loading="lazy"></button>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="The main screen: your rating and pay up top, your tools as cards below"><img src="/assets/images/va-disability-app-images/1.27.0/ios/main-screen.png" alt="The main screen: a 90% combined rating, 100% with pending claims, and $2,942.17 a month with one SMC-K at 2026 rates. Below it, My Disabilities with 13 conditions, 1 pending and 1 might file, and cards for the Claim Finder, Increase Finder, Claim Tracker, Symptom Log, My Profile and Calculators &amp; References" width="800" height="1738" loading="lazy"></button>
+        <figcaption>Main screen</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Rating &amp; Pay: your pay line by line, and how your ratings combine, step by step"><img src="/assets/images/va-disability-app-images/1.27.0/ios/rating-and-pay.png" alt="Rating &amp; Pay: the 90% rate for a veteran, a spouse and a child, $2,704.30, plus an additional child and SMC-K, for a total of $2,942.17 a month. Below it, how the rating is combined, highest first: PTSD 70%, sleep apnea 50%, both legs with the bilateral factor and four more, for a combined value of 94 that rounds to 90%" width="800" height="1738" loading="lazy"></button>
+        <figcaption>Rating &amp; Pay</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Claim Finder: conditions often claimed with the ones you have"><img src="/assets/images/va-disability-app-images/1.27.0/ios/claim-finder.png" alt="Claim Finder, with the conditions you have: for a back or neck condition, lumbar spine strain, it lists radiculopathy in an arm and bladder or bowel problems, both rated separately under 38 CFR, and reflux or ulcers from pain relievers, which needs a doctor's opinion, each with an Add button" width="800" height="1738" loading="lazy"></button>
+        <figcaption>Claim Finder</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Military Job Lookup: what the job was, its earlier codes, and what was often part of it"><img src="/assets/images/va-disability-app-images/1.27.0/ios/military-job-lookup.png" alt="Military Job Lookup's page for Army MOS 11B, Infantryman: the official description, its earlier codes 11H and 11M, used until 2002, and what's often part of the job, like loud noise and blasts and explosions" width="800" height="1738" loading="lazy"></button>
+        <figcaption>Military Job Lookup</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="My Profile: Dependents, SMC &amp; TDIU, and Military service in one place"><img src="/assets/images/va-disability-app-images/1.27.0/ios/my-profile.png" alt="My Profile: Dependents, married with 2 children; SMC &amp; TDIU, 1 SMC-K with TDIU off; and Military service: the job, MOS 11B, where they served, burn pits and other toxic exposures and Gulf War illnesses, and what they did, loud noise and combat or hostile fire" width="800" height="1738" loading="lazy"></button>
+        <figcaption>My Profile</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Share a summary: pick what goes in, then share it as text or a PDF"><img src="/assets/images/va-disability-app-images/1.27.0/ios/share-a-summary.png" alt="Share a Summary: switches for disabilities and claims, rating and pay, dependents, military service, Claim Tracker dates and the Symptom Log's last 90 days, all on, and notes on each disability, off, above a preview of the Veteran Summary and a Share as Text button" width="800" height="1738" loading="lazy"></button>
+        <figcaption>Share a summary</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Survivor Benefits, For your family: what your spouse and children could receive, line by line"><img src="/assets/images/va-disability-app-images/1.27.1/ios/survivor-for-your-family.png" alt="Survivor Benefits, For your family: $2,900.36 a month at 2026 rates, tax-free, and $2,541.36 after DIC's first 2 years, for a married veteran rated 90% with 2 children under 18. It adds up the spouse's basic rate, $1,699.36, 2 children under 18, $842.00, and the transitional benefit, $359.00" width="800" height="1734" loading="lazy"></button>
+        <figcaption>Survivor Benefits: for your family</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Survivor Benefits: when each of VA's rules would apply"><img src="/assets/images/va-disability-app-images/1.27.1/ios/survivor-when-it-applies.png" alt="Survivor Benefits, When it would apply: a service-connected death, at any time; any cause of death, only after 10 years rated 100% or TDIU without a break; and the 8-year provision, $360.85 more, only after 8 years rated 100% or TDIU without a break, while married. Below it, Good to know, about Survivors Pension and the Survivor Benefit Plan" width="800" height="1734" loading="lazy"></button>
+        <figcaption>Survivor Benefits: when it would apply</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Survivor Benefits, For a survivor: an estimate from the survivor's own answers"><img src="/assets/images/va-disability-app-images/1.27.1/ios/survivor-for-a-survivor.png" alt="Survivor Benefits, For a survivor: an estimated $2,900.36 a month, with who's applying, a surviving spouse or children only, how DIC would apply, died in service or of a service-connected condition, rated 100% or TDIU for the 10 years before death, or not sure, and a switch for DIC's first 2 years" width="800" height="1734" loading="lazy"></button>
+        <figcaption>Survivor Benefits: for a survivor</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Widgets on your Home Screen: your rating, pay, next pay date and next Claim Tracker date"><img src="/assets/images/va-disability-app-images/1.27.0/ios/widgets-home-screen.jpg" alt="A Home Screen with two VA Compensation Calculator widgets: a 90% rating, $2,942.17 a month, 100% with pending claims, the next pay date, Fri, Oct 30, and a C&amp;P exam in 6 days from the Claim Tracker" width="800" height="1738" loading="lazy"></button>
+        <figcaption>Home Screen widgets</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Widgets on your Lock Screen"><img src="/assets/images/va-disability-app-images/1.27.0/ios/widgets-lock-screen.jpg" alt="A Lock Screen with VA 90% and $2,942.17 a month above the clock, and under it the rating, the monthly pay, the next pay date and a gauge at 90" width="800" height="1738" loading="lazy"></button>
+        <figcaption>Lock Screen widgets</figcaption>
+      </figure>
     </div>
     <button type="button" class="carousel-btn carousel-next" aria-label="More screenshots">&#8250;</button>
   </div>
 </div>
 
-<div id="ipad-pane" class="device-pane" role="tabpanel">
-  <div class="carousel">
+<div id="ipad-pane" class="device-pane" role="tabpanel" aria-labelledby="ipad-tab">
+  <div class="shot-solo" data-gallery>
+    <figure class="shot">
+      <button type="button" class="shot-thumb" data-caption="iPad: your rating and cards on the left, each card's screen beside them"><img src="/assets/images/va-disability-app-images/1.27.0/ipad/two-columns.png" alt="An iPad in two columns: the main screen's rating, pay and cards on the left, and the Increase Finder on the right, with the next rating step for each condition and what it would mean for the combined rating and pay" width="1200" height="1600" loading="lazy"></button>
+      <figcaption>iPad: two columns</figcaption>
+    </figure>
+  </div>
+</div>
+
+<div id="watch-pane" class="device-pane" role="tabpanel" aria-labelledby="watch-tab">
+  <div class="carousel is-watch" data-gallery>
     <button type="button" class="carousel-btn carousel-prev" aria-label="Previous screenshots">&#8249;</button>
     <div class="carousel-track">
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-home.png" data-caption="Home — combined rating, monthly pay, and quick access"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-home.png" alt="iPad home screen showing an 80% combined rating with a projected 100%, monthly compensation of $2,546.02 with SMC-K, and quick-access buttons including Claim Tracker, Symptom Log, and Calculators & References" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-disabilities.png" data-caption="Disabilities — Rated, Pending, and Denied, with a Log symptoms chip"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-disabilities.png" alt="iPad disabilities list with mixed Rated, Pending, and Denied statuses, each row offering a Log symptoms shortcut" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-symptom-log.png" data-caption="Symptom Log — episodes summarized in VA rating-criteria language"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-symptom-log.png" alt="iPad Symptom Log for Migraines (DC 8100) showing 6 episodes, 4 prostrating, about 2 per month over the last 90 days, with dated episodes listing duration and severity" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-claim-tracker.png" data-caption="Claim Tracker — upcoming C&P exams, decisions, and hearings"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-claim-tracker.png" alt="iPad Claim Tracker with upcoming events: a knee C&P exam in 5 days, an expected decision on a sleep apnea claim, and a BVA hearing" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-calculators.png" data-caption="Calculators & References"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-calculators.png" alt="iPad Calculators and References menu listing Backpay Calculator, Pay Date Predictor, What If? Scenario, Combined Ratings Table, 38 CFR Diagnostic Codes, Healthcare Priority Group, TDIU Eligibility Check, Future COLA Estimator, and CRDP/CRSC Calculator" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-diagnostic-codes.png" data-caption="38 CFR Diagnostic Codes — searchable, Most Claimed first"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-diagnostic-codes.png" alt="iPad Choose a Condition picker showing the Most Claimed list of diagnostic codes with codes and body systems" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-smc.png" data-caption="Special Monthly Compensation — SMC-K and the full SMC ladder"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-smc.png" alt="iPad Special Monthly Compensation screen with one SMC-K award and the SMC level selector" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-dependents.png" data-caption="Dependent Information"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-dependents.png" alt="iPad dependent information screen with marital status, spouse Aid and Attendance, parents, and children inputs" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-breakdown.png" data-caption="Compensation Breakdown — the step-by-step math"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-breakdown.png" alt="iPad Compensation Breakdown with disabilities, dependents, the combined percentage before rounding, the official VA rating, the bilateral factor, and a step-by-step calculation" loading="lazy"></button>
-      <button type="button" class="carousel-thumb" data-full="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-share.png" data-caption="Share Options — redact names, choose format, export text or PDF"><img src="/assets/images/va-disability-app-images/1.26.10/ipad/ipad-share.png" alt="iPad share options sheet with toggles to redact disability names, include dependent information, and include pending claims, a live preview, and Share as Text and Save as PDF actions" loading="lazy"></button>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Apple Watch: your rating and monthly pay"><img src="/assets/images/va-disability-app-images/1.27.1/watch/va-rating.png" alt="Apple Watch, VA Rating: a 90% ring, $2,942.17 a month, and with pending claims, 100% and $4,567.97" width="416" height="496" loading="lazy"></button>
+        <figcaption>Your rating and pay</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Apple Watch: timing a migraine for the Symptom Log"><img src="/assets/images/va-disability-app-images/1.27.1/watch/symptom-log-timing.png" alt="Apple Watch, Symptom Log: a migraine being timed, 42 minutes in, since 7:55 AM, with an End button" width="416" height="496" loading="lazy"></button>
+        <figcaption>Timing a migraine</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Apple Watch: when it ends, how bad it was"><img src="/assets/images/va-disability-app-images/1.27.1/watch/end-how-bad-was-it.png" alt="Apple Watch, End: How bad was it? Moderate, 3 of 5, with minus and plus buttons. It lasted 42 minutes. A Next button" width="416" height="496" loading="lazy"></button>
+        <figcaption>How bad was it?</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Apple Watch: your Claim Tracker dates"><img src="/assets/images/va-disability-app-images/1.27.1/watch/claim-tracker.png" alt="Apple Watch, Claim Tracker: a migraine C&amp;P exam on Wed, Nov 4, in 6 days, a neurology follow-up on Wed, Nov 11, in 13 days, and an HLR informal conference on hypertension" width="416" height="496" loading="lazy"></button>
+        <figcaption>Claim Tracker</figcaption>
+      </figure>
     </div>
     <button type="button" class="carousel-btn carousel-next" aria-label="More screenshots">&#8250;</button>
   </div>
 </div>
 
 <script>
-(function() {
-  // Tab toggle
-  document.querySelectorAll('.device-tab').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var target = btn.getAttribute('data-target');
-      document.querySelectorAll('.device-tab').forEach(function(b) {
-        var active = (b === btn);
-        b.classList.toggle('is-active', active);
-        b.setAttribute('aria-selected', active ? 'true' : 'false');
-      });
-      document.querySelectorAll('.device-pane').forEach(function(p) {
-        p.classList.toggle('is-active', p.id === target);
-      });
-    });
-  });
-
-  // Build lightbox
-  var lightbox = document.createElement('div');
-  lightbox.className = 'lightbox';
-  lightbox.setAttribute('role', 'dialog');
-  lightbox.setAttribute('aria-modal', 'true');
+(function () {
+  // The screenshots open in one lightbox: Escape closes it, the arrow keys
+  // step through that group, Tab stays on its buttons, and focus goes back
+  // to the screenshot that opened it. A group of one has no arrows.
+  var lightbox = document.createElement("div");
+  lightbox.className = "lightbox";
+  lightbox.setAttribute("role", "dialog");
+  lightbox.setAttribute("aria-modal", "true");
+  lightbox.setAttribute("aria-label", "Screenshot");
   lightbox.innerHTML =
     '<button type="button" class="lightbox-btn lightbox-close" aria-label="Close">&times;</button>' +
-    '<button type="button" class="lightbox-btn lightbox-prev" aria-label="Previous">&#8249;</button>' +
+    '<button type="button" class="lightbox-btn lightbox-prev" aria-label="Previous screenshot">&#8249;</button>' +
     '<img class="lightbox-img" alt="">' +
-    '<button type="button" class="lightbox-btn lightbox-next" aria-label="Next">&#8250;</button>' +
+    '<button type="button" class="lightbox-btn lightbox-next" aria-label="Next screenshot">&#8250;</button>' +
     '<div class="lightbox-caption"></div>';
   document.body.appendChild(lightbox);
 
-  var lightboxImg = lightbox.querySelector('.lightbox-img');
-  var lightboxCaption = lightbox.querySelector('.lightbox-caption');
-  var currentList = [];
-  var currentIndex = 0;
+  var img = lightbox.querySelector(".lightbox-img");
+  var caption = lightbox.querySelector(".lightbox-caption");
+  var closeBtn = lightbox.querySelector(".lightbox-close");
+  var prevBtn = lightbox.querySelector(".lightbox-prev");
+  var nextBtn = lightbox.querySelector(".lightbox-next");
+  var buttons = [closeBtn, prevBtn, nextBtn];
+  var list = [];
+  var index = 0;
+  var opener = null;
 
-  function showCurrent() {
-    var item = currentList[currentIndex];
-    lightboxImg.src = item.full;
-    lightboxImg.alt = item.alt;
-    lightboxCaption.textContent = item.caption || '';
+  function show() {
+    var item = list[index];
+    img.src = item.full;
+    img.alt = item.alt;
+    caption.textContent = item.caption;
   }
-  function openLightbox(list, idx) {
-    currentList = list;
-    currentIndex = idx;
-    showCurrent();
-    lightbox.classList.add('is-open');
-    document.body.style.overflow = 'hidden';
+  function open(items, i, from) {
+    list = items;
+    index = i;
+    opener = from;
+    prevBtn.hidden = nextBtn.hidden = list.length < 2;
+    show();
+    lightbox.classList.add("is-open");
+    document.body.style.overflow = "hidden";
+    closeBtn.focus();
   }
-  function closeLightbox() {
-    lightbox.classList.remove('is-open');
-    document.body.style.overflow = '';
+  function close() {
+    lightbox.classList.remove("is-open");
+    document.body.style.overflow = "";
+    if (opener) opener.focus();
   }
-  function navigate(delta) {
-    if (!currentList.length) return;
-    currentIndex = (currentIndex + delta + currentList.length) % currentList.length;
-    showCurrent();
+  function step(delta) {
+    index = (index + delta + list.length) % list.length;
+    show();
   }
 
-  lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
-  lightbox.querySelector('.lightbox-prev').addEventListener('click', function(e) { e.stopPropagation(); navigate(-1); });
-  lightbox.querySelector('.lightbox-next').addEventListener('click', function(e) { e.stopPropagation(); navigate(1); });
-  lightbox.addEventListener('click', function(e) { if (e.target === lightbox) closeLightbox(); });
-  document.addEventListener('keydown', function(e) {
-    if (!lightbox.classList.contains('is-open')) return;
-    if (e.key === 'Escape') closeLightbox();
-    else if (e.key === 'ArrowLeft') navigate(-1);
-    else if (e.key === 'ArrowRight') navigate(1);
+  closeBtn.addEventListener("click", close);
+  prevBtn.addEventListener("click", function () { step(-1); });
+  nextBtn.addEventListener("click", function () { step(1); });
+  lightbox.addEventListener("click", function (e) { if (e.target === lightbox) close(); });
+  document.addEventListener("keydown", function (e) {
+    if (!lightbox.classList.contains("is-open")) return;
+    if (e.key === "Escape") { e.preventDefault(); close(); }
+    else if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); }
+    else if (e.key === "ArrowRight") { e.preventDefault(); step(1); }
+    else if (e.key === "Tab") {
+      e.preventDefault();
+      var shown = buttons.filter(function (b) { return !b.hidden; });
+      var at = shown.indexOf(document.activeElement);
+      shown[(at + (e.shiftKey ? -1 : 1) + shown.length) % shown.length].focus();
+    }
   });
 
-  // Wire up each carousel
-  document.querySelectorAll('.carousel').forEach(function(carousel) {
-    var track = carousel.querySelector('.carousel-track');
-    var prev = carousel.querySelector('.carousel-prev');
-    var next = carousel.querySelector('.carousel-next');
-    var thumbs = [].slice.call(track.querySelectorAll('.carousel-thumb'));
-    var images = thumbs.map(function(t) {
-      var img = t.querySelector('img');
+  // Each group (a device's carousel, or the iPad's one screenshot) steps
+  // through its own screenshots.
+  Array.prototype.forEach.call(document.querySelectorAll("[data-gallery]"), function (gallery) {
+    var thumbs = [].slice.call(gallery.querySelectorAll(".shot-thumb"));
+    var items = thumbs.map(function (t) {
+      var pic = t.querySelector("img");
+      var label = t.parentNode.querySelector("figcaption");
       return {
-        full: t.getAttribute('data-full') || img.src,
-        alt: img.alt,
-        caption: t.getAttribute('data-caption') || ''
+        full: pic.getAttribute("src"),
+        alt: pic.alt,
+        caption: t.getAttribute("data-caption") || (label ? label.textContent : "")
       };
     });
+    thumbs.forEach(function (t, i) {
+      t.addEventListener("click", function () { open(items, i, t); });
+    });
+  });
 
-    function pageWidth() {
-      // Scroll by 3 thumbs (one page) — fall back to track width if thumbs unsized
-      if (thumbs.length === 0) return track.clientWidth;
-      var t = thumbs[0];
-      return (t.offsetWidth + 10) * 3 || track.clientWidth;
-    }
-    function updateButtons() {
+  // The carousel's arrows scroll it one view at a time.
+  Array.prototype.forEach.call(document.querySelectorAll(".carousel"), function (carousel) {
+    var track = carousel.querySelector(".carousel-track");
+    var prev = carousel.querySelector(".carousel-prev");
+    var next = carousel.querySelector(".carousel-next");
+    function update() {
+      var hadFocus = document.activeElement;
       prev.disabled = track.scrollLeft <= 1;
       next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 1;
+      // An arrow that just turned off hands the focus to the other one.
+      if (hadFocus === next && next.disabled && !prev.disabled) prev.focus();
+      if (hadFocus === prev && prev.disabled && !next.disabled) next.focus();
     }
-    prev.addEventListener('click', function() {
-      track.scrollBy({ left: -pageWidth(), behavior: 'smooth' });
-    });
-    next.addEventListener('click', function() {
-      track.scrollBy({ left: pageWidth(), behavior: 'smooth' });
-    });
-    track.addEventListener('scroll', updateButtons);
-    window.addEventListener('resize', updateButtons);
-    setTimeout(updateButtons, 0);
+    prev.addEventListener("click", function () { track.scrollBy({ left: -track.clientWidth, behavior: "smooth" }); });
+    next.addEventListener("click", function () { track.scrollBy({ left: track.clientWidth, behavior: "smooth" }); });
+    track.addEventListener("scroll", update);
+    window.addEventListener("resize", update);
+    update();
+  });
 
-    thumbs.forEach(function(thumb, idx) {
-      thumb.addEventListener('click', function() { openLightbox(images, idx); });
+  // The device tabs: a click picks one, and the arrow keys, Home and End move
+  // along them. A hidden carousel can't be measured, so showing a pane
+  // updates its arrows (they stayed off until a scroll or a resize).
+  var tabs = [].slice.call(document.querySelectorAll(".device-tab"));
+  function select(tab) {
+    tabs.forEach(function (t) {
+      var on = t === tab;
+      var pane = document.getElementById(t.getAttribute("aria-controls"));
+      t.classList.toggle("is-active", on);
+      t.setAttribute("aria-selected", on ? "true" : "false");
+      t.tabIndex = on ? 0 : -1;
+      pane.classList.toggle("is-active", on);
+      if (on) {
+        Array.prototype.forEach.call(pane.querySelectorAll(".carousel-track"), function (track) {
+          track.dispatchEvent(new Event("scroll"));
+        });
+      }
+    });
+  }
+  tabs.forEach(function (tab, i) {
+    tab.addEventListener("click", function () { select(tab); });
+    tab.addEventListener("keydown", function (e) {
+      var to = e.key === "ArrowRight" ? i + 1 : e.key === "ArrowLeft" ? i - 1
+        : e.key === "Home" ? 0 : e.key === "End" ? tabs.length - 1 : null;
+      if (to === null) return;
+      e.preventDefault();
+      var target = tabs[(to + tabs.length) % tabs.length];
+      select(target);
+      target.focus();
     });
   });
 })();
@@ -453,44 +457,72 @@ New here? [Watch the 8-minute Getting Started video](/va-compensation-calculator
 
 ### Combined Rating & Monthly Compensation
   - Combined disability rating per 38 CFR 4.25
-  - Bilateral factor per 38 CFR 4.26
-  - Monthly compensation across 9 years of rate tables (2018–2026)
-  - Full dependent support — spouse, spouse Aid & Attendance, dependent parents, children under 18, children 18–24 in school
-  - Projected rating that includes pending claims
-  - Rounding explainer on the main screen — "Combined value 83% rounds to 80%", with the step-by-step breakdown one tap away
+  - Bilateral factor per 38 CFR 4.26, including 4.26(d): a condition is left out of the factor when that gives a higher rating
+  - Rating & Pay — each step of how your ratings combine, your pay line by line, and what would reach the next rating, with switches to add your pending claims or the claims you might file
+  - Monthly compensation across 10 years of rate tables (2018–2027), each with its COLA; new tables arrive without an app update, and the rate year moves to the new rates on December 1 by itself
+  - Full dependent support — spouse, spouse Aid & Attendance, dependent parents, children under 18, children 18–23 in school
+  - Projected rating with your pending claims, and with the claims you might file
+  - Rounding note beside your rating — "94 rounds to 90%", and how many points more would round up — with Rating & Pay one tap away
+
+### Claim Finder
+  - Conditions often claimed with the ones you have, matched by diagnostic code — some rated separately under 38 CFR, like the complications of diabetes and nerve problems from the spine; others need a doctor's opinion
+  - Conditions VA presumes are service-connected after certain service — Agent Orange, burn pits and the PACT Act's other exposures, Gulf War illnesses, Camp Lejeune, radiation, former prisoners of war and more
+  - Conditions linked to what you did in service — loud noise, combat, blasts, asbestos, diving and more — with what VA accepts as proof of the duty; these aren't presumptions
+  - Each condition cites its 38 CFR section or VA page; Add puts it on your list as a claim you might file, and the main screen shows what it could mean for your rating and pay
+  - The lists update without an app update when a law or VA's lists change, and each update is signed
+
+### Military Job Lookup
+  - The job code from block 11 of your DD 214 — an MOS, rating or AFSC — or its title, in every branch, the Space Force included
+  - More than 5,000 job codes, today's and older ones, many retired decades ago; type the code the way your records print it, skill level and all (11B1P, BM2, 2A571), or browse by branch and career field
+  - A job's page — its official description, what it became or what came before it, the duties often part of it, and, for jobs on VA's own asbestos list, the exposure level VA's manual gives the job
+  - "This was my job" keeps it in My Profile, and its duties go into what you did in the Claim Finder
+  - The lists update without an app update
+
+### My Profile
+  - Your dependents, SMC and TDIU, and your military service — your jobs, where you served and what you did — in one place
+  - "See what you may be able to claim" turns your answers into one list to go through, and you mark each one as you go: might file, filed, rated or denied
+  - Share a summary — your disabilities and claims, rating and pay, dependents, military service, Claim Tracker dates and Symptom Log in one document, as text or a PDF, for a VSO or anyone you choose
+
+### Survivor Benefits (DIC)
+  - Estimates Dependency and Indemnity Compensation, the tax-free monthly payment VA makes to a veteran's surviving spouse and children, line by line from VA's rates
+  - For your family — from the dependents in My Profile, with when each rule would apply: a service-connected death at any time; almost any cause of death after 10 years rated 100% or TDIU without a break (5 from the day you left active duty, 1 as a former prisoner of war); and the 8-year provision, which pays a spouse more
+  - For a survivor — an estimate from the survivor's own answers, with VA's rules for who qualifies and a link to apply on VA.gov
+  - An estimate only: it never says anyone qualifies, since VA decides; it leaves out parents' DIC (income-based) and deaths before 1993
+  - A new year's rates arrive without an app update; the dates you add stay on your device
 
 ### Backpay Calculator
-  - Retroactive compensation across timelines of rating changes
+  - Retroactive compensation across timelines of rating changes and life events, like a marriage or a new child
   - Handles COLA boundary transitions automatically
   - 38 CFR 3.31 full-month rule applied correctly
   - Future-date projection for awards still pending
-  - "Already being paid at" offset — an increase shows only the difference owed
+  - "Already being paid at" offset — an increase shows only the difference owed, including any SMC-K VA was already paying and whether it paid for your dependents
   - Per-period breakdown showing each rate band
   - Export as text or styled PDF
 
 ### Special Monthly Compensation (SMC)
   - SMC-K (additive, up to 3 awards)
   - The full SMC ladder — S, L, L½, M, M½, N, N½, O/P, R.1, R.2, and T (replace base compensation)
-  - Rates sourced from VA.gov for 2025 and 2026 and cross-checked against the schedule
+  - Rates sourced from VA.gov for 2018 through 2026 and cross-checked against the schedule
   - Stacks correctly with regular compensation per VA rules, including the 38 U.S.C. 1114(o) cap on SMC-K
   - SMC Eligibility Screener — plain-language questions map to the levels worth asking about, with an automatic statutory-housebound (1114(s)) check from your ratings
 
 ### Symptom Log
   - Log episodic conditions as they happen — migraines, seizures, breathing or GI flare-ups, mental-health episodes, chronic-pain flares
   - Capture start time, duration, severity, symptoms, level of care, and whether an attack was prostrating
+  - Log an episode from your Apple Watch the moment it starts; it joins the log on your iPhone
   - Per-condition summaries written in rating-criteria language (e.g. "6 episodes · 4 prostrating · ~2 / month · last 90 days") — your logged data, never a rating determination
   - Open a condition's log from its row in My Disabilities, or from the main Symptom Log screen
   - Optionally add a newly logged condition to My Disabilities and tag it with a 38 CFR diagnostic code
   - Share a report as text or styled PDF for your VSO or provider — all stored locally, nothing uploaded
 
 ### TDIU Support
-  - Toggle to pay at the 100% rate when granted
+  - TDIU in My Profile pays at the 100% rate when granted
   - Schedular Eligibility Check screens 38 CFR 4.16(a) against your rated conditions
 
 ### Claim Tracking
-  - Three claim statuses — Rated, Pending, Denied
+  - Four claim statuses — Rated, Pending, Might file, and Denied; the main screen shows what your pending claims, and the ones you might file, could mean for your rating and pay
   - Claim Tracker for upcoming C&P exams, hearings, appeal deadlines, and decision dates
-  - Local notification reminders (1 day before, 1 hour before)
+  - Local notification reminders (1 day before, 1 hour before), and 30 days and 1 day before your intent to file runs out
   - Free-form notes per disability — effective dates, decision letter references, symptom logs
   - Diagnostic-code lookup against the full 38 CFR Part 4 schedule, with a "Most Claimed" shortcut for the top 15 conditions (tinnitus, hearing loss, PTSD, knee, back, sleep apnea, etc.) and tap-to-add as a new disability
   - Add or change a disability's diagnostic code from its row; search understands everyday names (PTSD, GERD, TBI, carpal tunnel, flat feet…)
@@ -505,25 +537,47 @@ New here? [Watch the 8-minute Getting Started video](/va-compensation-calculator
   - Future COLA Estimator — project next year's monthly given an assumed COLA percent
   - CRDP / CRSC Calculator — concurrent receipt estimator for military retirees
 
+### Apple Watch
+  - Comes with the iPhone app, for watchOS 10 or later
+  - Your rating, monthly pay and next pay date, and your rating and pay with pending claims
+  - Your Claim Tracker's upcoming exams, hearings and deadlines
+  - Log a Symptom Log episode the moment it starts; when it ends, how bad it was, whether a migraine was prostrating, and any care you needed — your iPhone keeps the record
+  - Complications for your watch face — your rating, your next pay date or Claim Tracker date, and an episode's timer while one runs; never a disability's name or an event's title
+  - "Log a migraine" — say it to Siri, or put it on an Apple Watch Ultra's Action button with the Shortcuts app
+  - With App Lock on, a lock instead of your numbers; the watch talks only to your iPhone, never to a server
+
+### Widgets
+  - Your rating, monthly pay, next pay date and next Claim Tracker event on your Home Screen (small and medium) and Lock Screen
+  - Moves on to your next pay date by itself, and to the new year's rates when VA starts paying them
+  - With App Lock on, a lock instead of your numbers
+
 ### Privacy
-  - All data stored locally on your device
+  - All data stored locally on your device — your Apple Watch gets only what your iPhone sends it
   - iOS Complete File Protection — saved data is encrypted while your device is locked
-  - Optional Face ID or Touch ID lock to open the app
+  - Optional Face ID or Touch ID lock to open the app; with it on, the widgets and your Apple Watch show a lock instead of your numbers
   - No accounts, no ads, and no third-party trackers or advertising SDKs
   - Anonymous, opt-out usage analytics (Settings → Analytics) — never your VA data
+  - New pay tables, lists and news arrive signed, and checking for them sends nothing about you
   - Backup & Restore — export everything to a single file you keep (Files, iCloud Drive, AirDrop) and restore it on a new phone; nothing is uploaded
   - One-tap data reset
 
 ### Appearance & Usability
   - Dark Mode — System, Light, or Dark
+  - Two columns on iPad — your rating and cards on the left, each card's screen beside them
   - Per-screen help and quick settings access
   - Search and filter on the Disabilities list
   - Smart year picker that auto-shows during COLA transition windows
-  - Quick orientation sheet on first launch
+  - News in the app — COLA updates, VA changes and app news
+  - A welcome for new users that asks where you are with VA, and an 8-minute [Getting Started video](/va-compensation-calculator/getting-started/)
 
 ## Version History
 
-<strong>v1.27.0 — November 2026</strong> <em>(Latest)</em>
+<strong>v1.27.1 — November 2026</strong> <em>(Latest)</em>
+  - **Survivor Benefits (DIC)** — what VA would pay your spouse and children as your survivors, line by line, and when each rule would apply: a service-connected death at any time, almost any cause after 10 years rated 100% or TDIU without a break, and the 8-year provision; a survivor can estimate their own too
+  - **Apple Watch** — your rating, monthly pay and next pay date on your wrist and your watch face, and your Claim Tracker dates; log a Symptom Log episode the moment it starts, or say "Log a migraine" to Siri; a lock instead of your numbers with App Lock on
+  - **Getting Started video** — an 8-minute tour of the app, on the welcome screen and in Help
+
+<strong>v1.27.0 — November 2026</strong>
   - **Claim Finder** — conditions you may be able to claim: often claimed with the ones you have, presumed by VA after certain service (Agent Orange, burn pits and the PACT Act, the Gulf War, Camp Lejeune and more), and linked to what you did in service; the lists update without an app update
   - **Military Job Lookup** — the job code from your DD 214 (an MOS, rating or AFSC, today's or decades old) or its title: what the job was, what it became, and the conditions linked to its duties
   - **My Profile** — your dependents, SMC and TDIU (moved from Settings) and your military service in one card, with "See what you may be able to claim"
