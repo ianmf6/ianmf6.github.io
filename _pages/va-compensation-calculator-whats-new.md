@@ -1,10 +1,10 @@
 ---
 permalink: /va-compensation-calculator/whats-new/
 title: "What's New in VA Compensation Calculator"
-description: "A 4-minute look at 1.27.0: Rating & Pay, the Claim Finder, Military Job Lookup, My Profile, widgets and more. After it: Survivor Benefits and an Apple Watch app."
+description: "A 4-minute look at 1.27.0: Rating & Pay, the Claim Finder, Military Job Lookup, My Profile, widgets and more. And in 1.27.1: Survivor Benefits and an Apple Watch app."
 header:
   og_image: /assets/images/va-disability-app-images/whats-new-1.27.0.jpg
-last_modified_at: 2026-11-01T00:00:00-05:00
+last_modified_at: 2026-11-11T00:00:00-05:00
 ---
 
 <style>
@@ -58,7 +58,7 @@ last_modified_at: 2026-11-01T00:00:00-05:00
 .lightbox-caption{position:absolute;bottom:18px;left:16px;right:16px;width:fit-content;max-width:760px;margin:0 auto;padding:6px 14px;border-radius:6px;background:rgba(0,0,0,.55);color:#fff;font-size:.9em;line-height:1.4;text-align:center}
 </style>
 
-[VA Compensation Calculator](/va-compensation-calculator/) 1.27.0 is out. Here's a 4-minute look at what's new. Further down are screenshots, and what comes after it.
+[VA Compensation Calculator](/va-compensation-calculator/) 1.27.0 and 1.27.1 are out. Here's a 4-minute look at what's new in 1.27.0. Further down are screenshots, and what 1.27.1 adds: Survivor Benefits and an Apple Watch app.
 
 <div class="vp" id="vp">
   <a class="vp-thumb" href="https://www.youtube.com/watch?v=eNAiKTJv8SI" aria-label="Play the 4-minute video of what's new in VA Compensation Calculator 1.27.0">
@@ -137,9 +137,9 @@ last_modified_at: 2026-11-01T00:00:00-05:00
 
 It's an update in the [App Store](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239).
 
-## Coming after 1.27.0
+## New in 1.27.1
 
-Two more things come in an update after 1.27.0. There's no date yet.
+Two more things are in 1.27.1, from November 11.
 
 ### Survivor Benefits (DIC)
 
@@ -148,7 +148,7 @@ Dependency and Indemnity Compensation (DIC) is a tax-free monthly payment VA mak
 - **For your family:** what your spouse and children could receive, line by line, from the dependents in My Profile. It also shows when each of VA's rules would apply: a service-connected death at any time, almost any cause of death after 10 years rated 100% or TDIU without a break, and the 8-year provision, which pays a spouse more. If you're rated 100% or TDIU, add the month that rating began and the month you married to see when.
 - **For a survivor:** an estimate from a survivor's own answers, with who qualifies and a link to apply on VA.gov.
 
-It's an estimate. It never says anyone qualifies: VA decides that, and whether a death was service-connected. It doesn't cover DIC for parents, which depends on their income, or deaths before 1993. You'll find it in Calculators & References, and in My Profile under Dependents.
+It's an estimate. It never says anyone qualifies: VA decides that, and whether a death was service-connected. It doesn't cover DIC for parents, which depends on their income, or deaths before 1993. It's in Calculators & References, and in My Profile under Dependents.
 
 <div class="shot-grid" data-gallery>
   <figure class="shot">
@@ -156,7 +156,7 @@ It's an estimate. It never says anyone qualifies: VA decides that, and whether a
     <figcaption>For your family</figcaption>
   </figure>
   <figure class="shot">
-    <button type="button" class="shot-thumb" data-caption="Survivor Benefits: when each of VA's rules would apply"><img src="/assets/images/va-disability-app-images/1.27.1/ios/survivor-when-it-applies.png" alt="Survivor Benefits, When it would apply: a service-connected death, at any time; any cause of death, only after 10 years rated 100% or TDIU without a break; and the 8-year provision, $360.85 more, only after 8 years rated 100% or TDIU while married. Below it, Good to know, about Survivors Pension and the Survivor Benefit Plan" width="800" height="1734" loading="lazy"></button>
+    <button type="button" class="shot-thumb" data-caption="Survivor Benefits: when each of VA's rules would apply"><img src="/assets/images/va-disability-app-images/1.27.1/ios/survivor-when-it-applies.png" alt="Survivor Benefits, When it would apply: a service-connected death, at any time; any cause of death, only after 10 years rated 100% or TDIU without a break; and the 8-year provision, $360.85 more, only after 8 years rated 100% or TDIU without a break, while married. Below it, Good to know, about Survivors Pension and the Survivor Benefit Plan" width="800" height="1734" loading="lazy"></button>
     <figcaption>When it would apply</figcaption>
   </figure>
   <figure class="shot">
@@ -167,7 +167,7 @@ It's an estimate. It never says anyone qualifies: VA decides that, and whether a
 
 ### Apple Watch
 
-The app gets an Apple Watch app. It comes with the iPhone app and needs watchOS 10 or later.
+The app now has an Apple Watch app. It comes with the iPhone app and needs watchOS 10 or later.
 
 - **Your rating and pay:** your rating, monthly pay and next pay date on your wrist and on your watch face.
 - **Symptom Log:** log an episode the moment it starts. When it's over, tap End and say how bad it was, whether a migraine made you stop and lie down, and any care you needed. It goes to the Symptom Log on your iPhone, which keeps the record.
