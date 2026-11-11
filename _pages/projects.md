@@ -11,7 +11,7 @@ toc_sticky: true
 This page highlights tools and applications I’ve built to address real-world problems through a cybersecurity lens, with an emphasis on practical use, experimentation, and community value.
 
 ## 📱 [VA Compensation Calculator](/va-compensation-calculator/)
-**Platform:** iOS  
+**Platform:** iOS and watchOS  
 **Status:** Active development  
 **Download:**  
 [![Download VA Compensation Calculator on the App Store](/assets/images/va-disability-app-images/download-on-the-app-store.svg)](https://apps.apple.com/us/app/va-compensation-calculator/id6746081239)
