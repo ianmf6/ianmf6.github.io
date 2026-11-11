@@ -44,6 +44,6 @@ New to the app, or helping a veteran with it? The [Getting Started video](/va-co
 
 ## More jobs in Military Job Lookup
 
-On November 5, **Military Job Lookup** got about 1,700 more job codes, most of them from the 1950s through the 1990s: the Air Force's Air Police, Vietnam-era Marine Corps MOSs, the Army's jobs of the 1970s and 1980s, Navy limited duty and warrant officer designators, and more. That's 5,159 job codes in all. Like the rest of its lists, they arrived without an app update, so they're already in your app. If yours still isn't there, tap **Tell me about a missing job** and send me the code, the title and when you had it.
+On November 5, **Military Job Lookup** got about 1,700 more job codes, most of them from the 1950s through the 1990s: the Air Force's Air Police, Vietnam-era Marine Corps MOSs, the Army's jobs of the 1970s and 1980s, Navy limited duty and warrant officer designators, and more. With a few corrections on November 11, that's 5,162 job codes in all. Like the rest of its lists, they arrived without an app update, so they're already in your app. If yours still isn't there, tap **Tell me about a missing job** and send me the code, the title and when you had it.
 
 As always: your VA information stays on your devices and under your control. If something's off or you have an idea, tap **?** → **Contact Me** and tell me.
