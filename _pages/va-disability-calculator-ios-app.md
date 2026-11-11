@@ -277,11 +277,47 @@ New here? [Watch the 8-minute Getting Started video](/va-compensation-calculator
 </div>
 
 <div id="ipad-pane" class="device-pane" role="tabpanel" aria-labelledby="ipad-tab">
-  <div class="shot-solo" data-gallery>
-    <figure class="shot">
-      <button type="button" class="shot-thumb" data-caption="iPad: your rating and cards on the left, each card's screen beside them"><img src="/assets/images/va-disability-app-images/1.27.0/ipad/two-columns.png" alt="An iPad in two columns: the main screen's rating, pay and cards on the left, and the Increase Finder on the right, with the next rating step for each condition and what it would mean for the combined rating and pay" width="1200" height="1600" loading="lazy"></button>
-      <figcaption>iPad: two columns</figcaption>
-    </figure>
+  <div class="carousel" data-gallery>
+    <button type="button" class="carousel-btn carousel-prev" aria-label="Previous screenshots">&#8249;</button>
+    <div class="carousel-track">
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="iPad: your rating and cards on the left, your disabilities beside them"><img src="/assets/images/va-disability-app-images/1.27.1/ipad/my-disabilities.png" alt="An iPad in two columns: the main screen's 90% rating, $2,942.17 a month and cards on the left, and the list of disabilities on the right, from PTSD at 70% and sleep apnea at 50% down, each with its diagnostic code" width="1200" height="1600" loading="lazy"></button>
+        <figcaption>iPad: two columns</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Rating &amp; Pay beside the main screen: your pay line by line, and how your ratings combine"><img src="/assets/images/va-disability-app-images/1.27.1/ipad/rating-and-pay.png" alt="Rating &amp; Pay on an iPad: a 90% combined rating and $2,942.17 a month, the pay lines for the 90% rate, another child and SMC-K, and each rating's share of the whole person as a bar and a list" width="1200" height="1600" loading="lazy"></button>
+        <figcaption>Rating &amp; Pay</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="The Claim Finder: conditions often claimed with yours, and those VA presumes for your service"><img src="/assets/images/va-disability-app-images/1.27.1/ipad/claim-finder.png" alt="The Claim Finder on an iPad: suggestions grouped by the veteran's own conditions, such as radiculopathy in an arm from the neck and reflux from pain relievers, each with an Add button" width="1200" height="1600" loading="lazy"></button>
+        <figcaption>Claim Finder</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="The Increase Finder: what the next rating step requires for each condition, and what it would add"><img src="/assets/images/va-disability-app-images/1.27.1/ipad/increase-finder.png" alt="The Increase Finder on an iPad: each rated condition's next step, like a knee strain from 10% to 20%, with what 38 CFR requires and what it would add a month" width="1200" height="1600" loading="lazy"></button>
+        <figcaption>Increase Finder</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Survivor Benefits: what VA would pay your family, and when each rule would apply"><img src="/assets/images/va-disability-app-images/1.27.1/ipad/survivor-benefits.png" alt="Survivor Benefits on an iPad: $2,900.36 a month for a spouse and two children, with the spouse's basic rate, the children and the transitional benefit line by line, and when each rule would apply" width="1200" height="1600" loading="lazy"></button>
+        <figcaption>Survivor Benefits</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="The Claim Tracker: your exams, deadlines and decisions in one list, with reminders"><img src="/assets/images/va-disability-app-images/1.27.1/ipad/claim-tracker.png" alt="The Claim Tracker on an iPad: upcoming events such as a C&amp;P exam and an intent to file's last day, and past ones below" width="1200" height="1600" loading="lazy"></button>
+        <figcaption>Claim Tracker</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="The Symptom Log: episodes by condition, counted the way VA's criteria count them"><img src="/assets/images/va-disability-app-images/1.27.1/ipad/symptom-log.png" alt="The Symptom Log on an iPad: migraine episodes over 90 days with their length and severity, the prostrating ones marked, then PTSD and hypertension" width="1200" height="1600" loading="lazy"></button>
+        <figcaption>Symptom Log</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="My Profile: your dependents, SMC and TDIU, and your military service"><img src="/assets/images/va-disability-app-images/1.27.1/ipad/my-profile.png" alt="My Profile on an iPad: dependents and Survivor Benefits, Special Monthly Compensation and TDIU, then your jobs, where you served and what you did" width="1200" height="1600" loading="lazy"></button>
+        <figcaption>My Profile</figcaption>
+      </figure>
+      <figure class="shot">
+        <button type="button" class="shot-thumb" data-caption="Calculators &amp; References: fourteen tools beside your rating"><img src="/assets/images/va-disability-app-images/1.27.1/ipad/calculators.png" alt="Calculators &amp; References on an iPad: the Backpay Calculator, Pay Date Predictor, What If, the 38 CFR codes, the Claim Finder, Military Job Lookup, the SMC screener, Survivor Benefits and more" width="1200" height="1600" loading="lazy"></button>
+        <figcaption>Calculators</figcaption>
+      </figure>
+    </div>
+    <button type="button" class="carousel-btn carousel-next" aria-label="More screenshots">&#8250;</button>
   </div>
 </div>
 
@@ -381,7 +417,7 @@ New here? [Watch the 8-minute Getting Started video](/va-compensation-calculator
     }
   });
 
-  // Each group (a device's carousel, or the iPad's one screenshot) steps
+  // Each group (a device's carousel) steps
   // through its own screenshots.
   Array.prototype.forEach.call(document.querySelectorAll("[data-gallery]"), function (gallery) {
     var thumbs = [].slice.call(gallery.querySelectorAll(".shot-thumb"));
