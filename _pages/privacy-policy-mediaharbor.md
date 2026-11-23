@@ -8,7 +8,7 @@ toc_label: "On this page"
 ---
 
 **Effective date:** July 19, 2026  
-**Last updated:** November 1, 2026  
+**Last updated:** November 23, 2026  
 
 ---
 
@@ -86,13 +86,15 @@ You may ask me to delete correspondence you have sent at any time — see Sectio
 
 ## 5. Network Connections and Credentials
 
-MediaHarbor connects directly to **SMB servers that you specify** — typically a NAS or file server on your own network. These connections go from your device to your server. They do not pass through any server of mine, and I have no visibility into them.
+MediaHarbor connects directly to **servers that you specify**, over SMB or, starting with version 1.5.0, WebDAV — typically a NAS or file server on your own network, or for WebDAV also one you reach over the internet. These connections go from your device to your server. They do not pass through any server of mine, and I have no visibility into them.
 
-**Credentials.** When you choose to save a password, it is stored in the **iOS Keychain** with device-only accessibility, which means it is encrypted by the system, never included in an iCloud Keychain sync, and never written into the app's own files or settings. Passwords are sent only to the server you entered them for, as part of the SMB authentication the protocol requires. They are never logged, never embedded in URLs, and never transmitted to me.
+**Credentials.** When you choose to save a password, it is stored in the **iOS Keychain** with device-only accessibility, which means it is encrypted by the system, never included in an iCloud Keychain sync, and never written into the app's own files or settings. Passwords are sent only to the server you entered them for, as part of the sign-in its protocol requires (SMB authentication, or HTTP Basic or Digest sign-in for WebDAV). They are never logged, never embedded in URLs, and never transmitted to me.
 
-**Finding servers on your network.** Starting with version 1.2, while you're on the SMB Connections screen or adding a connection, MediaHarbor listens for file servers that announce themselves on your local network (Bonjour), so you can pick one instead of typing its address. This happens entirely on your local network; nothing is sent to me or to anyone else, and the app stops looking as soon as you leave those screens.
+**Encrypted connections (WebDAV, starting with version 1.5.0).** WebDAV connections use https. Plain http is allowed only for a server on your local network, and the app tells you that such a connection isn't encrypted. If a server's certificate isn't one iOS trusts — a NAS's own certificate, for example — the app shows the certificate and its fingerprint and connects only after you choose to trust it; that choice is kept for that connection, on your device. To play a WebDAV video, the app's built-in player reads it through a small relay inside the app that only your device itself can reach, so your password stays inside the app.
 
-**Local Network permission.** iOS asks for Local Network access the first time the app connects to, or looks for, a server on your network. This is required for SMB to work at all. Declining it does not send any data anywhere; it simply prevents connections and server discovery from working.
+**Finding servers on your network.** Starting with version 1.2, while you're on the Connections screen or adding a connection, MediaHarbor listens for SMB file servers that announce themselves on your local network (Bonjour), so you can pick one instead of typing its address. This happens entirely on your local network; nothing is sent to me or to anyone else, and the app stops looking as soon as you leave those screens.
+
+**Local Network permission.** iOS asks for Local Network access the first time the app connects to, or looks for, a server on your network. This is required for SMB, and for WebDAV on your network, to work at all. Declining it does not send any data anywhere; it simply prevents connections and server discovery from working.
 
 ---
 
